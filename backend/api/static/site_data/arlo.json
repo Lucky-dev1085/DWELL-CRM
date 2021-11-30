@@ -1,0 +1,2046 @@
+{
+  "__v": 0,
+  "data": [
+    {
+      "section": "SEO",
+      "values": {
+        "aditionalScript": "",
+        "analyticsDashboard": "https://datastudio.google.com/embed/reporting/1BYHeyzt69-y_gFbMgE49GZnAJvIGc3Hr/page/07Pf",
+        "customColors": [
+          {
+            "name": "$primary",
+            "value": "#e8871f"
+          },
+          {
+            "name": "$red",
+            "value": "#ff3e3e"
+          },
+          {
+            "name": "$cyan",
+            "value": "#96c0ce"
+          },
+          {
+            "name": "$cyan-2",
+            "value": "#8CC3D1"
+          },
+          {
+            "name": "$cyan-3",
+            "value": "#75a3b3"
+          },
+          {
+            "name": "$light-brown",
+            "value": "#fef6eb"
+          },
+          {
+            "name": "$neighborhood-marker-active-color",
+            "value": "orange"
+          },
+          {
+            "name": "$neighborhood-marker-inactive-color",
+            "value": "gray"
+          }
+        ],
+        "facebookOpenGraphData": {
+          "appId": "",
+          "author": "",
+          "description": "",
+          "image": "",
+          "locale": "",
+          "siteName": "",
+          "title": "",
+          "type": "",
+          "url": ""
+        },
+        "generalData": {
+          "appleTouchIcon": "",
+          "description": "",
+          "favicon": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1614882379.8869121599858737709.thumbnail.png",
+          "gtmScript": {
+            "body": "",
+            "head": ""
+          },
+          "icon": "",
+          "mask": {
+            "color": "",
+            "icon": ""
+          },
+          "subject": "",
+          "themeColor": "",
+          "title": ""
+        },
+        "googlePlusData": {
+          "author": "",
+          "description": "",
+          "image": "",
+          "name": "",
+          "publisher": ""
+        },
+        "gtmId": "GTM-NW2WW2Q",
+        "payPerClickDashboard": "https://datastudio.google.com/embed/reporting/1BYHeyzt69-y_gFbMgE49GZnAJvIGc3Hr/page/EBQf",
+        "twitterCardData": {
+          "card": "",
+          "creator": "",
+          "description": "",
+          "image": "",
+          "site": "",
+          "title": "",
+          "url": ""
+        },
+        "updated_at": "2020-09-11"
+      }
+    },
+    {
+      "section": "HOME",
+      "values": {
+        "amenities": {
+          "image": "/static/images/18-032-12_2-Bedroom_Kitchen.jpg",
+          "leftList": [
+            "9 ft ceilings",
+            "Ceiling Fans",
+            "Fireplace",
+            "Private Patio/Balcony",
+            "Spacious Closets",
+            "Dishwasher",
+            "Frost Free Refrigerator",
+            "Microwave",
+            "Fully-equipped Kitchen",
+            "Washer/Dryer in Unit",
+            "Individual Heat/AC Controls"
+          ]
+        },
+        "applicationForm": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616189006.337639CommunityMap.jpg",
+          "title": "Apply Now"
+        },
+        "carousel": {
+          "applyTextContrastGradient": false,
+          "buttonText": "Schedule a tour",
+          "mainTitle": "ArLo Luxury Apartments",
+          "subTitle": "Stylish and sophisticated urban luxury apartment living in Phoenix, Arizona"
+        },
+        "community": {
+          "image": "/static/images/18-032-08_Pool_Dusk.jpg",
+          "leftList": [
+            "Patio/Balcony with Storage",
+            "Covered Parking",
+            "Close to schools",
+            "Fitness Center",
+            "Gated Entrance/Gated",
+            "Community",
+            "Heated Outdoor Swimming Pool",
+            "Package Service On-site management"
+          ]
+        },
+        "firstRibbon": {
+          "text": "",
+          "title": "ArLo Apartment homes in Phoenix, AZ"
+        },
+        "images": [
+          {
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626992184.5442221-032-14FrontExtDusk.jpg"
+          },
+          {
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991368.24426421-032-12PoolOverall.jpg"
+          },
+          {
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306115.51364421-032-02ModelKitchen.jpg"
+          },
+          {
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306168.63264421-032-01ModelLivingRoom.jpg"
+          },
+          {
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306141.1479221-032-04ModelBathroom.jpg"
+          },
+          {
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306132.26914421-032-03ModelBedroom.jpg"
+          }
+        ],
+        "logo": {
+          "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1607972569.806533ARLO_BW_no background.png"
+        },
+        "map": {
+          "marker": {
+            "icon": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1607972699.604149ARLO_BW_no background_small.png",
+            "lat": 33.50196990000001,
+            "lng": -112.0038093
+          },
+          "styles": "",
+          "zoom": "13"
+        },
+        "neighborhood": {
+          "disclaimer": "*Available/Restrictions Apply",
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "Washers &amp; Dryers Included",
+            "Stainless Steel GE Appliances",
+            "Kitchens Built for Entertaining",
+            "Granite  Fashion Center Shopping &amp; Dining",
+            "Controlled-Access Gates",
+            "Controlled-Access Gates",
+            "24-Hour Lavishly Equipped Gym"
+          ]
+        },
+        "propertyName": "Domus",
+        "quote": {
+          "author": "Tabitha B.",
+          "details": "ArLo Resident",
+          "text": "We absolutely love Arlo. We spent so much time looking at apartments and couldn\\u2019t be more happy with our choice. \\n"
+        },
+        "secondRibbon": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616020375.247938AdobeStock_212475092.jpg",
+          "subtitle": "in Phoenix, AZ",
+          "title": "Find Your Home"
+        },
+        "secondaryLogo": {
+          "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1607972575.966251ARLO_BW_no background.png"
+        },
+        "seo": {
+          "description": "Welcome to ArLo apartments, located in Phoenix, AZ where you will live the lifestyle you want in the area you want. ",
+          "title": "ArLo Apartments in Phoenix, AZ | Home"
+        },
+        "thirdRibbon": {
+          "text": "",
+          "title": "Ideally located in Phoenix, Arizona"
+        },
+        "updated_at": "2020-05-15"
+      }
+    },
+    {
+      "section": "GALLERY",
+      "values": {
+        "breadcrumbsBar": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991632.08657121-032-12PoolOverall.jpg"
+        },
+        "firstRibbon": {
+          "text": "",
+          "title": " Apartment Images and Features in Phoenix, AZ"
+        },
+        "imageCategories": [
+          "community",
+          "apartment"
+        ],
+        "images": [
+          {
+            "category": "community",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991537.57137621-032-14FrontExtDusk.jpg",
+            "title": "Incredible Neighborhood & Surrounding Landscape Views"
+          },
+          {
+            "category": "community",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991484.73800521-032-12PoolOverall.jpg",
+            "title": "Expansive, Private Swimming Pool & Spa"
+          },
+          {
+            "category": "community",
+            "location": "Barbecue Grilling Stations with Lounge Seating",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991514.80129721-032-10Courtyard.jpg"
+          },
+          {
+            "category": "community",
+            "location": "Outdoor Pool Cabanas",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991466.97427721-032-09PoolFromFitness.jpg"
+          },
+          {
+            "category": "community",
+            "location": "",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991529.74983521-032-11PoolDetail.jpg",
+            "title": "Expansive, Private Swimming Pool & Spa"
+          },
+          {
+            "category": "community",
+            "location": "",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991485.09751921-032-13SkyLounge.jpg",
+            "title": "Rooftop Deck with Territory Views, Outdoor Bar & Grill Station, with Misters & Fire Pit"
+          },
+          {
+            "category": "community",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991450.50411721-032-07ActivityRoom.jpg",
+            "title": "High-Tech Gaming Lounge with Billiards, Video Games, Play Tables, Luxe Bar,"
+          },
+          {
+            "category": "community",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991503.12787721-032-08ClubhouseKitchen.jpg",
+            "title": "Breakout Rooms, Co-Working Spaces & TV Area"
+          },
+          {
+            "category": "community",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991442.82056521-032-05FitnessCenter.jpg",
+            "title": "2-Story Luxe Fitness Center with Yoga"
+          },
+          {
+            "category": "community",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991446.07968521-032-06FitnessMovementRoom.jpg",
+            "title": "Spin & Fitness On Demand Studio with Exterior Workout Balcony"
+          },
+          {
+            "category": "apartment",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306235.99466521-032-02ModelKitchen.jpg",
+            "title": "Gourmet, Modern Kitchens"
+          },
+          {
+            "category": "apartment",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306246.43530721-032-01ModelLivingRoom.jpg",
+            "title": "Open Concept Floor Plans "
+          },
+          {
+            "category": "apartment",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306256.96284321-032-04ModelBathroom.jpg",
+            "title": "Tile Backsplash & Tile Surround Bathtub "
+          },
+          {
+            "category": "apartment",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991605.68447621-032-03ModelBedroom.jpg",
+            "title": "Private Balconies & Walk -in Closets "
+          },
+          {
+            "category": "apartment",
+            "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991870.18908821-032-11PoolDetail.jpg",
+            "title": "Barbecue Grilling Stations with Lounge Seating"
+          }
+        ],
+        "pageTitle": "Gallery",
+        "panoId": "",
+        "seo": {
+          "description": "Welcome to ArLo apartments, located in Phoenix, AZ where you will live the lifestyle you want in the area you want.",
+          "title": "Luxury Apartments for Rent in Phoenix, AZ | ArLo"
+        },
+        "updated_at": "2020-05-15"
+      }
+    },
+    {
+      "section": "AMENITIES",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": null,
+                  "description": "Incredible neighborhood & surrounding landscape views*"
+                },
+                {
+                  "category": null,
+                  "description": "Floor to ceiling windows"
+                },
+                {
+                  "category": null,
+                  "description": "High-end, Upscale finishes"
+                },
+                {
+                  "category": null,
+                  "description": "Soaring 9-11 foot ceilings*"
+                },
+                {
+                  "category": null,
+                  "description": "Open concept floor plans"
+                }
+              ],
+              [
+                {
+                  "category": null,
+                  "description": "Gourmet, modern kitchens"
+                },
+                {
+                  "category": 76,
+                  "description": "Quartz countertops"
+                },
+                {
+                  "category": null,
+                  "description": "Oversized kitchen islands*"
+                },
+                {
+                  "category": null,
+                  "description": "Soft-close cabinet hinges"
+                },
+                {
+                  "category": null,
+                  "description": "Stainless steel deep single bowl kitchen sinks"
+                },
+                {
+                  "category": null,
+                  "description": "GE Stainless-steel, energy-efficient appliances"
+                }
+              ],
+              [
+                {
+                  "category": null,
+                  "description": "Tile backsplash"
+                },
+                {
+                  "category": null,
+                  "description": "Full-size washer & dryers"
+                },
+                {
+                  "category": null,
+                  "description": "Enclosed patio with yards*"
+                },
+                {
+                  "category": null,
+                  "description": "Private balconies"
+                },
+                {
+                  "category": 19,
+                  "description": "Walk-in closets"
+                },
+                {
+                  "category": null,
+                  "description": "Tile surround bathtub"
+                }
+              ]
+            ],
+            "columnHidden": [],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991662.93661621-032-12PoolOverall.jpg",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Unprecedented location and view corridors within Arcadia"
+                },
+                {
+                  "category": 20,
+                  "description": "Amenity area with vaulted ceiling view of Camelback mountain"
+                },
+                {
+                  "category": 44,
+                  "description": "First class fitness center encompassing two rooms, including cardio equipment, free weights, and weight machines manufactured by Matrix"
+                },
+                {
+                  "category": 92,
+                  "description": "Unique outdoor swimming pool and hot spa"
+                },
+                {
+                  "category": 91,
+                  "description": "Sundeck with Janus et Cie furniture, whirlpool spa, fire pit and multiple gas fired BBQ grills; 80&rdquo; TV, cabanas with daybeds, couches &amp; outdoor games (bag toss &amp; giant jenga)"
+                }
+              ],
+              [
+                {
+                  "category": null,
+                  "description": "Rooftop terrace lounge"
+                },
+                {
+                  "category": 59,
+                  "description": "Cyber Caf\\u00e9 featuring both Apple & Microsoft computers with free printing available"
+                },
+                {
+                  "category": null,
+                  "description": "Gameroom with flat screen TV"
+                },
+                {
+                  "category": 1,
+                  "description": "Air conditioned corridors"
+                },
+                {
+                  "category": null,
+                  "description": "Controlled Access Bike Room"
+                },
+                {
+                  "category": null,
+                  "description": "Spin & yoga studio"
+                },
+                {
+                  "category": 47,
+                  "description": "Wi-Fi access in all public areas including pool"
+                }
+              ],
+              [
+                {
+                  "category": null,
+                  "description": "Party room with full prep kitchen and serving area; Opens to pool deck"
+                },
+                {
+                  "category": 1,
+                  "description": "Dazzling 2-story lobby area"
+                },
+                {
+                  "category": 30,
+                  "description": "Elevator access to all buildings"
+                },
+                {
+                  "category": null,
+                  "description": "Secured parking located under apartment units*"
+                },
+                {
+                  "category": 38,
+                  "description": "Convenient trash room with chute on every floor"
+                },
+                {
+                  "category": 26,
+                  "description": "Shaded outdoor dog park on the ground floor"
+                },
+                {
+                  "category": 18,
+                  "description": "Electric Charging Station"
+                }
+              ]
+            ],
+            "columnHidden": [],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626992201.51933521-032-13SkyLounge.jpg",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "apartmentFeatures": {
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "9 ft. ceilings",
+            "Ceiling Fans",
+            "Fireplace",
+            "Private Patio/Balcony",
+            "Spacious closets",
+            "Dishwasher",
+            "Frost Free Refrigerator",
+            "Microwave",
+            "Fully-equipped kitchen",
+            "Washer/Dryer in Unit",
+            "Individual heat/AC controls"
+          ]
+        },
+        "bellagio": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "5635 E Bell Road, Scottsdale, AZ 85254",
+            "Tel: (480) 887-4894",
+            "Property Manager: Peggy Snyder",
+            "Hours: M-F 9am-6:00pm; Sat 10am-6pm; Sun 11am-5pm"
+          ],
+          "link": {
+            "href": "http://www.mark-taylor.com/arizona/bellagio/",
+            "text": "http://www.mark-taylor.com/arizona/bellagio/"
+          }
+        },
+        "breadcrumbsBar": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991652.5308221-032-07ActivityRoom.jpg"
+        },
+        "concierge": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "Access to onsite wellness services",
+            "Airline Private Air Reservations",
+            "Ground Transportation",
+            "Restaurant Reservations"
+          ],
+          "paragraphs": [
+            "Residents have direct access to the Soori Concierge service. The trained staff is well equipped to provide a host of additional customized offerings. Below is a representative offering.",
+            "H\\u200bigh\\u200b \\u200bLine houses an exclusive collection of 31 one to five bedroom apartments, marrying crafted luxury with the pleasures inspired by a\\u200b destination\\u200b resort. A true urban oasis in one of the most dynamic neighborhoods in NYC, High Line will offer residents:"
+          ],
+          "rightList": [
+            "Floral Arrangements",
+            "Spa and Salon Appointments",
+            "Newspaper / Magazine delivery"
+          ]
+        },
+        "disclaimerText": {
+          "amenities": "*Available In Select Homes",
+          "community": "*Available In Select Homes"
+        },
+        "firstRibbon": {
+          "text": "",
+          "title": "Apartment features in Phoenix, AZ"
+        },
+        "map": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991684.95568921-032-05FitnessCenter.jpg",
+          "list": [
+            {
+              "class": "one",
+              "text": "Fitness center"
+            },
+            {
+              "class": "two",
+              "text": "Common area"
+            },
+            {
+              "class": "three",
+              "text": "Heated swimming pool"
+            },
+            {
+              "class": "four",
+              "text": "Heated jacuzzi"
+            },
+            {
+              "class": "five",
+              "text": "Dog park / Common area"
+            },
+            {
+              "class": "six",
+              "text": "Luxury apartments w/ 9ft. ceilings, fireplace & private balcony"
+            },
+            {
+              "class": "seven",
+              "text": "Ample parking"
+            },
+            {
+              "class": "eight",
+              "text": "Elegant entry into a private community"
+            }
+          ],
+          "title": "Welcome to Bellagio"
+        },
+        "pageTitle": "Amenities",
+        "seo": {
+          "description": "At ArLo, we provide the finest and modern amenities for a luxurious living in Phoenix, AZ. Call us for more information in detail today.",
+          "title": "Amenities at ArLo in Phoenix, AZ"
+        },
+        "showCategories": false,
+        "subCategories": [
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Keycard access, code, etc",
+                "Security detail?",
+                "etc"
+              ],
+              "title": "Our Gated Entry Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Gated Access",
+            "path": "gated-access",
+            "seo": {
+              "description": "[Name of property] is proud to offer our future residents the security and peace of mind that comes with our gated access apartments. Our [City/Neighborhood], [State] gated apartment complex is designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Gated Access Apartment Complex In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Here at [Name of property], we want our [City] residents to feel a grand sense of security, peace, and exclusivity that comes from having a protected and safe space to call home. Our apartment complex prides itself on maximizing the comfort and convenience of each and every community member. We understand how important it is to live in a place that provides complete and total peace of mind. Our gated entry is just one of the many luxury amenities we offer at [Name of property].",
+            "title": "Gated Access"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Hook up requirements?",
+                "Done for you?",
+                "Energy efficient?",
+                "etc"
+              ],
+              "text": "The washer and dryer units are conveniently located [location and brief description within the apartment].",
+              "title": "In Unit Laundry Details"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Washer & Dryer",
+            "path": "washer-dryer",
+            "seo": {
+              "description": "[Name of property] is proud to offer both washer and dryer units in the comfort of your own  [City/Neighborhood], [State] apartment. Your comfort means everything to us, come take a tour today.",
+              "title": "In Unit Washer & Dryer Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers energy efficient washer and dryer units in our [City/Neighborhood], [State] apartments. Our apartment complex values the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access dryer and washer for your laundry. These units also guarantee the safety of your belongings, unlike in a public laundromat. Just one of the many amenities we offer at the [Name of property] community.",
+            "title": "In Unit Washer and Dryer"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Cabana?",
+                "Lounge chairs?",
+                "etc"
+              ],
+              "text": "Every aspect of our apartment community swimming pool was designed for total relaxation. Our pool has the following luxury features:",
+              "title": "Pool Features For You To Enjoy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Swimming Pool",
+            "path": "pool",
+            "seo": {
+              "description": "[Name of property] has included a private and resort style swimming pool for your convenience. Our  [City/Neighborhood], [State] apartments are designed with luxury in mind. Come take a tour today.",
+              "title": "Apartments With Swimming Pool In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers our residents the chance to soak up some sun and enjoy a refreshing dip in our resort style swimming pool. The pool is open for the entire community to use and provides the perfect place to unwind after a long day. We understand how important it is to have the convenience and easy to access a pool with the [city] heat. Our swimming pool is just one of the many community amenities we offer at [Name of property].",
+            "title": "Private Resort-Style Swimming Pool"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "What Pets Are allowed?",
+                "Are there any breed restrictions?",
+                "How many pets am I allowed to have?",
+                "Is there a fee / deposit?"
+              ],
+              "title": "Pet Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Pet Friendly",
+            "path": "pet-friendly",
+            "seo": {
+              "description": " [Name of property] is proud to offer pet friendly apartments In [City/Neighborhood], [State]. We want your",
+              "title": "Pet Friendly Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] is happy to have your pet with us. As a pet friendly apartment complex in [City/Neighborhood], [State] we understand how important your little fur baby is to you. Couple that with a pet enthusiastic staff, and your pet is sure to love living here just as much as you do.",
+            "title": "Yes, We Are Pet Friendly"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Monthly Fee",
+                "First come first serve, etc"
+              ],
+              "title": "Parking Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Parking Policy",
+            "path": "parking-garage",
+            "seo": {
+              "description": " [Name of property] is proud to offer our tenants the ability to park in our covered parking garage right on the premises. Our  [City/Neighborhood], [State] apartments are designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Covered Parking Garage Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Nobody enjoys driving around aimlessly looking for parking after work and then having to walk back to their apartment. That\\u2019s why [Name of property] offers residents the option of parking their vehicles inside of our on site parking garage. Our [City/Neighborhood], [State] apartment complex prides itself on maximizing the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access and covered parking area. On site parking is just one of the many amenities we offer at the [Name of property].",
+            "title": "On Site Covered Parking"
+          }
+        ],
+        "updated_at": "2020-01-24"
+      }
+    },
+    {
+      "section": "CONTACT",
+      "values": {
+        "address": {
+          "city": "2121 N. 44th St.",
+          "email": "arlo@mark-taylor.com",
+          "name": "ArLo",
+          "phone": "(623) 499-3722",
+          "town": "Phoenix, Arizona 85008"
+        },
+        "applicationFormTitle": "Reserve your new home at Bellagio Scottsdale",
+        "breadcrumbsBar": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306482.96163621-032-01ModelLivingRoom.jpg"
+        },
+        "firstRibbon": {
+          "text": "",
+          "title": "Have a question? Reach out to our helpful staff 24/7"
+        },
+        "googleBusinessMap": "",
+        "googleDirectionUrl": "",
+        "hours": {
+          "mondayToFriday": "M-F: 9am - 6pm",
+          "saturday": "Sat: 9am - 5pm",
+          "sunday": "Sun: 10am-4pm"
+        },
+        "pageTitle": "Contact Us",
+        "seo": {
+          "description": "Learn more about ArLo in Phoenix, AZ and schedule a visit.",
+          "title": "Contact our Community in Phoenix, AZ | ArLo"
+        },
+        "updated_at": "2020-09-16"
+      }
+    },
+    {
+      "section": "FOOTER",
+      "values": {
+        "links": {
+          "facebook": "https://www.facebook.com/MarkTaylorResidential/",
+          "instagram": "https://www.instagram.com/MarkTaylorResidential/",
+          "propertyUrl": "",
+          "residentPortal": "",
+          "twitter": "https://twitter.com/MarkTaylorRez",
+          "youtube": "https://www.youtube.com/marktaylorresidentialapts"
+        },
+        "updated_at": "2020-09-14"
+      }
+    },
+    {
+      "section": "FLOOR_PLANS",
+      "values": {
+        "allPlans": [
+          {
+            "available": 16,
+            "bathrooms": 2.0,
+            "bedrooms": 2.0,
+            "description": "B1",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616019424.015465unit_B1_scheme2.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2375,
+            "minDeposit": 0,
+            "minRent": 2270,
+            "propertyId": 376840,
+            "squareFootage": 1146,
+            "unitId": 561673
+          },
+          {
+            "available": 39,
+            "bathrooms": 1.0,
+            "bedrooms": 1.0,
+            "description": "A2",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616019399.995972unit_A2_scheme2.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1910,
+            "minDeposit": 0,
+            "minRent": 1770,
+            "propertyId": 376840,
+            "squareFootage": 776,
+            "unitId": 561674
+          },
+          {
+            "available": 8,
+            "bathrooms": 1.0,
+            "bedrooms": 0.0,
+            "description": "S1",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1619634225.68293unit_S1_scheme2_rev.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1640,
+            "minDeposit": 0,
+            "minRent": 1545,
+            "propertyId": 376840,
+            "squareFootage": 572,
+            "unitId": 561676
+          },
+          {
+            "available": 4,
+            "bathrooms": 2.0,
+            "bedrooms": 2.0,
+            "description": "B2",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616019434.073595unit_B2_scheme1.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2375,
+            "minDeposit": 0,
+            "minRent": 2330,
+            "propertyId": 376840,
+            "squareFootage": 1157,
+            "unitId": 561677
+          },
+          {
+            "available": 17,
+            "bathrooms": 1.0,
+            "bedrooms": 1.0,
+            "description": "A1",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616019386.495376unit_A2_scheme2.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1930,
+            "minDeposit": 0,
+            "minRent": 1815,
+            "propertyId": 376840,
+            "squareFootage": 775,
+            "unitId": 561678
+          },
+          {
+            "available": 2,
+            "bathrooms": 1.0,
+            "bedrooms": 1.0,
+            "description": "A3",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1616019411.44936unit_A3_scheme2.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2050,
+            "minDeposit": 0,
+            "minRent": 2050,
+            "propertyId": 376840,
+            "squareFootage": 871,
+            "unitId": 561679
+          },
+          {
+            "available": 1,
+            "bathrooms": 1.0,
+            "bedrooms": 0.0,
+            "description": "S2",
+            "images": [
+              {
+                "src": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1619634231.71062unit_S2a_scheme1.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1530,
+            "minDeposit": 0,
+            "minRent": 1530,
+            "propertyId": 376840,
+            "squareFootage": 598,
+            "unitId": 561680
+          },
+          {
+            "available": 0,
+            "bathrooms": 2.0,
+            "bedrooms": 2.0,
+            "description": "B3",
+            "images": [],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2440,
+            "minDeposit": 0,
+            "minRent": 2400,
+            "propertyId": 376840,
+            "squareFootage": 1194,
+            "unitId": 570851
+          }
+        ],
+        "breadcrumbsBar": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1624306215.88562921-032-02ModelKitchen.jpg"
+        },
+        "feedSourceType": "ON_SITE",
+        "firstRibbon": {
+          "text": "",
+          "title": "ArLo Floor Plans in Phoenix, AZ"
+        },
+        "pageTitle": "Floor Plans",
+        "propertyIds": [
+          "376840"
+        ],
+        "seo": {
+          "description": "Check for available units at ArLo in Phoenix, AZ. View floor plans & make ArLo your new home.",
+          "title": "Floor Plans of ArLo in Phoenix, AZ"
+        },
+        "updated_at": "2020-04-14"
+      }
+    },
+    {
+      "section": "NEIGHBORHOOD",
+      "values": {
+        "breadcrumbsBar": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991721.70153921-032-13SkyLounge.jpg"
+        },
+        "categories": [
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bank",
+            "id": 1,
+            "name": "bank"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bar",
+            "id": 2,
+            "name": "bar"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-cafe",
+            "id": 3,
+            "name": "cafe"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-entertainment",
+            "id": 4,
+            "name": "entertainment"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-grocery-store",
+            "id": 5,
+            "name": "grocery store"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gas-station",
+            "id": 6,
+            "name": "gas stations"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gym",
+            "id": 7,
+            "name": "gym"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hospital",
+            "id": 8,
+            "name": "hospitals"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hotel",
+            "id": 9,
+            "name": "hotels"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-museum",
+            "id": 10,
+            "name": "museums"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-outdoor-activity",
+            "id": 11,
+            "name": "outdoor activities"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-parking",
+            "id": 12,
+            "name": "parking"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-park",
+            "id": 13,
+            "name": "parks"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-post-office",
+            "id": 14,
+            "name": "post office"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-restaurant",
+            "id": 15,
+            "name": "restaurant"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-school",
+            "id": 16,
+            "name": "schools"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-shopping",
+            "id": 17,
+            "name": "shopping"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-theater",
+            "id": 18,
+            "name": "theaters"
+          }
+        ],
+        "displayNeighborhoodPage": true,
+        "firstRibbon": {
+          "text": "Live amidst high-quality dining, shopping, employment and outdoor recreation spots, with easy access to AZ-51 and just minutes from Camelback Mountain, Phoenix Mountains Preserve, Biltmore Quarter and Costco. Arlo is an excellent location to indulge all your recreational and professional pursuits.",
+          "title": "ArLo Neighborhood in Phoenix Arizona"
+        },
+        "locations": [
+          {
+            "address": "5200 E Camelback Rd, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.5039165,
+              "lng": -111.96780810000001
+            },
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568256877004.26186811.jpg",
+            "isPropertyLocation": false,
+            "name": "T. Cook's at Royal Palms",
+            "phone": "(602) 808-0766",
+            "website": "https://www.royalpalmshotel.com/tcooks/"
+          },
+          {
+            "address": "2802 E Indian School Rd, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.4954819,
+              "lng": -112.0212287
+            },
+            "category": [
+              3
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568256964961.untitled-2.png",
+            "isPropertyLocation": false,
+            "name": "Starbucks",
+            "phone": "(602) 952-5268",
+            "website": "https://www.starbucks.com/store-locator/store/1005602/28th-st-indian-school-2802-east-indian-school-road-phoenix-az-85016-us"
+          },
+          {
+            "address": "4502 E Oak St, Phoenix, AZ 85008",
+            "addressGeoPosition": {
+              "lat": 33.4732859,
+              "lng": -111.9845699
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568257014160.download_%286%29.jpeg",
+            "isPropertyLocation": false,
+            "name": "Costco Wholesale",
+            "phone": "(602) 808-0101",
+            "website": "https://www.costco.com/warehouse-locations/phoenix-AZ-465.html"
+          },
+          {
+            "address": "2824 E Indian School Rd #126, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.4960247,
+              "lng": -112.019878
+            },
+            "category": [
+              5
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568257139308.sprouts_organic.jpg",
+            "isPropertyLocation": false,
+            "name": "Sprouts Farmers Market",
+            "phone": "(602) 553-3131",
+            "website": "https://www.sprouts.com/store/az/phoenix/phoenix-indian-school-rd/"
+          },
+          {
+            "address": "3141 E Indian School Rd Ste 102 - 104, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.4941742,
+              "lng": -112.01363550000002
+            },
+            "category": [
+              8
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568257250051.bannerurgentcare-phoenix_20190608152807_1.jpg",
+            "isPropertyLocation": false,
+            "name": "Banner Urgent Care",
+            "phone": "(602) 255-7700",
+            "website": "https://urgentcare.bannerhealth.com/intake/1661?utm_source=GMB&utm_medium=Listing&utm_campaign=BUCS%20Web%20CTA%20Phoenix%20Indian%20School"
+          },
+          {
+            "address": "4290 E Indian School Rd, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.4957316,
+              "lng": -111.98899799999998
+            },
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568257332440.img_9326.jpg",
+            "isPropertyLocation": false,
+            "name": "WildFlower Bread Company",
+            "phone": "(602) 850-8585",
+            "website": "https://www.wildflowerbread.com/location/arcadia-commons/"
+          },
+          {
+            "address": "Phoenix, AZ 85018, USA",
+            "addressGeoPosition": {
+              "lat": 33.4962205,
+              "lng": -111.9641728
+            },
+            "category": [
+              13
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1579763764053.camelback_mountain.jpg",
+            "isPropertyLocation": false,
+            "name": "Camelback Mountain",
+            "phone": "",
+            "website": ""
+          },
+          {
+            "address": "2400 E Missouri Ave, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.523241,
+              "lng": -112.0233209
+            },
+            "category": [
+              9
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1582275414451.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Arizona Biltmore, A Waldorf Astoria Resort",
+            "phone": "(602) 955-6600",
+            "website": "https://waldorfastoria3.hilton.com/en/hotels/arizona/arizona-biltmore-a-waldorf-astoria-resort-PHXBMWA/index.html?SEO_id=GMB-WA-PHXBMWA"
+          },
+          {
+            "address": "108 N 40th St, Phoenix, AZ 85034",
+            "addressGeoPosition": {
+              "lat": 33.4493412,
+              "lng": -111.9971931
+            },
+            "category": [
+              16
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1582275853048.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "GateWay Community College-Washington Campus",
+            "phone": "(602) 286-8000",
+            "website": "http://www.gatewaycc.edu/"
+          },
+          {
+            "address": "3132 E Camelback Rd, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.5113798,
+              "lng": -112.0147546
+            },
+            "category": [
+              5
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1582275988311.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Safeway",
+            "phone": "(602) 955-6455",
+            "website": "https://local.safeway.com/safeway/az/phoenix/3132-e-camelback-rd.html?utm_source=G&utm_medium=Maps&utm_campaign=G+Places"
+          },
+          {
+            "address": "4410 N 40th St, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.502139,
+              "lng": -111.995748
+            },
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1582276142779.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "La Grande Orange Grocery & Pizzeria",
+            "phone": "(602) 840-7777",
+            "website": "https://lagrandeorangegrocery.com/"
+          },
+          {
+            "address": "1504 W University Dr, Tempe, AZ 85281, United States",
+            "addressGeoPosition": null,
+            "category": [
+              13
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600942033101.1.png",
+            "isPropertyLocation": false,
+            "name": "GATEWAY UNIVERSITY PARK II",
+            "phone": "",
+            "website": ""
+          },
+          {
+            "address": "10773 N Scottsdale Rd, Scottsdale, AZ 85254, United States",
+            "addressGeoPosition": null,
+            "category": [
+              5
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600942119473.1.png",
+            "isPropertyLocation": false,
+            "name": "Safeway",
+            "phone": "+1 480-948-6446",
+            "website": "https://local.safeway.com/safeway/az/scottsdale/10773-n-scottsdale-rd.html?utm_source=G&utm_medium=Maps&utm_campaign=G+Places"
+          },
+          {
+            "address": "1444 S Sossaman Rd, Mesa, AZ 85209, United States",
+            "addressGeoPosition": null,
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600943299050.1.png",
+            "isPropertyLocation": false,
+            "name": "Costco Wholesale",
+            "phone": "+1 480-333-6552",
+            "website": "http://www.costco.com/warehouse-locations/mesa-AZ-1028.html"
+          },
+          {
+            "address": "7014 E Camelback Rd, Scottsdale, AZ 85251, United States",
+            "addressGeoPosition": null,
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600943468197.1.png",
+            "isPropertyLocation": false,
+            "name": "Scottsdale Fashion Square",
+            "phone": "+1 480-941-2140",
+            "website": "https://www.fashionsquare.com/?utm_source=google&utm_medium=onlinesearch&utm_content=gmp_website_button&utm_campaign=yext"
+          },
+          {
+            "address": "4410 N 40th St, Phoenix, AZ 85018, United States",
+            "addressGeoPosition": null,
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600943821137.1.png",
+            "isPropertyLocation": false,
+            "name": "La Grande Orange Grocery & Pizzeria",
+            "phone": "+1 602-840-7777",
+            "website": "https://lagrandeorangegrocery.com/"
+          },
+          {
+            "address": "4017 E Indian School Rd, Phoenix, AZ 85018, United States",
+            "addressGeoPosition": null,
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600943954883.1.png",
+            "isPropertyLocation": false,
+            "name": "The Porch",
+            "phone": "+1 602-583-7938",
+            "website": "http://www.porchrestaurants.com/"
+          },
+          {
+            "address": "4900 E Indian School Rd, Phoenix, AZ 85018, United States",
+            "addressGeoPosition": null,
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1600944067340.1.png",
+            "isPropertyLocation": false,
+            "name": "O.H.S.O. Eatery & nano-Brewery",
+            "phone": "+1 602-955-0358",
+            "website": "http://ohsobrewery.com/"
+          },
+          {
+            "address": "4502 E Oak St, Phoenix, AZ 85008",
+            "addressGeoPosition": {
+              "lat": 33.4732859,
+              "lng": -111.9845699
+            },
+            "category": [
+              5
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609367124.231614Screen Shot 2020-12-30 at 5.24.56 PM.png",
+            "isPropertyLocation": false,
+            "name": "Costco",
+            "phone": "+16028080101",
+            "website": "http://www.costco.com/warehouse-locations/phoenix-AZ-465.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link"
+          },
+          {
+            "address": "2150 N 46th St, Phoenix, AZ 85008",
+            "addressGeoPosition": {
+              "lat": 33.4708727,
+              "lng": -111.9844103
+            },
+            "category": [
+              13
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609367216.410972Screen Shot 2020-12-30 at 5.26.40 PM.png",
+            "isPropertyLocation": false,
+            "name": "Pierce Park",
+            "phone": "+16022626696",
+            "website": "https://www.phoenix.gov/parks/parks/alphabetical/p-parks"
+          },
+          {
+            "address": "3400 E Sky Harbor Blvd, Phoenix, AZ 85034",
+            "addressGeoPosition": {
+              "lat": 33.4356704,
+              "lng": -112.0085964
+            },
+            "category": [],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609367427.078632Screen Shot 2020-12-30 at 5.30.15 PM.png",
+            "isPropertyLocation": false,
+            "name": "Sky Harbor Airport",
+            "phone": "+16022733300",
+            "website": "http://www.skyharbor.com/"
+          },
+          {
+            "address": "5101 N 44th St, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.5114386,
+              "lng": -111.9860172
+            },
+            "category": [
+              15
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609367758.830203Screen Shot 2020-12-30 at 5.35.48 PM.png",
+            "isPropertyLocation": false,
+            "name": "Steak 44",
+            "phone": "+16022714400",
+            "website": "https://www.steak44.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+          },
+          {
+            "address": "100 E Camelback Rd, Phoenix, AZ 85012",
+            "addressGeoPosition": {
+              "lat": 33.5103356,
+              "lng": -112.0726013
+            },
+            "category": [
+              15
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609367850.091864Screen Shot 2020-12-30 at 5.37.17 PM.png",
+            "isPropertyLocation": false,
+            "name": "Flower Child",
+            "phone": "+14802120180",
+            "website": "http://iamaflowerchild.com/locations/phoenix-2/"
+          },
+          {
+            "address": "4041 E Thomas Rd #107, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.4799938,
+              "lng": -111.9937022
+            },
+            "category": [
+              15
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609367944.863711Screen Shot 2020-12-30 at 5.38.52 PM.png",
+            "isPropertyLocation": false,
+            "name": "Adela's",
+            "phone": "+16029550588",
+            "website": "https://www.adelasitalian.com/"
+          },
+          {
+            "address": "501 N 44th St Ste 175, Phoenix, AZ 85008",
+            "addressGeoPosition": {
+              "lat": 33.4540409,
+              "lng": -111.9865761
+            },
+            "category": [
+              15
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609368152.516284Screen Shot 2020-12-30 at 5.42.21 PM.png",
+            "isPropertyLocation": false,
+            "name": "The Lunch Lounge",
+            "phone": "+16024410201",
+            "website": "http://thelunchlounge.com/"
+          },
+          {
+            "address": "4385 E Indian School Rd, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.4945618,
+              "lng": -111.9872281
+            },
+            "category": [
+              15
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609368652.341712Screen Shot 2020-12-30 at 5.50.40 PM.png",
+            "isPropertyLocation": false,
+            "name": "Doughbird",
+            "phone": "+16023459161",
+            "website": "http://eatdoughbird.com/"
+          },
+          {
+            "address": "3717 E Indian School Rd, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.4948392,
+              "lng": -112.0015817
+            },
+            "category": [
+              15
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609776688.869469Screen Shot 2021-01-04 at 11.11.09 AM.png",
+            "isPropertyLocation": false,
+            "name": "Beckett's Table",
+            "phone": "+16029541700",
+            "website": "https://beckettstable.com/menus/dinner/"
+          },
+          {
+            "address": "5700 E McDonald Dr, Paradise Valley, AZ 85253",
+            "addressGeoPosition": {
+              "lat": 33.5220578,
+              "lng": -111.9592241
+            },
+            "category": [
+              11
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609872550.485295Screen Shot 2021-01-05 at 1.48.52 PM.jpg",
+            "isPropertyLocation": false,
+            "name": "Sanctuary Camelback Mountain Resort",
+            "phone": "+18554213522",
+            "website": ""
+          },
+          {
+            "address": "4949 E Lincoln Dr, Scottsdale, AZ 85253",
+            "addressGeoPosition": {
+              "lat": 33.5299993,
+              "lng": -111.9723703
+            },
+            "category": [
+              9
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609872661.539403Screen Shot 2021-01-05 at 1.50.50 PM.jpg",
+            "isPropertyLocation": false,
+            "name": "Omni Scottsdale Resort and Spot at Mountain Lucia",
+            "phone": "+14806273200",
+            "website": "https://www.omnihotels.com/hotels/scottsdale-montelucia?utm_source=gmblisting&utm_medium=organic"
+          },
+          {
+            "address": "2101 E Camelback Rd, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.5080965,
+              "lng": -112.0358948
+            },
+            "category": [
+              9
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609872781.175874Screen Shot 2021-01-05 at 1.52.46 PM.jpg",
+            "isPropertyLocation": false,
+            "name": "Courtyard by Marriot at Phoenix Camelback",
+            "phone": "+16029555200",
+            "website": "https://www.marriott.com/hotels/travel/phxcc-courtyard-phoenix-camelback/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NjUwMjE1LTcxNS1sb2NhdGlvbi5nb29nbGVfd2Vic2l0ZV9vdmVycmlkZQ%3D%3D"
+          },
+          {
+            "address": "2502 E Camelback Rd, Phoenix, AZ 85016",
+            "addressGeoPosition": {
+              "lat": 33.51142,
+              "lng": -112.0285257
+            },
+            "category": [
+              17
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609872868.981377Screen Shot 2021-01-05 at 1.54.11 PM.png",
+            "isPropertyLocation": false,
+            "name": "Biltmore Fashion Park",
+            "phone": "+16029558400",
+            "website": "https://www.shopbiltmore.com/?utm_source=google&utm_medium=onlinesearch&utm_content=gmp_website_button&utm_campaign=yext"
+          },
+          {
+            "address": "7014 E Camelback Rd, Scottsdale, AZ 85251",
+            "addressGeoPosition": {
+              "lat": 33.5028995,
+              "lng": -111.9294805
+            },
+            "category": [
+              17
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609873013.114996Screen Shot 2021-01-05 at 1.56.39 PM.png",
+            "isPropertyLocation": false,
+            "name": "Scottsdale Fashion Square",
+            "phone": " +14809412140",
+            "website": "https://www.fashionsquare.com/?utm_source=google&utm_medium=onlinesearch&utm_content=gmp_website_button&utm_campaign=yext"
+          },
+          {
+            "address": "4113 N 44th St, Phoenix, AZ 85018",
+            "addressGeoPosition": {
+              "lat": 33.4954575,
+              "lng": -111.9865528
+            },
+            "category": [
+              17
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1609873162.043369Screen Shot 2021-01-05 at 1.58.49 PM.png",
+            "isPropertyLocation": false,
+            "name": "The Lifestyled Co",
+            "phone": "+16026751177",
+            "website": "http://www.thelifestyledcoshop.com/"
+          },
+          {
+            "address": "Taganskaya Ulitsa, 44, Moscow, 109147",
+            "addressGeoPosition": {
+              "lat": 55.7403857,
+              "lng": 37.6536933
+            },
+            "category": [
+              3,
+              5
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627981696.662661image.png",
+            "isPropertyLocation": false,
+            "name": "Taganskiy Otdel Zags",
+            "phone": "+74957777777",
+            "website": "zags.mos.ru"
+          },
+          {
+            "address": "Taganskaya Ulitsa, Moscow, 109147",
+            "addressGeoPosition": {
+              "lat": 55.740465,
+              "lng": 37.6518996
+            },
+            "category": [
+              3,
+              5
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627981849.28719image.png",
+            "isPropertyLocation": false,
+            "name": "TEKBIR",
+            "phone": "74994083040",
+            "website": "tekbirs.ru"
+          },
+          {
+            "address": "aaaaa",
+            "addressGeoPosition": {
+              "lat": 51.174733450000005,
+              "lng": 16.045029477209084
+            },
+            "category": [
+              4,
+              6
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627982349.138384image.png",
+            "isPropertyLocation": false,
+            "name": "aaaa",
+            "phone": "25561412847",
+            "website": "madre-cafe.com"
+          },
+          {
+            "address": "aaaaa",
+            "addressGeoPosition": {
+              "lat": 51.174733450000005,
+              "lng": 16.045029477209084
+            },
+            "category": [
+              4,
+              6
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627982369.638131image.png",
+            "isPropertyLocation": false,
+            "name": "Madre Caf",
+            "phone": "25561412847",
+            "website": "madre-cafe.com"
+          },
+          {
+            "address": "Orizaba 13",
+            "addressGeoPosition": {
+              "lat": 31.8483978,
+              "lng": -106.5425222
+            },
+            "category": [
+              4,
+              6
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627982393.590893image.png",
+            "isPropertyLocation": false,
+            "name": "Madre Caf\\u00e9",
+            "phone": "+525561412847",
+            "website": "madre-cafe.com"
+          },
+          {
+            "address": "Orizaba 131, Roma",
+            "addressGeoPosition": {
+              "lat": 19.41704585,
+              "lng": -99.15965592500001
+            },
+            "category": [
+              4,
+              6
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627982438.952913image.png",
+            "isPropertyLocation": false,
+            "name": "Madre Caf\\u00e9",
+            "phone": "+525561412847",
+            "website": "madre-cafe.com"
+          },
+          {
+            "address": "Campeche 155, Roma Sur, Cuauht\\u00e9moc, 06760 Ciudad de M\\u00e9xico, CDMX, Mexico",
+            "addressGeoPosition": {
+              "lat": 19.4098165,
+              "lng": -99.1652105
+            },
+            "category": [
+              6
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627985508.0685image.png",
+            "isPropertyLocation": false,
+            "name": "Manzanillo",
+            "phone": "+525555640538",
+            "website": "facebook.com"
+          },
+          {
+            "address": "Campeche 155, Roma Sur, Cuauht\\u00e9moc, 06760 Ciudad de M\\u00e9xico, CDMX, Mexico",
+            "addressGeoPosition": {
+              "lat": 19.4098165,
+              "lng": -99.1652105
+            },
+            "category": [
+              6
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627985537.206413image.png",
+            "isPropertyLocation": false,
+            "name": "Manzanillo",
+            "phone": "+525555640538",
+            "website": "facebook.com"
+          },
+          {
+            "address": "Campeche 202, Roma Sur, Cuauht\\u00e9moc, 06760 Ciudad de M\\u00e9xico, CDMX, Mexico",
+            "addressGeoPosition": {
+              "lat": 19.4099781,
+              "lng": -99.1639683
+            },
+            "category": [
+              4,
+              7
+            ],
+            "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1627985667.689316image.png",
+            "isPropertyLocation": false,
+            "name": "El Pescadito Roma",
+            "phone": "+525521210969",
+            "website": "elpescadito.mx"
+          }
+        ],
+        "pageTitle": "Neighborhood",
+        "propertyIcon": "https://liftlytics.imgix.net/domusapartmentsphoenix.com/1568142888410.pin-home-5045b6.png",
+        "seo": {
+          "description": "Apartments for Rent in Phoenix, AZ | ArLo | Neighborhood",
+          "title": "Luxury Apartments in Phoenix, AZ | ArLo"
+        },
+        "updated_at": "2020-09-24"
+      }
+    },
+    {
+      "section": "DESIGN",
+      "values": {
+        "customColors": {
+          "V1": [
+            {
+              "name": "$primary",
+              "value": "#363636"
+            },
+            {
+              "name": "$secondary",
+              "value": "#363636"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#363636"
+            },
+            {
+              "name": "$home-community-section-bg",
+              "value": "#EEEEEE"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#1d1d1d"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#1d1d1d"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            },
+            {
+              "name": "$top-info-text-color",
+              "value": "#BCBCBC"
+            },
+            {
+              "name": "$managed-by-label-text-color",
+              "value": "white"
+            },
+            {
+              "name": "$footer-links-color",
+              "value": "white"
+            }
+          ],
+          "V2": [
+            {
+              "name": "$primary",
+              "value": "#7ba7bc"
+            },
+            {
+              "name": "$secondary",
+              "value": "#0076a8"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#0e0101"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#7ba7bc"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#7ba7bc"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#7ba7bc"
+            },
+            {
+              "name": "$header-color",
+              "value": "#323e48"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#ffffff"
+            },
+            {
+              "name": "$header-carousel-background-color",
+              "value": "#eeeeeb"
+            },
+            {
+              "name": "$top-info-text-color",
+              "value": "#BCBCBC"
+            },
+            {
+              "name": "$managed-by-label-text-color",
+              "value": "#7D7D7D"
+            },
+            {
+              "name": "$footer-links-color",
+              "value": "#423F43"
+            }
+          ],
+          "V3": [
+            {
+              "name": "$primary",
+              "value": "#0076a8"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#242426"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "white"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            },
+            {
+              "name": "$header-carousel-background-color",
+              "value": "white"
+            },
+            {
+              "name": "$top-info-text-color",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$managed-by-label-text-color",
+              "value": "white"
+            },
+            {
+              "name": "$footer-links-color",
+              "value": "white"
+            }
+          ],
+          "V4": [
+            {
+              "name": "$primary",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#3B3B3B"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            },
+            {
+              "name": "$header-carousel-background-color",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$top-info-text-color",
+              "value": "#BCBCBC"
+            },
+            {
+              "name": "$managed-by-label-text-color",
+              "value": "#7D7D7D"
+            },
+            {
+              "name": "$footer-0links-color",
+              "value": "#423F43"
+            }
+          ],
+          "V5": [
+            {
+              "name": "$primary",
+              "value": "#1052B4"
+            },
+            {
+              "name": "$secondary",
+              "value": "#f9f3ed"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#9DA2A6"
+            },
+            {
+              "name": "$border-color",
+              "value": "#DCDDDE"
+            },
+            {
+              "name": "$bg-dark-color",
+              "value": "#30353E"
+            },
+            {
+              "name": "$bg-light-color",
+              "value": "#F5F2E6"
+            },
+            {
+              "name": "$body-color",
+              "value": "#181B1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            }
+          ]
+        },
+        "customCssCodes": "",
+        "customFonts": {
+          "bodyFont": "Chakra Petch",
+          "headingFont": "Preahvihear",
+          "modalSubtitle": "Fahkwang",
+          "quoteFont": "Gotham Book Regular"
+        },
+        "labels": [
+          {
+            "label": "Primary color",
+            "name": "$primary"
+          },
+          {
+            "label": "Secondary color",
+            "name": "$secondary"
+          },
+          {
+            "label": "Text base color color",
+            "name": "$text-color-base"
+          },
+          {
+            "label": "Border color",
+            "name": "$border-color"
+          },
+          {
+            "label": "Background dark color",
+            "name": "$bg-dark-color"
+          },
+          {
+            "label": "Background light color",
+            "name": "$bg-light-color"
+          },
+          {
+            "label": "Body color",
+            "name": "$body-color"
+          },
+          {
+            "label": "Footer logo banner color",
+            "name": "$footer-logo-banner-color"
+          },
+          {
+            "label": "Community section background color",
+            "name": "$home-community-section-bg"
+          },
+          {
+            "label": "Neighborhood marker active color",
+            "name": "$neighborhood-marker-active-color"
+          },
+          {
+            "label": "Header color",
+            "name": "$header-color"
+          },
+          {
+            "label": "Footer color",
+            "name": "$footer-color"
+          },
+          {
+            "label": "Deep gray color",
+            "name": "$deep-gray"
+          },
+          {
+            "label": "Charcoal color",
+            "name": "$charcoal"
+          },
+          {
+            "label": "Apply form input placeholder color",
+            "name": "$apply-form-input-placeholder-color"
+          }
+        ],
+        "siteTemplate": "V2",
+        "updated_at": "2020-03-10"
+      }
+    },
+    {
+      "section": "VIRTUAL_TOUR",
+      "values": {
+        "breadcrumbsBar": {
+          "image": "https://s3-us-west-1.amazonaws.com/crm-production-1/statics/1626991699.72471121-032-11PoolDetail.jpg"
+        },
+        "firstRibbon": {
+          "text": "",
+          "title": ""
+        },
+        "is_visible": true,
+        "pageTitle": "Virtual Tour",
+        "panoId": "",
+        "seo": {
+          "description": "Take a look through the virtual tour of our luxury community at ArLo in Phoenix, AZ, to get a better idea of what life is like here.",
+          "title": "Virtual Tour | ArLo"
+        },
+        "tours": [
+          {
+            "link": "https://youtu.be/mELFpba1Kfw",
+            "title": "S2 Studio Grey"
+          },
+          {
+            "link": "https://youtu.be/taCWe5KMZe4",
+            "title": "S1 Studio Grey"
+          },
+          {
+            "link": "https://youtu.be/ymssEjXA7_w",
+            "title": "S2 Studio Brown"
+          },
+          {
+            "link": "https://youtu.be/S7QDrlo8MFU",
+            "title": "S1 Studio Brown"
+          },
+          {
+            "link": "https://youtu.be/ThWZKrsEpZY",
+            "title": "A1 One Bedroom Brown"
+          },
+          {
+            "link": "https://youtu.be/4f_IzQFfvvo",
+            "title": "A1 One Bedroom Grey"
+          },
+          {
+            "link": "https://youtu.be/-axli-cq9FI",
+            "title": "A2 One Bedroom Grey"
+          },
+          {
+            "link": "https://youtu.be/54i093jviOQ",
+            "title": "A3 One Bedroom Brown"
+          },
+          {
+            "link": "https://youtu.be/lmgnXgn2v3Y",
+            "title": "B1 Two Bedroom Grey"
+          },
+          {
+            "link": "https://youtu.be/pMqtaCbARUc",
+            "title": "B1 Two Bedroom Brown"
+          },
+          {
+            "link": "https://youtu.be/tlsR8FsJPcE",
+            "title": "B2 Two Bedroom Grey"
+          }
+        ],
+        "updated_at": "2020-05-05"
+      }
+    }
+  ],
+  "domain": "emersonapartmentstempe.com"
+}

@@ -1,0 +1,1594 @@
+{
+  "data": [
+    {
+      "section": "SEO",
+      "values": {
+        "aditionalScript": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '664287244092879');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"\"1\"\" width=\"\"1\"\" style=\"\"display:none\"\"\n  src=\"\"https://www.facebook.com/tr?id=664287244092879&ev=PageView&noscript=1\"\"\n/></noscript>\n<!-- End Facebook Pixel Code -->",
+        "analyticsDashboard": "https://datastudio.google.com/embed/reporting/138htKEfEkPN9V5wL12uwOM6lFEw7EaNb/page/07Pf",
+        "customColors": [
+          {
+            "name": "$primary",
+            "value": "#e8871f"
+          },
+          {
+            "name": "$red",
+            "value": "#ff3e3e"
+          },
+          {
+            "name": "$cyan",
+            "value": "#96c0ce"
+          },
+          {
+            "name": "$cyan-2",
+            "value": "#8CC3D1"
+          },
+          {
+            "name": "$cyan-3",
+            "value": "#75a3b3"
+          },
+          {
+            "name": "$light-brown",
+            "value": "#fef6eb"
+          },
+          {
+            "name": "$gray",
+            "value": "#F6F6F6"
+          },
+          {
+            "name": "$dark-gray-3",
+            "value": "#525564"
+          },
+          {
+            "name": "$light-gray-2",
+            "value": "#fcfcfc"
+          },
+          {
+            "name": "$neighborhood-marker-active-color",
+            "value": "orange"
+          },
+          {
+            "name": "$neighborhood-marker-inactive-color",
+            "value": "gray"
+          }
+        ],
+        "facebookOpenGraphData": {
+          "appId": "",
+          "author": "",
+          "description": "",
+          "image": "",
+          "locale": "",
+          "siteName": "",
+          "title": "",
+          "type": "",
+          "url": ""
+        },
+        "generalData": {
+          "appleTouchIcon": "",
+          "description": "Check for available units at the Bellagio in Scottsdale, AZ. View floor plans, photos, and community amenities. Make the Bellagio your new home!",
+          "gtmScript": {
+            "body": "",
+            "head": ""
+          },
+          "icon": "",
+          "mask": {
+            "color": "",
+            "icon": ""
+          },
+          "subject": "",
+          "themeColor": "",
+          "title": "Bellagio Luxury Apartments | Scottsdale, Arizona"
+        },
+        "googlePlusData": {
+          "author": "",
+          "description": "",
+          "image": "",
+          "name": "",
+          "publisher": ""
+        },
+        "google_ownership": "",
+        "gtmId": "GTM-NW2WW2Q",
+        "payPerClickDashboard": "https://datastudio.google.com/embed/reporting/138htKEfEkPN9V5wL12uwOM6lFEw7EaNb/page/EBQf",
+        "twitterCardData": {
+          "card": "",
+          "creator": "",
+          "description": "",
+          "image": "",
+          "site": "",
+          "title": "",
+          "url": ""
+        },
+        "updated_at": "2020-05-11"
+      }
+    },
+    {
+      "section": "HOME",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "9 ft ceilings"
+                },
+                {
+                  "category": 1,
+                  "description": "Ceiling Fans"
+                },
+                {
+                  "category": 1,
+                  "description": "Fireplace"
+                },
+                {
+                  "category": 1,
+                  "description": "Private Patio/Balcony"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Spacious Closets"
+                },
+                {
+                  "category": 1,
+                  "description": "Dishwasher"
+                },
+                {
+                  "category": 1,
+                  "description": "Frost Free Refrigerator"
+                },
+                {
+                  "category": 1,
+                  "description": "Microwave"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fully-equipped Kitchen"
+                },
+                {
+                  "category": 1,
+                  "description": "Washer/Dryer in Unit"
+                },
+                {
+                  "category": 1,
+                  "description": "Individual Heat/AC Controls"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-12_2-Bedroom_Kitchen.jpg",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Patio/Balcony with Storage"
+                },
+                {
+                  "category": 1,
+                  "description": "Covered Parking"
+                },
+                {
+                  "category": 1,
+                  "description": "Close to schools"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fitness Center"
+                },
+                {
+                  "category": 1,
+                  "description": "Gated Entrance/Gated"
+                },
+                {
+                  "category": 1,
+                  "description": "Community"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Heated Outdoor Swimming Pool"
+                },
+                {
+                  "category": 1,
+                  "description": "Package Service On-site management"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-08_Pool_Dusk.jpg",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "applicationForm": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1547091306843.18-032-06_fitness_center.jpg",
+          "title": "Apply Now"
+        },
+        "applicationFormTitle": "Reserve your new home at Bellagio Scottsdale",
+        "carousel": {
+          "buttonText": "Schedule a tour",
+          "mainTitle": "Bellagio Apartment Homes in Scottsdale, AZ",
+          "subTitle": "Re-energize, regroup and relax in your luxury apartment."
+        },
+        "firstRibbon": {
+          "text": "The Bellagio Apartments are located in Northwest Scottsdale, with easy access to 51 freeway/Loop 101 and near a wide variety of shopping centers, business and recreational activities. Kierland Commons, The Promenade and Desert Ridge Marketplace are minutes away! A pet friendly community just momments from your favorite shopping, fine dining and Scottsdale & Paradise Valley Community College. Discover the special reasons for making Bellagio your home.",
+          "title": "The Bellagio Apartment homes in Scottsdale, AZ"
+        },
+        "images": [
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1529329977397.18-032-08_pool_dusk.jpg",
+            "useGradient": true
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1529330032527.18-032-11_1-bedroom_living_room.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1529330061683.18-032-01_porte_cochere_1.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1529330081851.18-032-03_sales-clubhouse_bldg.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1529330102523.18-032-05_clubhouse.jpg",
+            "useGradient": false
+          }
+        ],
+        "logo": {
+          "src": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1572991477248.bellagio_logo_2color.png"
+        },
+        "map": {
+          "marker": {
+            "icon": "https://liftlytics.imgix.net/localhost%3A3000/1562885258499.blob",
+            "lat": 33.639478,
+            "lng": -111.958571
+          },
+          "styles": "[{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#a0d6d1\"},{\"lightness\":17}]},{\"featureType\":\"landscape\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#ffffff\"},{\"lightness\":20}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":17}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":29},{\"weight\":0.2}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":18}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#ffffff\"},{\"lightness\":16}]},{\"featureType\":\"poi\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#f1f1f1\"},{\"lightness\":21}]},{\"elementType\":\"labels.text.stroke\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#ffffff\"},{\"lightness\":16}]},{\"elementType\":\"labels.text.fill\",\"stylers\":[{\"saturation\":36},{\"color\":\"#333333\"},{\"lightness\":40}]},{\"elementType\":\"labels.icon\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"transit\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#f2f2f2\"},{\"lightness\":19}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#fefefe\"},{\"lightness\":20}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#fefefe\"},{\"lightness\":17},{\"weight\":1.2}]}]",
+          "zoom": "13"
+        },
+        "neighborhood": {
+          "disclaimer": "*Available/Restrictions Apply",
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "Washers &amp; Dryers Included",
+            "Stainless Steel GE Appliances",
+            "Kitchens Built for Entertaining",
+            "Granite  Fashion Center Shopping &amp; Dining",
+            "Controlled-Access Gates",
+            "Controlled-Access Gates",
+            "24-Hour Lavishly Equipped Gym"
+          ]
+        },
+        "propertyName": "Bellagio",
+        "quote": {
+          "author": "Bobby J",
+          "details": "Bellagio Resident",
+          "secondAuthor": "",
+          "secondDetails": "",
+          "secondText": "",
+          "text": "I have to say that it was one of the best places I have ever lived.",
+          "thirdAuthor": "",
+          "thirdDetails": "",
+          "thirdText": ""
+        },
+        "secondRibbon": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1547091352657.18-032-07_pool_day.jpg",
+          "subtitle": "in Scottsdale, AZ",
+          "title": "Find Your Home"
+        },
+        "secondaryLogo": {
+          "src": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1573565573593.bellagio_logo_-_white.png"
+        },
+        "seo": {
+          "description": "Rent a luxury apartment in Scottsdale AZ.  At Bellagio Apartments, we offer exquisite floor plans, superb amenities, and a convenient location. Call today!",
+          "title": "Apartments for Rent in Scottsdale AZ | Bellagio "
+        },
+        "thirdRibbon": {
+          "text": "",
+          "title": "Ideally located in Scottsdale, Arizona"
+        },
+        "updated_at": "2020-06-17"
+      }
+    },
+    {
+      "section": "GALLERY",
+      "values": {
+        "firstRibbon": {
+          "text": "Your luxury apartment home awaits. Take a photo tour and then schedule a live tour with us today! Come home to optimal living at the Bellagio in Northwest Scottsdale.",
+          "title": " Apartment Images and Features in Scottsdale, AZ"
+        },
+        "imageCategories": [
+          "community",
+          "apartment"
+        ],
+        "images": [
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-08_Pool_Dusk.jpg",
+            "title": "Heated Pool - Bellagio Apartments - Arizona Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-04_Sales_Lobby.jpg",
+            "title": "Lobby - Clubhouse - Bellagio Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-06_Fitness_Center.jpg",
+            "title": "Activity Center - Active Lifestyle - Active Community"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-03_Sales-Clubhouse_Bldg.jpg",
+            "title": "Luxury Community - Private"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-10_Green_Belt_2.jpg",
+            "title": "Dog Park - Pet Friendly - Bellagio Apts"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-01_Porte_Cochere_1.jpg",
+            "title": "Private Community - Security - Bellagio Scottsdale Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-02_Porte_Cochere_2.jpg",
+            "title": "Secure Community - Luxury - Bellagio Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-05_Clubhouse.jpg",
+            "title": "Clubhouse - Lounge - Bellagio Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-07_Pool_Day.jpg",
+            "title": "Heated Pool - Bellagio Apartments - Arizona Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://webliftlytics.imgix.net/18-032-09_Green_Belt_1.jpg",
+            "title": "Pet Friendly - Community Space - Bellagio Apartments"
+          },
+          {
+            "category": "apartment",
+            "src": "https://webliftlytics.imgix.net/18-032-11_1-Bedroom_Living_Room.jpg",
+            "title": "Living Room - Bellagio Apartment - Scottsdale, AZ"
+          },
+          {
+            "category": "apartment",
+            "src": "https://webliftlytics.imgix.net/18-032-12_2-Bedroom_Kitchen.jpg",
+            "title": "Kitchen - Bellagio Scottsdale Apartments - Scottsdale, Arizona"
+          },
+          {
+            "category": "apartment",
+            "src": "https://webliftlytics.imgix.net/18-032-13_2-Bedroom_Bedroom.jpg",
+            "title": "Bedroom - Bellagio Scottsdale Apartments - Arizona"
+          }
+        ],
+        "pageTitle": "Gallery",
+        "seo": {
+          "description": "Browse our gallery and experience Bellagio for rent in Scottsdale, AZ.  Check out our lavish amenities and superb location. Schedule a tour of our luxury apartments today. ",
+          "title": "Photos of Our Luxury Apartments for Rent in Scottsdale, AZ"
+        },
+        "updated_at": "2019-07-21"
+      }
+    },
+    {
+      "section": "AMENITIES",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "9 ft ceilings"
+                },
+                {
+                  "category": 1,
+                  "description": "Ceiling Fans"
+                },
+                {
+                  "category": 1,
+                  "description": "Fireplace"
+                },
+                {
+                  "category": 1,
+                  "description": "Private Patio/Balcony"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Spacious Closets"
+                },
+                {
+                  "category": 1,
+                  "description": "Dishwasher"
+                },
+                {
+                  "category": 1,
+                  "description": "Frost Free Refrigerator"
+                },
+                {
+                  "category": 1,
+                  "description": "Microwave"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fully-equipped Kitchen"
+                },
+                {
+                  "category": 1,
+                  "description": "Washer/Dryer in Unit"
+                },
+                {
+                  "category": 1,
+                  "description": "Individual Heat/AC Controls"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-12_2-Bedroom_Kitchen.jpg",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Patio/Balcony with Storage"
+                },
+                {
+                  "category": 1,
+                  "description": "Covered Parking"
+                },
+                {
+                  "category": 1,
+                  "description": "Close to schools"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fitness Center"
+                },
+                {
+                  "category": 1,
+                  "description": "Gated Entrance/Gated"
+                },
+                {
+                  "category": 1,
+                  "description": "Community"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Heated Outdoor Swimming Pool"
+                },
+                {
+                  "category": 1,
+                  "description": "Package Service On-site management"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-08_Pool_Dusk.jpg",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "apartmentFeatures": {
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "9 ft. ceilings",
+            "Ceiling Fans",
+            "Fireplace",
+            "Private Patio/Balcony",
+            "Spacious closets",
+            "Dishwasher",
+            "Frost Free Refrigerator",
+            "Microwave",
+            "Fully-equipped kitchen",
+            "Washer/Dryer in Unit",
+            "Individual heat/AC controls"
+          ]
+        },
+        "bellagio": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "5635 E Bell Road, Scottsdale, AZ 85254",
+            "Tel: (480) 887-4894",
+            "Property Manager: Peggy Snyder",
+            "Hours: M-F 9am-6:00pm; Sat 10am-6pm; Sun 11am-5pm"
+          ],
+          "link": {
+            "href": "http://www.mark-taylor.com/arizona/bellagio/",
+            "text": "http://www.mark-taylor.com/arizona/bellagio/"
+          }
+        },
+        "concierge": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "Access to onsite wellness services",
+            "Airline Private Air Reservations",
+            "Ground Transportation",
+            "Restaurant Reservations"
+          ],
+          "paragraphs": [
+            "Residents have direct access to the Soori Concierge service. The trained staff is well equipped to provide a host of additional customized offerings. Below is a representative offering.",
+            "H\u200bigh\u200b \u200bLine houses an exclusive collection of 31 one to five bedroom apartments, marrying crafted luxury with the pleasures inspired by a\u200b destination\u200b resort. A true urban oasis in one of the most dynamic neighborhoods in NYC, High Line will offer residents:"
+          ],
+          "rightList": [
+            "Floral Arrangements",
+            "Spa and Salon Appointments",
+            "Newspaper / Magazine delivery"
+          ]
+        },
+        "firstRibbon": {
+          "text": "Bellagio offers world-class features inside and surrounding your apartment. With stainless appliance, extra storage, a dog park and in-unit laundry, your apartment is a pet-friendly dream. The community comes with a resort-style heated pool, fitness center, covered parking, grill area, and package service. Come schedule a tour today.",
+          "title": "Apartment features in Scottsdale, AZ"
+        },
+        "map": {
+          "image": "https://webliftlytics.imgix.net/amenities-plan.jpg",
+          "list": [
+            {
+              "class": "one",
+              "text": "Fitness center"
+            },
+            {
+              "class": "two",
+              "text": "Common area"
+            },
+            {
+              "class": "three",
+              "text": "Heated swimming pool"
+            },
+            {
+              "class": "four",
+              "text": "Heated spa"
+            },
+            {
+              "class": "five",
+              "text": "Dog park / Common area"
+            },
+            {
+              "class": "six",
+              "text": "Luxury apartments w/ 9ft. ceilings, fireplace & private balcony"
+            },
+            {
+              "class": "seven",
+              "text": "Ample parking"
+            },
+            {
+              "class": "eight",
+              "text": "Elegant entry into a private community"
+            }
+          ],
+          "title": "Welcome to Bellagio"
+        },
+        "pageTitle": "Amenities",
+        "seo": {
+          "description": "Make Bellagio Apartments your choice for your new apartment home. Our pet friendly apartments in Scottsdale, AZ offer the best amenities like a pool & fitness center. Tour today! ",
+          "title": "Pet-Friendly Apartments in Scottsdale, Arizona | Amenities"
+        },
+        "showCategories": false,
+        "subCategories": [
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Keycard access, code, etc",
+                "Security detail?",
+                "etc"
+              ],
+              "title": "Our Gated Entry Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Gated Access",
+            "path": "gated-access",
+            "seo": {
+              "description": "[Name of property] is proud to offer our future residents the security and peace of mind that comes with our gated access apartments. Our [City/Neighborhood], [State] gated apartment complex is designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Gated Access Apartment Complex In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Here at [Name of property], we want our [City] residents to feel a grand sense of security, peace, and exclusivity that comes from having a protected and safe space to call home. Our apartment complex prides itself on maximizing the comfort and convenience of each and every community member. We understand how important it is to live in a place that provides complete and total peace of mind. Our gated entry is just one of the many luxury amenities we offer at [Name of property].",
+            "title": "Gated Access"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Hook up requirements?",
+                "Done for you?",
+                "Energy efficient?",
+                "etc"
+              ],
+              "text": "The washer and dryer units are conveniently located [location and brief description within the apartment].",
+              "title": "In Unit Laundry Details"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Washer & Dryer",
+            "path": "washer-dryer",
+            "seo": {
+              "description": "[Name of property] is proud to offer both washer and dryer units in the comfort of your own  [City/Neighborhood], [State] apartment. Your comfort means everything to us, come take a tour today.",
+              "title": "In Unit Washer & Dryer Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers energy efficient washer and dryer units in our [City/Neighborhood], [State] apartments. Our apartment complex values the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access dryer and washer for your laundry. These units also guarantee the safety of your belongings, unlike in a public laundromat. Just one of the many amenities we offer at the [Name of property] community.",
+            "title": "In Unit Washer and Dryer"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Cabana?",
+                "Lounge chairs?",
+                "etc"
+              ],
+              "text": "Every aspect of our apartment community swimming pool was designed for total relaxation. Our pool has the following luxury features:",
+              "title": "Pool Features For You To Enjoy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Swimming Pool",
+            "path": "pool",
+            "seo": {
+              "description": "[Name of property] has included a private and resort style swimming pool for your convenience. Our  [City/Neighborhood], [State] apartments are designed with luxury in mind. Come take a tour today.",
+              "title": "Apartments With Swimming Pool In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers our residents the chance to soak up some sun and enjoy a refreshing dip in our resort style swimming pool. The pool is open for the entire community to use and provides the perfect place to unwind after a long day. We understand how important it is to have the convenience and easy to access a pool with the [city] heat. Our swimming pool is just one of the many community amenities we offer at [Name of property].",
+            "title": "Private Resort-Style Swimming Pool"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "What Pets Are allowed?",
+                "Are there any breed restrictions?",
+                "How many pets am I allowed to have?",
+                "Is there a fee / deposit?"
+              ],
+              "title": "Pet Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Pet Friendly",
+            "path": "pet-friendly",
+            "seo": {
+              "description": " [Name of property] is proud to offer pet friendly apartments In [City/Neighborhood], [State]. We want your",
+              "title": "Pet Friendly Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] is happy to have your pet with us. As a pet friendly apartment complex in [City/Neighborhood], [State] we understand how important your little fur baby is to you. Couple that with a pet enthusiastic staff, and your pet is sure to love living here just as much as you do.",
+            "title": "Yes, We Are Pet Friendly"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Monthly Fee",
+                "First come first serve, etc"
+              ],
+              "title": "Parking Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Parking Policy",
+            "path": "parking-garage",
+            "seo": {
+              "description": " [Name of property] is proud to offer our tenants the ability to park in our covered parking garage right on the premises. Our  [City/Neighborhood], [State] apartments are designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Covered Parking Garage Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Nobody enjoys driving around aimlessly looking for parking after work and then having to walk back to their apartment. That\u2019s why [Name of property] offers residents the option of parking their vehicles inside of our on site parking garage. Our [City/Neighborhood], [State] apartment complex prides itself on maximizing the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access and covered parking area. On site parking is just one of the many amenities we offer at the [Name of property].",
+            "title": "On Site Covered Parking"
+          }
+        ],
+        "updated_at": "2019-07-23"
+      }
+    },
+    {
+      "section": "CONTACT",
+      "values": {
+        "address": {
+          "city": "5635 E Bell Road ",
+          "email": "bellagio@mark-taylor.com",
+          "phone": "(480) 296-7492",
+          "town": "Scottsdale, Arizona 85254"
+        },
+        "applicationFormTitle": "Reserve your new home at Bellagio Scottsdale",
+        "firstRibbon": {
+          "text": "",
+          "title": "Have a question? Reach out to our helpful staff 24/7"
+        },
+        "googleBusinessMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.68508940919!2d-111.96076668545675!3d33.63940634682103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b7156b11999eb%3A0xfaa5f6c8e5803fbc!2sBellagio!5e0!3m2!1sen!2sin!4v1579605715313!5m2!1sen!2sin\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=",
+        "googleDirectionUrl": "https://www.google.com/maps/dir//Bellagio,+5635+E+Bell+Rd,+Scottsdale,+AZ+85254,+United+States/@33.6394063,-111.9607667,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872b7156b11999eb:0xfaa5f6c8e5803fbc!2m2!1d-111.958578!2d33.6394019",
+        "hours": {
+          "mondayToFriday": "M-F: 9am - 6pm",
+          "saturday": "Sat: 9am - 5pm",
+          "sunday": "Closed Sunday"
+        },
+        "pageTitle": "Contact Us",
+        "seo": {
+          "description": "Call and schedule a tour of Bellagio Apartments today. Our Scottsdale apartments for rent are sure to offer the best indoor and outdoor amenities!",
+          "title": "Call Our Scottsdale, AZ Apartments For Rent | Contact Us "
+        },
+        "updated_at": "2020-01-21"
+      }
+    },
+    {
+      "section": "FOOTER",
+      "values": {
+        "links": {
+          "facebook": "https://www.facebook.com/MarkTaylorResidential/",
+          "instagram": "https://www.instagram.com/MarkTaylorResidential/",
+          "propertyUrl": "mark-taylor.com/apartments/az/scottsdale/bellagio/",
+          "residentPortal": "www.bellagio.hihenri.com/",
+          "twitter": "https://twitter.com/MarkTaylorRez",
+          "youtube": "https://www.youtube.com/marktaylorresidentialapts"
+        },
+        "updated_at": "2019-09-18"
+      }
+    },
+    {
+      "section": "FLOOR_PLANS",
+      "values": {
+        "allPlans": [
+          {
+            "available": 1,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "A2- Bronze Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824405476.floor_plan_a.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1199,
+            "minDeposit": 0,
+            "minRent": 1199,
+            "propertyId": 155456,
+            "squareFootage": 750,
+            "unitId": 234764
+          },
+          {
+            "available": 2,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "B2- Bronze Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824420514.floor_plan_b.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1445,
+            "minDeposit": 0,
+            "minRent": 1440,
+            "propertyId": 155456,
+            "squareFootage": 1040,
+            "unitId": 234908
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "C1- Classic Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824442464.floor_plan_c.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1764,
+            "minDeposit": 0,
+            "minRent": 1699,
+            "propertyId": 155456,
+            "squareFootage": 1300,
+            "unitId": 235099
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "B1- Classic Style ",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824427172.floor_plan_b.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 150,
+            "maxRent": 1540,
+            "minDeposit": 0,
+            "minRent": 1365,
+            "propertyId": 155456,
+            "squareFootage": 1040,
+            "unitId": 435100
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "A1- Classic Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1554646234463.bellagio.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 150,
+            "maxRent": 1285,
+            "minDeposit": 0,
+            "minRent": 1165,
+            "propertyId": 155456,
+            "squareFootage": 750,
+            "unitId": 435101
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "C2- Bronze Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824446560.floor_plan_c.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1780,
+            "minDeposit": 0,
+            "minRent": 1725,
+            "propertyId": 155456,
+            "squareFootage": 1300,
+            "unitId": 436233
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "A3- Silver Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824410629.floor_plan_a.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1330,
+            "minDeposit": 0,
+            "minRent": 1180,
+            "propertyId": 155456,
+            "squareFootage": 750,
+            "unitId": 439396
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "B3- Silver Style ",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824431694.floor_plan_b.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1579,
+            "minDeposit": 0,
+            "minRent": 1410,
+            "propertyId": 155456,
+            "squareFootage": 1040,
+            "unitId": 439397
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "C3- Silver Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824449286.floor_plan_c.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1820,
+            "minDeposit": 0,
+            "minRent": 1615,
+            "propertyId": 155456,
+            "squareFootage": 1300,
+            "unitId": 439398
+          },
+          {
+            "available": 2,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "A4- Gold Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824414236.floor_plan_a.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1245,
+            "minDeposit": 0,
+            "minRent": 1205,
+            "propertyId": 155456,
+            "squareFootage": 750,
+            "unitId": 460451
+          },
+          {
+            "available": 5,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "B4- Gold Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824437919.floor_plan_b.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1565,
+            "minDeposit": 0,
+            "minRent": 1500,
+            "propertyId": 155456,
+            "squareFootage": 1040,
+            "unitId": 460452
+          },
+          {
+            "available": 1,
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "C4- Gold Style",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1555824454274.floor_plan_c.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1714,
+            "minDeposit": 0,
+            "minRent": 1714,
+            "propertyId": 155456,
+            "squareFootage": 1300,
+            "unitId": 460453
+          }
+        ],
+        "breadcrumbsBar": {
+          "image": "https://webliftlytics.imgix.net/breadcrumbs-bg.png"
+        },
+        "feedSourceType": "ON_SITE",
+        "firstRibbon": {
+          "text": "The Bellagio Apartments are located in Northwest Scottsdale, with easy access to 51 freeway/Loop 101 and near a wide variety of shopping centers, business and recreational activities. Kierland Commons, The Promenade and Desert Ridge Marketplace are minutes away! A pet friendly community just momments from your favorite shopping, fine dining and Scottsdale & Paradise Valley Community College. Discover the special reasons for making Bellagio your home.",
+          "title": "The Bellagio Floor Plans in Scottsdale, AZ"
+        },
+        "pageTitle": "Floor Plans",
+        "propertyIds": [
+          "155456"
+        ],
+        "seo": {
+          "description": "Bellagio offers luxury apartments in Scottsdale, AZ Enjoy our apartment amenities including gourmet kitchens & views of Scottsdale.",
+          "title": "Luxury One, Two, and Three Bedroom Apartments in  Scottsdale, AZ"
+        },
+        "updated_at": "2020-03-22"
+      }
+    },
+    {
+      "section": "NEIGHBORHOOD",
+      "values": {
+        "breadcrumbsBar": {
+          "image": "/static/images/breadcrumbs-bg.png"
+        },
+        "categories": [
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bank",
+            "id": 1,
+            "name": "bank"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bar",
+            "id": 2,
+            "name": "bar"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-cafe",
+            "id": 3,
+            "name": "cafe"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-entertainment",
+            "id": 4,
+            "name": "entertainment"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-grocery-store",
+            "id": 5,
+            "name": "grocery store"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gas-station",
+            "id": 6,
+            "name": "gas stations"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gym",
+            "id": 7,
+            "name": "gym"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hospital",
+            "id": 8,
+            "name": "hospitals"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hotel",
+            "id": 9,
+            "name": "hotels"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-museum",
+            "id": 10,
+            "name": "museums"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-outdoor-activity",
+            "id": 11,
+            "name": "outdoor activities"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-parking",
+            "id": 12,
+            "name": "parking"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-park",
+            "id": 13,
+            "name": "parks"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-post-office",
+            "id": 14,
+            "name": "post office"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-restaurant",
+            "id": 15,
+            "name": "restaurant"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-school",
+            "id": 16,
+            "name": "schools"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-shopping",
+            "id": 17,
+            "name": "shopping"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-theater",
+            "id": 18,
+            "name": "theaters"
+          }
+        ],
+        "displayNeighborhoodPage": true,
+        "firstRibbon": {
+          "text": "Live life in a prime Scottsdale location, near top-notch shopping options at Kierland Commons, not far from the one-of-a-kind Musical Instrument Museum, close to quality medical facilities at Mayo Clinic and just minutes from multi-use trails at the McDowell Mountains, Pinnacle Peak and Piestewa Peak. Convenient access to Loop 101 and State Route 51 make it easy to explore the Valley.\n",
+          "title": "Bellagio Neighborhood in Scottsdale Arizona"
+        },
+        "locations": [
+          {
+            "address": " 4842 E Bell Rd, Scottsdale, AZ 85254",
+            "addressGeoPosition": {
+              "lat": 33.6427153,
+              "lng": -111.9760032
+            },
+            "category": [
+              5
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1567993097098.frysfooddrug%2A750xx1240-698-0-47.jpg",
+            "isPropertyLocation": false,
+            "name": "Fry's",
+            "phone": "480-941-4088",
+            "website": "https://www.frysfood.com/stores/details/660/00005?cid=loc_66000005_gmb"
+          },
+          {
+            "address": "5777 E Mayo Blvd, Phoenix, AZ 85054",
+            "addressGeoPosition": {
+              "lat": 33.6590516,
+              "lng": -111.9564498
+            },
+            "category": [
+              8
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1567993211703.arizona-3-8col.jpg",
+            "isPropertyLocation": false,
+            "name": "Mayo Clinic",
+            "phone": "(480) 342-2000",
+            "website": "https://www.mayoclinic.org/patient-visitor-guide/arizona?mc_id=us&utm_source=yext&utm_medium=l&utm_content=feature&utm_campaign=mayoclinic&geo=national&placementsite=enterprise&invsrc=other&cauid=102372"
+          },
+          {
+            "address": "15255 N Hayden Rd, Scottsdale, AZ 85260",
+            "addressGeoPosition": {
+              "lat": 33.6237872,
+              "lng": -111.9006823
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1567993297675.unknown.jpg",
+            "isPropertyLocation": false,
+            "name": "Costco",
+            "phone": "(480) 948-5040",
+            "website": "https://www.costco.com/warehouse-locations/scottsdale-AZ-427.html"
+          },
+          {
+            "address": "16900 N Tatum Blvd Suite 110, Phoenix, AZ 85032",
+            "addressGeoPosition": {
+              "lat": 33.6393388,
+              "lng": -111.9782855
+            },
+            "category": [
+              3
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1567993409806.348s.jpg",
+            "isPropertyLocation": false,
+            "name": "Starbucks",
+            "phone": "(602) 867-0662",
+            "website": "https://www.starbucks.com/store-locator?map=33.639302,-111.978249,15z"
+          },
+          {
+            "address": "20721 N Scottsdale Rd, Scottsdale, AZ 85255",
+            "addressGeoPosition": {
+              "lat": 33.6748238,
+              "lng": -111.9244892
+            },
+            "category": [
+              6
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1567993482938.unknown.jpg",
+            "isPropertyLocation": false,
+            "name": "Circle K ",
+            "phone": "(480) 585-3977",
+            "website": "https://www.circlek.com/store-locator/us/scottsdale/20721-n-scottsdale-rd/2705915"
+          },
+          {
+            "address": "15205 N Kierland Blvd Suite 150, Scottsdale, AZ 85254, United States",
+            "addressGeoPosition": {
+              "lat": 33.6245326,
+              "lng": -111.9288675
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1579755440185.kierland_commons_2013_selects_%288%29.jpg",
+            "isPropertyLocation": false,
+            "name": "Kierland",
+            "phone": "+1 480-348-1577",
+            "website": "https://www.kierlandcommons.com/"
+          },
+          {
+            "address": "http://www.desertridgephoenixhomes.com/",
+            "addressGeoPosition": {
+              "lat": 33.6205494,
+              "lng": -111.9284808
+            },
+            "category": [
+              12
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1582263389672.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Desert Ridge Phoenix Homes: Luxury Valley Homes",
+            "phone": "+1 480-595-6412",
+            "website": "http://www.desertridgephoenixhomes.com/"
+          },
+          {
+            "address": "17650 N 54th St, Scottsdale, AZ 85254",
+            "addressGeoPosition": {
+              "lat": 33.647054,
+              "lng": -111.9651975
+            },
+            "category": [
+              16
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1582263698068.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Copper Canyon",
+            "phone": "(602) 449-7200",
+            "website": "http://www.pvschools.net/cces"
+          },
+          {
+            "address": "15059 N Scottsdale Rd Ste 205, Scottsdale, AZ 85254",
+            "addressGeoPosition": {
+              "lat": 33.6232755,
+              "lng": -111.9230919
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1582264111190.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Scottsdale Quarter",
+            "phone": "(480) 270-8123",
+            "website": "https://scottsdalequarter.com/"
+          },
+          {
+            "address": "7000 E Mayo Blvd, Phoenix, AZ 85054",
+            "addressGeoPosition": {
+              "lat": 33.6576412,
+              "lng": -111.9301325
+            },
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1582264239331.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "The White Chocolate Grill",
+            "phone": "(480) 563-3377",
+            "website": "http://whitechocolategrill.com/"
+          },
+          {
+            "address": "15515 N Hayden Rd, Scottsdale, AZ 85260",
+            "addressGeoPosition": {
+              "lat": 33.6273626,
+              "lng": -111.8947728
+            },
+            "category": [
+              18
+            ],
+            "image": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1582264347265.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Studio Movie Grill",
+            "phone": "(602) 560-9084",
+            "website": "http://www.studiomoviegrill.com/scottsdale?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=scottsdale"
+          }
+        ],
+        "pageTitle": "Neighborhood",
+        "propertyIcon": "https://liftlytics.imgix.net/liveatbellagioscottsdale.com/1567993539520.pin-home-e4af01.png",
+        "seo": {
+          "description": "Visit our luxury apartments in Scottsdale, AZ. The Bellagio is conveniently located next door to Fry's shopping & dining, Circle K, Mayo Clinic & more. Schedule your tour today!",
+          "title": "Come Tour The Bellagio Luxury Apartments in Scottsdale, AZ | Map"
+        },
+        "updated_at": "2020-02-21"
+      }
+    },
+    {
+      "section": "DESIGN",
+      "values": {
+        "customColors": {
+          "V1": [
+            {
+              "name": "$primary",
+              "value": "#D9AD32"
+            },
+            {
+              "name": "$secondary",
+              "value": "#764402"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#28263A"
+            },
+            {
+              "name": "$home-community-section-bg",
+              "value": "#EEEEEE"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#1C1A2C"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#1C1A2C"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V2": [
+            {
+              "name": "$primary",
+              "value": "#A19067"
+            },
+            {
+              "name": "$secondary",
+              "value": "#D5C8A9"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#7D7D7D"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#383131"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            },
+            {
+              "name": "$header-carousel-background-color",
+              "value": "white"
+            }
+          ],
+          "V3": [
+            {
+              "name": "$primary",
+              "value": "white"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#242426"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "white"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            },
+            {
+              "name": "$header-carousel-background-color",
+              "value": "white"
+            }
+          ],
+          "V4": [
+            {
+              "name": "$primary",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#3B3B3B"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            },
+            {
+              "name": "$header-carousel-background-color",
+              "value": "#2B2B2B"
+            }
+          ],
+          "V5": [
+            {
+              "name": "$primary",
+              "value": "#1052B4"
+            },
+            {
+              "name": "$secondary",
+              "value": "#f9f3ed"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#9DA2A6"
+            },
+            {
+              "name": "$border-color",
+              "value": "#DCDDDE"
+            },
+            {
+              "name": "$bg-dark-color",
+              "value": "#30353E"
+            },
+            {
+              "name": "$bg-light-color",
+              "value": "#F5F2E6"
+            },
+            {
+              "name": "$body-color",
+              "value": "#181B1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            }
+          ]
+        },
+        "customCssCodes": {
+          "V1": "",
+          "V2": "",
+          "V3": "",
+          "V4": "",
+          "V5": ""
+        },
+        "labels": [
+          {
+            "label": "Primary color",
+            "name": "$primary"
+          },
+          {
+            "label": "Secondary color",
+            "name": "$secondary"
+          },
+          {
+            "label": "Text base color color",
+            "name": "$text-color-base"
+          },
+          {
+            "label": "Border color",
+            "name": "$border-color"
+          },
+          {
+            "label": "Background dark color",
+            "name": "$bg-dark-color"
+          },
+          {
+            "label": "Background light color",
+            "name": "$bg-light-color"
+          },
+          {
+            "label": "Body color",
+            "name": "$body-color"
+          },
+          {
+            "label": "Footer logo banner color",
+            "name": "$footer-logo-banner-color"
+          },
+          {
+            "label": "Community section background color",
+            "name": "$home-community-section-bg"
+          },
+          {
+            "label": "Neighborhood marker active color",
+            "name": "$neighborhood-marker-active-color"
+          },
+          {
+            "label": "Header color",
+            "name": "$header-color"
+          },
+          {
+            "label": "Footer color",
+            "name": "$footer-color"
+          },
+          {
+            "label": "Deep gray color",
+            "name": "$deep-gray"
+          },
+          {
+            "label": "Charcoal color",
+            "name": "$charcoal"
+          },
+          {
+            "label": "Apply form input placeholder color",
+            "name": "$apply-form-input-placeholder-color"
+          },
+          {
+            "label": "Header Carousel background color",
+            "name": "$header-carousel-background-color"
+          }
+        ],
+        "siteTemplate": "V1",
+        "updated_at": "2019-07-11",
+        "imageCategories": [
+          "community",
+          "apartment"
+        ]
+      }
+    },
+    {
+      "section": "VIRTUAL_TOUR",
+      "values": {
+        "firstRibbon": {
+          "text": "",
+          "title": ""
+        },
+        "is_visible": true,
+        "pageTitle": "Virtual Tour",
+        "panoId": null,
+        "seo": {
+          "description": "Take a look through the virtual tour of our luxury community at Bellagio in Scottsdale, AZ, to get a better idea of what life is like here.",
+          "title": "Virtual Tour | Bellagio"
+        },
+        "tours": [
+          {
+            "link": "https://www.youtube.com/watch?v=SHTNJKlcRfA",
+            "title": "B4Gold"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=-Jr7FvZnFU4",
+            "title": "A4Gold"
+          }
+        ],
+        "updated_at": "2020-05-05"
+      }
+    }
+  ]
+}

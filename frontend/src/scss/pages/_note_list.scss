@@ -1,0 +1,103 @@
+.note-display {
+  margin-bottom: 0.5rem;
+
+  .card-body {
+    padding: 1rem;
+    border-radius: 0.25rem;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .dot {
+    height: 40px;
+    width: 40px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+  }
+
+  .note-details {
+    display: flex;
+    align-items: baseline;
+
+    .note-actions {
+      margin-left: auto;
+    }
+
+    .created-date {
+      color: #828383;
+    }
+
+    .author {
+      padding-right: 7px;
+    }
+  }
+
+  .fa-file-text {
+    font-size: 24px;
+  }
+
+  .fa-ellipsis-h:hover {
+    opacity: 0.8;
+  }
+
+}
+
+.btn {
+  padding: 0.3rem 0.75rem;
+}
+
+.save-btn, .cancel-btn {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.editNote {
+  opacity: 0;
+  animation: show 0.2s 0.2s forwards;
+}
+
+.lead-details .lead-action .note-display {
+  .popup-menu svg {
+    font-size: 14px;
+  }
+
+  .popup-menu {
+    padding: 2px;
+    border: none;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .popup-menu:hover,
+  .popup-menu:focus,
+  .popup-menu.btn-secondary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+    background-color: white;
+  }
+
+  .popup-menu.btn-secondary:not(:disabled):not(.disabled):active {
+    background-color: white;
+    border-color: white;
+  }
+}
+
+.followUpCheck {
+  float: right;
+  margin-right: 7px;
+  padding-top: 10px;
+ }
+
+@keyframes show {
+  to {
+    opacity: 1
+  }
+}

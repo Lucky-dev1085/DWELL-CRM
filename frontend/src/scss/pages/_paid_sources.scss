@@ -1,0 +1,118 @@
+.create-paid-source {
+  margin-bottom: 0;
+
+  .card-header {
+    background-color: white;
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .empty-paid-sources-card {
+    text-align: center;
+    margin-bottom: 0;
+
+    .card-body {
+      background-color: #FAFBFC;
+
+      .empty-paid-sources {
+        max-width: 380px;
+        margin: 150px 0;
+        color: gray;
+        display: inline-block;
+        text-align: center;
+
+        h4 {
+          font-weight: 600;
+        }
+
+        .btn {
+          margin-top: 2em;
+        }
+      }
+    }
+  }
+
+  .card-footer {
+    border-top: none;
+  }
+
+  .card-body {
+    min-height: 400px;
+  }
+
+  .react-datepicker-wrapper {
+    input {
+      width: 150px;
+      border: 1px solid #E5E5E5;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1.5;
+      border-radius: 0.25rem;
+    }
+
+    input:disabled {
+      background-color: #f7f7f7;
+    }
+  }
+
+  .react-datepicker__tab-loop {
+    .react-datepicker__navigation {
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .react-datepicker {
+      border: 1px solid #E5E5E5;
+    }
+
+    .react-datepicker__header {
+      border-bottom: 1px solid #E5E5E5;
+      padding-bottom: 4px;
+    }
+
+    .react-datepicker__month-text.react-datepicker__month--selected:hover {
+      background-color: #0096FF;
+    }
+
+    .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+      border-bottom-color: #E9EFF3;
+    }
+
+    .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
+      border-bottom-color: #E9EFF3;
+    }
+
+    .react-datepicker__month .react-datepicker__month-text {
+      margin: 5px;
+      padding: 0.4rem 1.2rem;
+      width: auto;
+    }
+
+    .react-datepicker__month--selected {
+      background-color: #0096FF;
+    }
+  }
+
+  .box {
+    width: 150px;
+    border: 1px solid #E5E5E5;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+
+    label {
+      font-weight: 400;
+      margin-bottom: 0;
+      margin-left: 8px;
+    }
+  }
+
+  .box.disabled {
+    background-color: #f7f7f7;
+  }
+}

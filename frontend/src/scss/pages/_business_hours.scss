@@ -1,0 +1,21 @@
+.settings-actions {
+  .save-btn {
+    width: 106px;
+  }
+}
+
+.weekdays-leads {
+  .switch-primary .switch-input:checked + .switch-slider {
+    background-color: #0096FF;
+    border-color: #0096FF;
+  }
+
+  .time-btn {
+    width: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+

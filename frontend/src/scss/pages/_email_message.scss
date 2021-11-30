@@ -1,0 +1,288 @@
+.message-card .message-header, .linked-lead .lead-header {
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #E9EFF4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.linked-lead {
+  .lead-details-card {
+    background-color: #FAFBFC;
+  }
+
+  .btn-group > .popup-menu.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+
+  .popup-menu svg:hover {
+    opacity: 0.5;
+  }
+
+  .popup-menu svg {
+    opacity: 0.8;
+  }
+
+  .card {
+    margin-bottom: 0;
+
+    .card-body {
+      padding: 1rem;
+    }
+  }
+
+  .lead-dropdown {
+    width: 100%;
+
+    .lead-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+    }
+  }
+
+  .lead-details {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    opacity: 0.5;
+
+    .lead-detail {
+      font-weight: 400;
+
+      svg {
+        margin-right: 0.2rem;
+      }
+    }
+  }
+
+  .details-link {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .badge {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0.5em;
+  }
+
+  .badge-pill {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .badge.inquiry {
+    background-color: #BFE4FF;
+  }
+
+  .badge.tour_set {
+    background-color: #E9EFF3;
+  }
+
+  .badge.tour_completed {
+    background-color: #FFDED3;
+  }
+
+  .badge.application_pending {
+    background-color: #FAD7F3;
+  }
+
+  .badge.application_complete {
+    background-color: #CBEEE0;
+  }
+
+}
+
+.popover {
+  border-color: #E5E5E5;
+  max-width: 600px;
+  width: auto;
+
+  .list-group {
+    border: none;
+  }
+}
+
+.message-card {
+
+  .emails {
+    padding: 0;
+
+    .nav-link.active, .nav-link.active:hover {
+      color: #0096FF;
+      border-bottom: 2px solid #0096FF;
+    }
+
+    .nav-link {
+      font-weight: 600;
+    }
+
+    .nav-tabs .nav-link.active {
+      border-color: #fff #fff #0096FF;
+      border-bottom: 2px solid;
+    }
+
+    .nav-tabs {
+      border-bottom: 1px solid #c8ced3;
+      padding: 0.5rem 1rem 0 1rem;
+    }
+
+    .tab-content {
+      border-color: #E5E5E5 #fff #fff;
+    }
+
+    .sender-name {
+      font-weight: 600;
+    }
+  }
+
+  .to {
+    .btn {
+      background-color: white;
+      border: none;
+      padding: 0 6px;
+      margin-top: 0;
+    }
+
+    span {
+      font-size: 12px;
+      color: black;
+      opacity: 0.5;
+    }
+
+    svg {
+      font-size: 9px;
+      color: black;
+      opacity: 0.5;
+    }
+  }
+
+  .message-details {
+    display: flex;
+    align-items: baseline;
+
+    .sender-name {
+      font-weight: 600;
+    }
+
+    .sender-email {
+      opacity: 0.5;
+      color: #000000;
+    }
+
+    .date {
+      font-size: 12px;
+      opacity: 0.5;
+      color: #000000;
+      margin-left: auto;
+    }
+  }
+
+  .select-template, .email-actions {
+    margin-top: 0.7rem;
+  }
+
+  .message-subject {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .iframe-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .message-body {
+    flex-grow: 1;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    body {
+      margin: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .attachment {
+     height: 200px;
+  }
+}
+
+@media only screen and (max-width: 2559px) and (min-width: 1440px) {
+  .attachment {
+     height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
+  .attachment {
+     height: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .attachment {
+     height: 200px;
+  }
+}
+
+.attachment {
+  margin-bottom: 1rem;
+  cursor: pointer;
+
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filename {
+    display: none;
+  }
+
+  .fileicon {
+    font-size: 36px;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    .filename {
+      opacity: 1;
+      display: block;
+
+      .size {
+        opacity: 0.5;
+      }
+    }
+
+    .fileicon {
+      display: none;
+    }
+
+    .card-body {
+      display: block;
+    }
+  }
+}

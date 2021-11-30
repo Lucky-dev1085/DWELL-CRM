@@ -1,0 +1,29 @@
+{
+  "plugins": [
+    "transform-object-rest-spread",
+    "syntax-dynamic-import",
+    "transform-class-properties",
+    "transform-es2015-typeof-symbol",
+    [
+      "transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            ">0.2%"
+          ]
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "react"
+  ]
+}

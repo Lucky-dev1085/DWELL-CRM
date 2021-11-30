@@ -1,0 +1,55 @@
+{% include "django/forms/widgets/input.html" %}
+
+<script>
+    $(function () {
+        let selectedDate = null;
+        const dateTimePickerInput = $("input[name='{{ widget.name }}']");
+        const getAvailableDates = (date) => {
+            $.getJSON('{{ request.get_host }}/api/v1/demo_tours/available_time_slots/',
+                {date: date},
+                function (times) {
+                    dateTimePickerInput.datetimepicker('setOptions', {
+                        allowTimes:
+                            times.map(time => moment(time).format('hh:mm a'))
+                    });
+                    const scrollBar = document.querySelector('.xdsoft_timepicker .xdsoft_scroller')
+                    scrollBar.style.display = times.length > 6 ? 'block' : 'none';
+                })
+        }
+        // datetime picker init
+        $.datetimepicker.setDateFormatter({
+            parseDate: function (date, format) {
+                let d = moment(date, format);
+                if (moment(date).creationData().format === 'YYYY-MM-DDTHH:mm:ss') {
+                    d = moment.utc(date, format);
+                }
+                return d.isValid() ? d.toDate() : false;
+            },
+
+            formatDate: function (date, format) {
+                return moment(date).format(format);
+            },
+        });
+        dateTimePickerInput.datetimepicker({
+            format: 'YYYY-MM-DDTHH:mm:ssZZ',
+            formatDate: 'YYYY-MM-DD',
+            formatTime: 'hh:mm a',
+            minDate: moment().add(1, 'days'),
+            onChangeDateTime: function (dp, $input) {
+                const newDate = moment($input.val()).format('YYYY-MM-DD');
+                if (selectedDate !== newDate) {
+                    selectedDate = newDate;
+                    getAvailableDates(newDate)
+                }
+            }
+        });
+        // set default value and get available times
+        if (!dateTimePickerInput.val()) {
+            const defaultDate = moment().add(1, 'days').format('YYYY-MM-DDTHH:mm:ssZZ');
+            dateTimePickerInput.datetimepicker('setOptions', { defaultDate });
+            dateTimePickerInput.val(defaultDate)
+        }
+        dateTimePickerInput.val(moment(moment.utc(dateTimePickerInput.val()).toDate()).format('YYYY-MM-DDTHH:mm:ssZZ'));
+        getAvailableDates(moment(dateTimePickerInput.val()).format('YYYY-MM-DD'))
+    });
+</script>

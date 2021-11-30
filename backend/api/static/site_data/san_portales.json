@@ -1,0 +1,1627 @@
+{
+  "data": [
+    {
+      "section": "SEO",
+      "values": {
+        "aditionalScript": "",
+        "analyticsDashboard": "https://datastudio.google.com/embed/reporting/1PkuhYA-tOF9VGhODcyP7V-OXRHTdv8mW/page/07Pf",
+        "customColors": [
+          {
+            "name": "$primary",
+            "value": "#e8871f"
+          },
+          {
+            "name": "$red",
+            "value": "#ff3e3e"
+          },
+          {
+            "name": "$cyan",
+            "value": "#96c0ce"
+          },
+          {
+            "name": "$cyan-2",
+            "value": "#8CC3D1"
+          },
+          {
+            "name": "$cyan-3",
+            "value": "#75a3b3"
+          },
+          {
+            "name": "$light-brown",
+            "value": "#fef6eb"
+          },
+          {
+            "name": "$neighborhood-marker-active-color",
+            "value": "orange"
+          },
+          {
+            "name": "$neighborhood-marker-inactive-color",
+            "value": "gray"
+          }
+        ],
+        "facebookOpenGraphData": {
+          "appId": "",
+          "author": "",
+          "description": "",
+          "image": "",
+          "locale": "",
+          "siteName": "",
+          "title": "",
+          "type": "",
+          "url": ""
+        },
+        "generalData": {
+          "appleTouchIcon": "",
+          "description": "",
+          "favicon": "https://liftlytics.imgix.net/localhost%3A3000/1547099910497.san_portales3.png",
+          "gtmScript": {
+            "body": "",
+            "head": ""
+          },
+          "icon": "",
+          "mask": {
+            "color": "",
+            "icon": ""
+          },
+          "subject": "",
+          "themeColor": "",
+          "title": ""
+        },
+        "googlePlusData": {
+          "author": "",
+          "description": "",
+          "image": "",
+          "name": "",
+          "publisher": ""
+        },
+        "google_ownership": "google-site-verification: google34f46576cbd887ea.html",
+        "gtmId": "",
+        "payPerClickDashboard": "https://datastudio.google.com/embed/reporting/1PkuhYA-tOF9VGhODcyP7V-OXRHTdv8mW/page/EBQf",
+        "twitterCardData": {
+          "card": "",
+          "creator": "",
+          "description": "",
+          "image": "",
+          "site": "",
+          "title": "",
+          "url": ""
+        },
+        "updated_at": "2020-08-30"
+      }
+    },
+    {
+      "section": "HOME",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "9 ft ceilings"
+                },
+                {
+                  "category": 1,
+                  "description": "Ceiling Fans"
+                },
+                {
+                  "category": 1,
+                  "description": "Fireplace"
+                },
+                {
+                  "category": 1,
+                  "description": "Private Patio/Balcony"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Spacious Closets"
+                },
+                {
+                  "category": 1,
+                  "description": "Dishwasher"
+                },
+                {
+                  "category": 1,
+                  "description": "Frost Free Refrigerator"
+                },
+                {
+                  "category": 1,
+                  "description": "Microwave"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fully-equipped Kitchen"
+                },
+                {
+                  "category": 1,
+                  "description": "Washer/Dryer in Unit"
+                },
+                {
+                  "category": 1,
+                  "description": "Individual Heat/AC Controls"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-12_2-Bedroom_Kitchen.jpg",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Patio/Balcony with Storage"
+                },
+                {
+                  "category": 1,
+                  "description": "Covered Parking"
+                },
+                {
+                  "category": 1,
+                  "description": "Close to schools"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fitness Center"
+                },
+                {
+                  "category": 1,
+                  "description": "Gated Entrance/Gated"
+                },
+                {
+                  "category": 1,
+                  "description": "Community"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Heated Outdoor Swimming Pool"
+                },
+                {
+                  "category": 1,
+                  "description": "Package Service On-site management"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-08_Pool_Dusk.jpg",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "applicationForm": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1541268919838.18-038-01_porte_cochere.jpg",
+          "title": "Apply Now"
+        },
+        "carousel": {
+          "buttonText": "Schedule a tour",
+          "mainTitle": "San Portales Luxury Apartment Homes",
+          "subTitle": "Stylish and sophisticated luxury apartment home living in Scottsdale, Arizona"
+        },
+        "firstRibbon": {
+          "text": "",
+          "title": "San Portales Apartment homes in Scottsdale, AZ"
+        },
+        "images": [
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268885844.18-038-13_2-bedroom_living_room_and_kitchen.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1554152068963.18-038-01_porte_cochere.png",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268867401.18-038-03_poolside_patio_area.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268852587.18-038-04_pool.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268861735.18-038-02_club_house.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268895635.18-038-15_2-bedroom_master.jpg",
+            "useGradient": false
+          }
+        ],
+        "logo": {
+          "src": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1590190769124.san-portales-logo.png"
+        },
+        "map": {
+          "marker": {
+            "icon": "https://liftlytics.imgix.net/localhost%3A3000/1562880444614.blob",
+            "lat": 33.693803,
+            "lng": -111.923324
+          },
+          "styles": "[{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#a0d6d1\"},{\"lightness\":17}]},{\"featureType\":\"landscape\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#ffffff\"},{\"lightness\":20}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":17}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":29},{\"weight\":0.2}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":18}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#ffffff\"},{\"lightness\":16}]},{\"featureType\":\"poi\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#f1f1f1\"},{\"lightness\":21}]},{\"elementType\":\"labels.text.stroke\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#ffffff\"},{\"lightness\":16}]},{\"elementType\":\"labels.text.fill\",\"stylers\":[{\"saturation\":36},{\"color\":\"#333333\"},{\"lightness\":40}]},{\"elementType\":\"labels.icon\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"transit\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#f2f2f2\"},{\"lightness\":19}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#fefefe\"},{\"lightness\":20}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#fefefe\"},{\"lightness\":17},{\"weight\":1.2}]}]",
+          "zoom": "13"
+        },
+        "neighborhood": {
+          "disclaimer": "*Available/Restrictions Apply",
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "Washers &amp; Dryers Included",
+            "Stainless Steel GE Appliances",
+            "Kitchens Built for Entertaining",
+            "Granite  Fashion Center Shopping &amp; Dining",
+            "Controlled-Access Gates",
+            "Controlled-Access Gates",
+            "24-Hour Lavishly Equipped Gym"
+          ]
+        },
+        "propertyName": "San Portales",
+        "quote": {
+          "author": "Nico T",
+          "details": "Current Resident - Google",
+          "secondAuthor": "",
+          "secondDetails": "",
+          "secondText": "",
+          "text": "San Portales is an absolutely amazing place to live. ",
+          "thirdAuthor": "",
+          "thirdDetails": "",
+          "thirdText": ""
+        },
+        "secondRibbon": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1541268910459.18-038-06_fitness_center.jpg",
+          "subtitle": "in Scottsdale, AZ",
+          "title": "Find Your Home"
+        },
+        "secondaryLogo": {
+          "src": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1598998311990.san_portales_logo_-_black_-_small.png"
+        },
+        "seo": {
+          "description": "Welcome to San Portales apartments, located in Scottsdale, AZ where you will live the lifestyle you want in the area you want. ",
+          "title": "Luxury Apartments in Scottsdale, AZ | San Portales | Home"
+        },
+        "thirdRibbon": {
+          "text": "",
+          "title": "Ideally located in Scottsdale, Arizona"
+        },
+        "updated_at": "2020-09-01"
+      }
+    },
+    {
+      "section": "GALLERY",
+      "values": {
+        "firstRibbon": {
+          "text": "",
+          "title": " Apartment Images and Features in Scottsdale, AZ"
+        },
+        "imageCategories": [
+          "community",
+          "apartment"
+        ],
+        "images": [
+          {
+            "category": "community",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268946860.18-038-01_porte_cochere.jpg",
+            "title": "Porte co\u00b7ch\u00e8re Entrance"
+          },
+          {
+            "category": "community",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268950777.18-038-02_club_house.jpg",
+            "title": "Clubhouse"
+          },
+          {
+            "category": "community",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268953402.18-038-04_pool.jpg",
+            "title": "Pool"
+          },
+          {
+            "category": "community",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268961043.18-038-03_poolside_patio_area.jpg",
+            "title": "Pool Area"
+          },
+          {
+            "category": "community",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268966079.18-038-06_fitness_center.jpg",
+            "title": "Fitness Center"
+          },
+          {
+            "category": "apartment",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268978476.18-038-13_2-bedroom_living_room_and_kitchen.jpg",
+            "title": "Living Room"
+          },
+          {
+            "category": "apartment",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268991266.18-038-14_2-bedroom_kitchen.jpg",
+            "title": "Kitchen"
+          },
+          {
+            "category": "apartment",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268995942.18-038-15_2-bedroom_master.jpg",
+            "title": "Master Bedroom"
+          },
+          {
+            "category": "apartment",
+            "location": "Scottsdale, Arizona",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541268999118.18-038-16_2-bedroom_bath.jpg",
+            "title": "Bathroom"
+          },
+          {
+            "category": "community",
+            "location": "Scottsdale, Arizona",
+            "src": "https://img.youtube.com/vi/SSjJbypyGw4/hqdefault.jpg",
+            "title": "Visual Tour",
+            "videoUrl": "https://youtu.be/SSjJbypyGw4"
+          }
+        ],
+        "pageTitle": "Gallery",
+        "panoId": "5e9b89096b19625a6a0a8531",
+        "seo": {
+          "description": "View photos of our inspired community of apartments. Scottsdale, AZ locals love calling our community home \u2013 find out why! Schedule a tour today.",
+          "title": "Our Apartment Gallery Scottsdale, AZ | San Portales"
+        },
+        "updated_at": "2020-07-22"
+      }
+    },
+    {
+      "section": "AMENITIES",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "9\u2019 ceilings with molding"
+                },
+                {
+                  "category": 1,
+                  "description": "Interior elevators"
+                },
+                {
+                  "category": 1,
+                  "description": "High-end ceiling fans with LED lighting"
+                },
+                {
+                  "category": 1,
+                  "description": "Distressed plank flooring"
+                },
+                {
+                  "category": 1,
+                  "description": "Plush carpeting in bedrooms"
+                },
+                {
+                  "category": 1,
+                  "description": "Dual-pane insulated windows, vertical blinds"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Granite countertops and travertine tile kitchen backsplash"
+                },
+                {
+                  "category": 1,
+                  "description": "Functional kitchen island"
+                },
+                {
+                  "category": 1,
+                  "description": "Top-of-the-line stainless steel appliances: glass-top stove, dishwasher, built-in microwave \u2013 side by side refrigerator with in-door ice and water"
+                },
+                {
+                  "category": 1,
+                  "description": "Convenient pantry"
+                },
+                {
+                  "category": 1,
+                  "description": "Full-size washer &amp; dryer"
+                },
+                {
+                  "category": 1,
+                  "description": "Walk-in master closet, mirrored doors"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Step-in shower stalls with sliding glass doors"
+                },
+                {
+                  "category": 1,
+                  "description": "Wired for HDTV, Gigablast internet and digital telephone"
+                },
+                {
+                  "category": 1,
+                  "description": "Intrusion alarm"
+                },
+                {
+                  "category": 1,
+                  "description": "Private patio/balcony with storage"
+                },
+                {
+                  "category": 1,
+                  "description": "Attached two-car garage*"
+                }
+              ]
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554152010905.18-038-13_2-bedroom_living_room_and_kitchen.jpg",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Two elegant porte-cochere entrances with controlled-access&nbsp;gates"
+                },
+                {
+                  "category": 1,
+                  "description": "Interior elevators"
+                },
+                {
+                  "category": 1,
+                  "description": "Lush desert landscaping"
+                },
+                {
+                  "category": 1,
+                  "description": "Unspoiled desert views with vast open space"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Picnic areas with gas barbecue grills"
+                },
+                {
+                  "category": 1,
+                  "description": "Resort-style lagoon pool, sundeck, whirlpool spa and outdoor furniture"
+                },
+                {
+                  "category": 1,
+                  "description": "Poolside cabana with wet bar and flat-screen TVs"
+                },
+                {
+                  "category": 1,
+                  "description": "Enormous 24/7 fitness center with individual workout stations and virtual personal trainers and spin-bike room"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Business Center with comprehensive technology, featuring complimentary wifi availability in amenity areas"
+                },
+                {
+                  "category": 1,
+                  "description": "Luxurious clubhouse with big-screen TVs, fireplace and full kitchen"
+                },
+                {
+                  "category": 1,
+                  "description": "Courtesy patrol"
+                },
+                {
+                  "category": 1,
+                  "description": "Electric Vehicle Charging Stations"
+                }
+              ]
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554152022993.18-038-06_fitness_center.jpg",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "apartmentFeatures": {
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "9 ft. ceilings",
+            "Ceiling Fans",
+            "Fireplace",
+            "Private Patio/Balcony",
+            "Spacious closets",
+            "Dishwasher",
+            "Frost Free Refrigerator",
+            "Microwave",
+            "Fully-equipped kitchen",
+            "Washer/Dryer in Unit",
+            "Individual heat/AC controls"
+          ]
+        },
+        "bellagio": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "5635 E Bell Road, Scottsdale, AZ 85254",
+            "Tel: (480) 887-4894",
+            "Property Manager: Peggy Snyder",
+            "Hours: M-F 9am-6:00pm; Sat 10am-6pm; Sun 11am-5pm"
+          ],
+          "link": {
+            "href": "http://www.mark-taylor.com/arizona/bellagio/",
+            "text": "http://www.mark-taylor.com/arizona/bellagio/"
+          }
+        },
+        "breadcrumbsBar": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1541269115819.18-038-10_1-bedroom_kitchen.jpg"
+        },
+        "concierge": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "Access to onsite wellness services",
+            "Airline Private Air Reservations",
+            "Ground Transportation",
+            "Restaurant Reservations"
+          ],
+          "paragraphs": [
+            "Residents have direct access to the Soori Concierge service. The trained staff is well equipped to provide a host of additional customized offerings. Below is a representative offering.",
+            "H\u200bigh\u200b \u200bLine houses an exclusive collection of 31 one to five bedroom apartments, marrying crafted luxury with the pleasures inspired by a\u200b destination\u200b resort. A true urban oasis in one of the most dynamic neighborhoods in NYC, High Line will offer residents:"
+          ],
+          "rightList": [
+            "Floral Arrangements",
+            "Spa and Salon Appointments",
+            "Newspaper / Magazine delivery"
+          ]
+        },
+        "disclaimerText": "*In select apartment homes",
+        "firstRibbon": {
+          "text": "",
+          "title": "Apartment features in Scottsdale, AZ"
+        },
+        "map": {
+          "image": "/static/images/amenities-plan.jpg",
+          "list": [
+            {
+              "class": "one",
+              "text": "Fitness center"
+            },
+            {
+              "class": "two",
+              "text": "Common area"
+            },
+            {
+              "class": "three",
+              "text": "Heated swimming pool"
+            },
+            {
+              "class": "four",
+              "text": "Heated jacuzzi"
+            },
+            {
+              "class": "five",
+              "text": "Dog park / Common area"
+            },
+            {
+              "class": "six",
+              "text": "Luxury apartments w/ 9ft. ceilings, fireplace & private balcony"
+            },
+            {
+              "class": "seven",
+              "text": "Ample parking"
+            },
+            {
+              "class": "eight",
+              "text": "Elegant entry into a private community"
+            }
+          ],
+          "title": "Welcome to Bellagio"
+        },
+        "pageTitle": "Amenities",
+        "seo": {
+          "description": "View unit and community amenities for San Portales in Scottsdale, AZ",
+          "title": "San Portales Apartment and Community Amenities"
+        },
+        "showCategories": false,
+        "subCategories": [
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Keycard access, code, etc",
+                "Security detail?",
+                "etc"
+              ],
+              "title": "Our Gated Entry Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Gated Access",
+            "path": "gated-access",
+            "seo": {
+              "description": "[Name of property] is proud to offer our future residents the security and peace of mind that comes with our gated access apartments. Our [City/Neighborhood], [State] gated apartment complex is designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Gated Access Apartment Complex In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Here at [Name of property], we want our [City] residents to feel a grand sense of security, peace, and exclusivity that comes from having a protected and safe space to call home. Our apartment complex prides itself on maximizing the comfort and convenience of each and every community member. We understand how important it is to live in a place that provides complete and total peace of mind. Our gated entry is just one of the many luxury amenities we offer at [Name of property].",
+            "title": "Gated Access"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Hook up requirements?",
+                "Done for you?",
+                "Energy efficient?",
+                "etc"
+              ],
+              "text": "The washer and dryer units are conveniently located [location and brief description within the apartment].",
+              "title": "In Unit Laundry Details"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Washer & Dryer",
+            "path": "washer-dryer",
+            "seo": {
+              "description": "[Name of property] is proud to offer both washer and dryer units in the comfort of your own  [City/Neighborhood], [State] apartment. Your comfort means everything to us, come take a tour today.",
+              "title": "In Unit Washer & Dryer Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers energy efficient washer and dryer units in our [City/Neighborhood], [State] apartments. Our apartment complex values the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access dryer and washer for your laundry. These units also guarantee the safety of your belongings, unlike in a public laundromat. Just one of the many amenities we offer at the [Name of property] community.",
+            "title": "In Unit Washer and Dryer"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Cabana?",
+                "Lounge chairs?",
+                "etc"
+              ],
+              "text": "Every aspect of our apartment community swimming pool was designed for total relaxation. Our pool has the following luxury features:",
+              "title": "Pool Features For You To Enjoy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Swimming Pool",
+            "path": "pool",
+            "seo": {
+              "description": "[Name of property] has included a private and resort style swimming pool for your convenience. Our  [City/Neighborhood], [State] apartments are designed with luxury in mind. Come take a tour today.",
+              "title": "Apartments With Swimming Pool In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers our residents the chance to soak up some sun and enjoy a refreshing dip in our resort style swimming pool. The pool is open for the entire community to use and provides the perfect place to unwind after a long day. We understand how important it is to have the convenience and easy to access a pool with the [city] heat. Our swimming pool is just one of the many community amenities we offer at [Name of property].",
+            "title": "Private Resort-Style Swimming Pool"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "What Pets Are allowed?",
+                "Are there any breed restrictions?",
+                "How many pets am I allowed to have?",
+                "Is there a fee / deposit?"
+              ],
+              "title": "Pet Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Pet Friendly",
+            "path": "pet-friendly",
+            "seo": {
+              "description": " [Name of property] is proud to offer pet friendly apartments In [City/Neighborhood], [State]. We want your",
+              "title": "Pet Friendly Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] is happy to have your pet with us. As a pet friendly apartment complex in [City/Neighborhood], [State] we understand how important your little fur baby is to you. Couple that with a pet enthusiastic staff, and your pet is sure to love living here just as much as you do.",
+            "title": "Yes, We Are Pet Friendly"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Monthly Fee",
+                "First come first serve, etc"
+              ],
+              "title": "Parking Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Parking Policy",
+            "path": "parking-garage",
+            "seo": {
+              "description": " [Name of property] is proud to offer our tenants the ability to park in our covered parking garage right on the premises. Our  [City/Neighborhood], [State] apartments are designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Covered Parking Garage Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Nobody enjoys driving around aimlessly looking for parking after work and then having to walk back to their apartment. That\u2019s why [Name of property] offers residents the option of parking their vehicles inside of our on site parking garage. Our [City/Neighborhood], [State] apartment complex prides itself on maximizing the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access and covered parking area. On site parking is just one of the many amenities we offer at the [Name of property].",
+            "title": "On Site Covered Parking"
+          }
+        ],
+        "updated_at": "2020-01-24"
+      }
+    },
+    {
+      "section": "CONTACT",
+      "values": {
+        "address": {
+          "city": "7215 E Silverstone Dr",
+          "email": "sanportales@mark-taylor.com",
+          "name": "San Portales",
+          "phone": "(480) 281-5159",
+          "town": "Scottsdale, Arizona 85255"
+        },
+        "applicationFormTitle": "Reserve your new home at Bellagio Scottsdale",
+        "firstRibbon": {
+          "text": "",
+          "title": "Have a question? Reach out to our helpful staff 24/7"
+        },
+        "googleBusinessMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.5850396338947!2d-111.92551268545513!3d33.69380744398221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b7719918f5903%3A0x1dede4d923a0902b!2sSan%20Portales!5e0!3m2!1sen!2sin!4v1579613141031!5m2!1sen!2sin\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=",
+        "googleDirectionUrl": "https://www.google.com/maps/dir//San+Portales,+7215+E+Silverstone+Dr,+Scottsdale,+AZ+85255,+United+States/@33.6938074,-111.9255127,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872b7719918f5903:0x1dede4d923a0902b!2m2!1d-111.923324!2d33.693803",
+        "hours": {
+          "mondayToFriday": "M-F: 9am - 6pm",
+          "saturday": "Sat: 9am - 5pm",
+          "sunday": "Sun: 10am - 4pm"
+        },
+        "pageTitle": "Contact Us",
+        "seo": {
+          "description": "Visit us at San Portales in Scottsdale, AZ. View map and get directions.",
+          "title": "Contact our Pet-Friendly Community in Scottsdale, AZ"
+        },
+        "updated_at": "2020-01-24"
+      }
+    },
+    {
+      "section": "FOOTER",
+      "values": {
+        "links": {
+          "facebook": "https://www.facebook.com/MarkTaylorResidential/",
+          "instagram": "https://www.instagram.com/MarkTaylorResidential/",
+          "propertyUrl": "www.sanportalesapartmentsphoenix.com",
+          "residentPortal": "https://sanportales.henrihome.com",
+          "twitter": "https://twitter.com/MarkTaylorRez",
+          "youtube": "https://www.youtube.com/marktaylorresidentialapts"
+        },
+        "updated_at": "2020-09-01"
+      }
+    },
+    {
+      "section": "FLOOR_PLANS",
+      "values": {
+        "allPlans": [
+          {
+            "available": 3,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1E",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269191243.sanportales_1e.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1529,
+            "minDeposit": 0,
+            "minRent": 1389,
+            "propertyId": 217364,
+            "squareFootage": 1123,
+            "unitId": 449270
+          },
+          {
+            "available": 1,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2A",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269223417.sanportales_2a.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1878,
+            "minDeposit": 0,
+            "minRent": 1878,
+            "propertyId": 217364,
+            "squareFootage": 1469,
+            "unitId": 449271
+          },
+          {
+            "available": 1,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2B",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269218296.sanportales_2b.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1880,
+            "minDeposit": 0,
+            "minRent": 1880,
+            "propertyId": 217364,
+            "squareFootage": 1345,
+            "unitId": 449272
+          },
+          {
+            "available": 3,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2D",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269226331.sanportales_2d.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2070,
+            "minDeposit": 0,
+            "minRent": 1851,
+            "propertyId": 217364,
+            "squareFootage": 1538,
+            "unitId": 449273
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2As",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269498663.sanportales_2a-g3.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2729,
+            "minDeposit": 0,
+            "minRent": 2554,
+            "propertyId": 217364,
+            "squareFootage": 1623,
+            "unitId": 449274
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1Es",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269596993.sanportales_1e-g.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2060,
+            "minDeposit": 0,
+            "minRent": 1910,
+            "propertyId": 217364,
+            "squareFootage": 1223,
+            "unitId": 449275
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "3Cd",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269455631.sanportales_3c-g.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 3215,
+            "minDeposit": 0,
+            "minRent": 2908,
+            "propertyId": 217364,
+            "squareFootage": 1876,
+            "unitId": 449276
+          },
+          {
+            "available": 1,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2At",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269525675.sanportales_2a-g2.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2506,
+            "minDeposit": 0,
+            "minRent": 2506,
+            "propertyId": 217364,
+            "squareFootage": 1575,
+            "unitId": 449277
+          },
+          {
+            "available": 2,
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "3C",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269426572.sanportales_3c.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2349,
+            "minDeposit": 0,
+            "minRent": 2299,
+            "propertyId": 217364,
+            "squareFootage": 1812,
+            "unitId": 449278
+          },
+          {
+            "available": 2,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1F",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269187363.sanportales_1f.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1549,
+            "minDeposit": 0,
+            "minRent": 1298,
+            "propertyId": 217364,
+            "squareFootage": 936,
+            "unitId": 449279
+          },
+          {
+            "available": 1,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2C",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269256084.sanportales_2c.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 2025,
+            "minDeposit": 0,
+            "minRent": 2025,
+            "propertyId": 217364,
+            "squareFootage": 1575,
+            "unitId": 449280
+          },
+          {
+            "available": 1,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1G",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1541269200600.sanportales_1g.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1419,
+            "minDeposit": 0,
+            "minRent": 1419,
+            "propertyId": 217364,
+            "squareFootage": 1147,
+            "unitId": 449281
+          },
+          {
+            "available": 3,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2A.2",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1554756477791.sanportales_2a2.jpg"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 1954,
+            "minDeposit": 0,
+            "minRent": 1812,
+            "propertyId": 217364,
+            "squareFootage": 1456,
+            "unitId": 488571
+          }
+        ],
+        "breadcrumbsBar": {
+          "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1584481300515.18-038-01_porte_cochere_-_trimmed.jpg"
+        },
+        "feedSourceType": "ON_SITE",
+        "firstRibbon": {
+          "text": "",
+          "title": "San Portales Floor Plans in Scottsdale, AZ"
+        },
+        "pageTitle": "Floor Plans",
+        "propertyIds": [
+          "217364"
+        ],
+        "seo": {
+          "description": "San Portales showcases a collection of unique apartments. Our pet-friendly floor plans offer something special. Call us today to schedule your tour!",
+          "title": "Floor Plans of San Portales in Scottsdale, AZ"
+        },
+        "updated_at": "2020-04-29"
+      }
+    },
+    {
+      "section": "NEIGHBORHOOD",
+      "values": {
+        "breadcrumbsBar": {
+          "image": "/static/images/breadcrumbs-bg.png"
+        },
+        "categories": [
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bank",
+            "id": 1,
+            "name": "bank"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bar",
+            "id": 2,
+            "name": "bar"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-cafe",
+            "id": 3,
+            "name": "cafe"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-entertainment",
+            "id": 4,
+            "name": "entertainment"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-grocery-store",
+            "id": 5,
+            "name": "grocery store"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gas-station",
+            "id": 6,
+            "name": "gas stations"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gym",
+            "id": 7,
+            "name": "gym"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hospital",
+            "id": 8,
+            "name": "hospitals"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hotel",
+            "id": 9,
+            "name": "hotels"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-museum",
+            "id": 10,
+            "name": "museums"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-outdoor-activity",
+            "id": 11,
+            "name": "outdoor activities"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-parking",
+            "id": 12,
+            "name": "parking"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-park",
+            "id": 13,
+            "name": "parks"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-post-office",
+            "id": 14,
+            "name": "post office"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-restaurant",
+            "id": 15,
+            "name": "restaurant"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-school",
+            "id": 16,
+            "name": "schools"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-shopping",
+            "id": 17,
+            "name": "shopping"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-theater",
+            "id": 18,
+            "name": "theaters"
+          }
+        ],
+        "displayNeighborhoodPage": true,
+        "firstRibbon": {
+          "text": "Located in the heart of Scottsdale, our community is home to all of your favorite shops and unique local restaurants such as Pinnacle Peak Shopping Center, Spiga Cucina Italiana and Jalape\u00f1o Inferno. The Appaloosa Library and other conveniences are located right across the road, helping you feel settled in your new home.",
+          "title": "San Portales Neighborhood in Scottsdale, AZ"
+        },
+        "locations": [
+          {
+            "address": "5777 E Mayo Blvd, Phoenix, AZ 85054, USA",
+            "addressGeoPosition": {
+              "lat": 33.6590516,
+              "lng": -111.9564498
+            },
+            "category": [
+              9
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554497027422.blob",
+            "isPropertyLocation": false,
+            "name": "Mayo Clinic Hospital",
+            "phone": "(480) 342-2000",
+            "website": "https://www.mayoclinic.org/"
+          },
+          {
+            "address": "8243 E Bell Rd, Scottsdale, AZ 85260, USA",
+            "addressGeoPosition": {
+              "lat": 33.6399929,
+              "lng": -111.9053348
+            },
+            "category": [
+              12
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554497358622.blob",
+            "isPropertyLocation": false,
+            "name": "TPC Scottsdale Champions Course",
+            "phone": "(480) 585-4334",
+            "website": "http://www.tpc.com/scottsdale-the-champions-course"
+          },
+          {
+            "address": "Kierland Commons, Phoenix, AZ 85254, USA",
+            "addressGeoPosition": {
+              "lat": 33.6247283,
+              "lng": -111.9302479
+            },
+            "category": [
+              18
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554497480945.blob",
+            "isPropertyLocation": false,
+            "name": "Kierland Commons",
+            "phone": "(480) 348-1577",
+            "website": "https://www.kierlandcommons.com"
+          },
+          {
+            "address": "7111 E Mayo Blvd, Phoenix, AZ 85054, USA",
+            "addressGeoPosition": {
+              "lat": 33.6537196,
+              "lng": -111.9270975
+            },
+            "category": [
+              6
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554497579380.blob",
+            "isPropertyLocation": false,
+            "name": "Whole Foods",
+            "phone": "(480) 515-3777",
+            "website": "https://www.wholefoodsmarket.com/stores/scottsdale"
+          },
+          {
+            "address": "5455 E High St, Phoenix, AZ 85054, USA",
+            "addressGeoPosition": {
+              "lat": 33.6751214,
+              "lng": -111.9635536
+            },
+            "category": [
+              3
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1554504112146.blob",
+            "isPropertyLocation": false,
+            "name": "Blue Martini Lounge",
+            "phone": "(480) 638-2583",
+            "website": "https://phoenix.bluemartinilounge.com/"
+          },
+          {
+            "address": "15205 N Kierland Blvd Suite 150, Scottsdale, AZ 85254",
+            "addressGeoPosition": {
+              "lat": 33.6245326,
+              "lng": -111.9288675
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1582626298190.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Kierland Commons",
+            "phone": "(480) 348-1577",
+            "website": "https://www.kierlandcommons.com/?utm_source=google&utm_medium=onlinesearch&utm_content=gmp_website_button&utm_campaign=yext"
+          },
+          {
+            "address": "7575 E Earll Dr, Scottsdale, AZ 85251",
+            "addressGeoPosition": {
+              "lat": 33.4832256,
+              "lng": -111.9188068
+            },
+            "category": [
+              8
+            ],
+            "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1582626648257.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Banner Behavioral Health Hospital",
+            "phone": "(480) 448-7500",
+            "website": "https://www.bannerhealth.com/locations/scottsdale/banner-behavioral-health-hospital"
+          },
+          {
+            "address": "7525 E Grayhawk Dr, Scottsdale, AZ 85255",
+            "addressGeoPosition": {
+              "lat": 33.6750058,
+              "lng": -111.9176889
+            },
+            "category": [
+              16
+            ],
+            "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1582626744867.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Grayhawk Elementary School",
+            "phone": "(602) 449-6600",
+            "website": "http://www.pvschools.net/grayhawk"
+          },
+          {
+            "address": "6501 E Greenway Pkwy Bldg 4, Scottsdale, AZ 85254",
+            "addressGeoPosition": {
+              "lat": 33.6246021,
+              "lng": -111.9414679
+            },
+            "category": [
+              5
+            ],
+            "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1582626844831.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Safeway",
+            "phone": "(480) 991-3317",
+            "website": "https://local.safeway.com/safeway/az/scottsdale/6501-e-greenway-pkwy-bldg-4.html?utm_source=G&utm_medium=Maps&utm_campaign=G+Places"
+          },
+          {
+            "address": "8852 E Pinnacle Peak Rd, Scottsdale, AZ 85255",
+            "addressGeoPosition": {
+              "lat": 33.7008754,
+              "lng": -111.8896983
+            },
+            "category": [
+              15
+            ],
+            "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1582626972691.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Mastro's Steakhouse",
+            "phone": "(480) 585-9500",
+            "website": "https://www.mastrosrestaurants.com/Locations/AZ/North-Scottsdale/"
+          },
+          {
+            "address": "9800 Talking Stick Way, Scottsdale, AZ 85256",
+            "addressGeoPosition": {
+              "lat": 33.5403716,
+              "lng": -111.8708704
+            },
+            "category": [
+              9
+            ],
+            "image": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1582627214333.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Talking Stick Resort",
+            "phone": "(480) 850-7777",
+            "website": "http://www.talkingstickresort.com/"
+          }
+        ],
+        "pageTitle": "Neighborhood",
+        "propertyIcon": "https://liftlytics.imgix.net/sanportalesscottsdale.com/1565818884695.home-pin-2.png",
+        "seo": {
+          "description": "Map and Directions to San Portales in Scottsdale, AZ",
+          "title": "Luxury Apartments Near Scottsdale, AZ"
+        },
+        "updated_at": "2020-02-25"
+      }
+    },
+    {
+      "section": "DESIGN",
+      "values": {
+        "customColors": {
+          "V1": [
+            {
+              "name": "$primary",
+              "value": "#c95b02"
+            },
+            {
+              "name": "$secondary",
+              "value": "#ac9671"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#796648"
+            },
+            {
+              "name": "$home-community-section-bg",
+              "value": "#EEEEEE"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#453b2c"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#453b2c"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V2": [
+            {
+              "name": "$primary",
+              "value": "#A19067"
+            },
+            {
+              "name": "$secondary",
+              "value": "#D5C8A9"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#7D7D7D"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#383131"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V3": [
+            {
+              "name": "$primary",
+              "value": "white"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#242426"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "white"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V4": [
+            {
+              "name": "$primary",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#3B3B3B"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V5": [
+            {
+              "name": "$primary",
+              "value": "#1052B4"
+            },
+            {
+              "name": "$secondary",
+              "value": "#f9f3ed"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#9DA2A6"
+            },
+            {
+              "name": "$border-color",
+              "value": "#DCDDDE"
+            },
+            {
+              "name": "$bg-dark-color",
+              "value": "#30353E"
+            },
+            {
+              "name": "$bg-light-color",
+              "value": "#F5F2E6"
+            },
+            {
+              "name": "$body-color",
+              "value": "#181B1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            }
+          ]
+        },
+        "customCssCodes": {
+          "V1": "",
+          "V2": "",
+          "V3": "",
+          "V4": "",
+          "V5": ""
+        },
+        "labels": [
+          {
+            "label": "Primary color",
+            "name": "$primary"
+          },
+          {
+            "label": "Secondary color",
+            "name": "$secondary"
+          },
+          {
+            "label": "Text base color color",
+            "name": "$text-color-base"
+          },
+          {
+            "label": "Border color",
+            "name": "$border-color"
+          },
+          {
+            "label": "Background dark color",
+            "name": "$bg-dark-color"
+          },
+          {
+            "label": "Background light color",
+            "name": "$bg-light-color"
+          },
+          {
+            "label": "Body color",
+            "name": "$body-color"
+          },
+          {
+            "label": "Footer logo banner color",
+            "name": "$footer-logo-banner-color"
+          },
+          {
+            "label": "Community section background color",
+            "name": "$home-community-section-bg"
+          },
+          {
+            "label": "Neighborhood marker active color",
+            "name": "$neighborhood-marker-active-color"
+          },
+          {
+            "label": "Header color",
+            "name": "$header-color"
+          },
+          {
+            "label": "Footer color",
+            "name": "$footer-color"
+          },
+          {
+            "label": "Deep gray color",
+            "name": "$deep-gray"
+          },
+          {
+            "label": "Charcoal color",
+            "name": "$charcoal"
+          },
+          {
+            "label": "Apply form input placeholder color",
+            "name": "$apply-form-input-placeholder-color"
+          }
+        ],
+        "siteTemplate": "V2",
+        "updated_at": "2020-05-22"
+      }
+    },
+    {
+      "section": "VIRTUAL_TOUR",
+      "values": {
+        "firstRibbon": {
+          "text": "",
+          "title": ""
+        },
+        "is_visible": true,
+        "pageTitle": "Virtual Tour",
+        "panoId": "5e9b89096b19625a6a0a8531",
+        "seo": {
+          "description": "Take a look through the virtual tour of our luxury community at San Portales in Scottsdale, AZ, to get a better idea of what life is like here.",
+          "title": "Virtual Tour | San Portales"
+        },
+        "tours": [
+          {
+            "link": "https://www.youtube.com/watch?v=xd1ZqhDZf1o",
+            "title": "2A Model"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=PRY0e0kpy2c",
+            "title": "1E Model"
+          }
+        ],
+        "updated_at": "2020-05-06"
+      }
+    }
+  ]
+}

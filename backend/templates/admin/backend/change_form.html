@@ -1,0 +1,261 @@
+{% extends "admin/change_form.html" %}
+{% load tz %}
+{% block extrahead %}
+<script src="/static/backend/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/backend/bootstrap/css/bootstrap.min.css"/>
+<script src="/static/backend/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/backend/js/bootstrap-multiselect.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/backend/css/bootstrap-multiselect.css"/>
+{{ block.super }}
+{% endblock %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+	.form-row.multi-units, .multi-floor-plan, .multi-properties, .multi-clients, .multi-labels, .multi-mentions, .multi-nylas_selected_labels, .multi-questions,
+    .multi-user, .multi-agent, .multi-call-scorer, .multi-omitted-questions {
+		overflow: visible;
+	}
+
+	.multiselect {
+		background-color: #dddddd !important;
+		border-color: #ddd !important;
+	}
+
+	ul.multiselect-container.dropdown-menu {
+		margin-left: 0;
+		max-height: 200px;
+		overflow-y: auto;
+		top: calc(100% + 5px);
+		min-width: 200px;
+	}
+
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+		background-color: #ddd !important;
+	}
+
+	ul.multiselect-container.dropdown-menu li input[type="checkbox"] {
+		margin-top: 6px !important;
+	}
+
+	a.deletelink {
+		height: auto !important;
+	}
+
+	h1 {
+		margin: 0 0 20px !important;
+		font-weight: 300 !important;
+		font-size: 20px !important;
+		color: #666 !important;
+	}
+
+	h1#site-name {
+		margin-bottom: 0 !important;
+		font-weight: 300 !important;
+		font-size: 24px !important;
+	}
+
+	body{
+		font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif !important;
+	}
+
+	span.multiple_selected_values {
+		background: #fff;
+		margin-right: 6px;
+		padding: 2px 4px;
+		border-radius: 2px;
+		display: inline-block;
+		line-height: 1;
+		word-break: break-all;
+	}
+
+	.multiselect {
+		max-width: 290px;
+		white-space: normal !important;
+		text-align: left !important;
+		max-height: 100px;
+		overflow-y: auto;
+		position: static !important;
+		width: 290px;
+		padding-right: 35px !important;
+	}
+
+	span.multiselect-selected-text {
+		display: inline-block;
+	}
+
+	b.caret {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right:19px;
+	}
+	select ~ .btn-group ul.multiselect-container {
+		max-height: 400px;
+	}
+	select ~ .btn-group {
+		max-width: calc(100% - 200px);
+	}
+	select ~ .btn-group .multiselect{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.multiselect-item .glyphicon-remove-circle {
+		top: 3px;
+	}
+
+	@media(max-width: 1024px) {
+	    .multiselect-item .multiselect-search {
+			max-height: 33px;
+		}
+		.multiselect-item .multiselect-clear-filter {
+			padding-bottom: 8px;
+		}
+	}
+
+    .xdsoft_timepicker {
+        width: 75px !important;
+    }
+
+    .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_prev,
+    .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_next {
+        margin-left: 22px !important;
+    }
+
+</style>
+{% endblock %}
+{% block content %}
+<input type="hidden" name="{{ opts.model_name }}" value="{{ opts.model_name }}" id="model_page">
+<input type="hidden" name="data" value="" id="button_data">
+{% if local %}
+    {% localtime on %}
+    {{ block.super }}
+    {% endlocaltime %}
+{% else %}
+    {% timezone "America/Phoenix" %}
+    {{ block.super }}
+    {% endtimezone %}
+{% endif %}
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		function load_data(class_name, selected_data){
+			if (selected_data){
+				$('body .'+class_name +' .multiselect-selected-text').html(selected_data);
+			}
+			else{
+				$('body .'+class_name +' .multiselect-selected-text').text("None Selected");
+			}
+		};
+
+		function load_select_icon(id_, class_name, is_second){
+			$('#'+id_).multiselect({
+				includeSelectAllOption: true,
+				enableFiltering: true,
+				enableCaseInsensitiveFiltering: true,
+				allSelectedText: "Selected all",
+				buttonText: function(options) {
+					var selected = '';
+					options.each(function() {
+						data = "<span class='multiple_selected_values'>"+$(this).text()+"</span>"
+						selected += data;
+						});
+					if (selected){
+						$('#button_data').val(selected)
+						return load_data(class_name, selected)
+					}
+					else{
+						if (is_second){
+							$('#button_data').val("")
+						}
+						return "None selected"
+					}
+				}
+			});
+		}
+
+		function change_clients(is_second){
+			$('.field-clients').addClass("multi-clients");
+			load_select_icon("id_clients", "multi-clients",is_second)
+			load_data("multi-clients", $('#button_data').val())
+		};
+
+		function change_property(is_second){
+			$('.field-properties').addClass("multi-properties");
+			load_select_icon("id_properties", "multi-properties", is_second)
+			load_data("multi-properties", $('#button_data').val())
+		};
+
+		function change_units(is_second){
+			$('.field-units').addClass("multi-units");
+			load_select_icon("id_units", "multi-units", is_second)
+			load_data("multi-units", $('#button_data').val());
+		};
+
+		var page_name = $("#model_page").val();
+		if (page_name == "lead"){
+			change_units(false);
+			$('.field-floor_plan').addClass("multi-floor-plan");
+			load_select_icon("id_floor_plan", "multi-floor-plan", true)
+			load_data("multi-floor-plan", $('#button_data').val());
+		}
+		else if (page_name == "user"){
+			change_clients(false);
+			change_property(true);
+		}
+		else if (page_name == "customer"){
+			change_clients(false);
+			change_property(true);
+		}
+		else if (page_name == "emailmessage"){
+			$('.field-labels').addClass("multi-labels");
+			load_select_icon("id_labels", "multi-labels", false)
+			load_data("multi-labels", $('#button_data').val());
+		}
+		else if (page_name == "note"){
+			$('.field-mentions').addClass("multi-mentions");
+			load_select_icon("id_mentions", "multi-mentions", false)
+			load_data("multi-mentions", $('#button_data').val());
+		}
+		else if (page_name == "portfolio"){
+			change_property(false);
+		}
+		else if (page_name == "property"){
+			$('.field-nylas_selected_labels').addClass("multi-nylas_selected_labels");
+			load_select_icon("id_nylas_selected_labels", "multi-nylas_selected_labels", false)
+			load_data("multi-nylas_selected_labels", $('#button_data').val());
+		}
+		else if (page_name == "task"){
+			change_units(false);
+		}
+		else if (page_name == "scoredcall"){
+			$('.field-questions').addClass("multi-questions");
+			load_select_icon("id_questions", "multi-questions", false)
+			load_data("multi-questions", $('#button_data').val());
+
+			$('.field-omitted_questions').addClass("multi-omitted-questions");
+			load_select_icon("id_omitted_questions", "multi-omitted-questions", false)
+			load_data("multi-omitted-questions", $('#button_data').val());
+
+            $('.field-agent').addClass("multi-agent");
+			load_select_icon("id_agent", "multi-agent", false)
+			load_data("multi-agent", $('#button_data').val());
+			$('.field-agent .related-widget-wrapper').removeClass('related-widget-wrapper');
+
+			$('.field-call_scorer').addClass("multi-call-scorer");
+			load_select_icon("id_call_scorer", "multi-call-scorer", false)
+			load_data("multi-call-scorer", $('#button_data').val());
+			$('.related-widget-wrapper').removeClass('related-widget-wrapper');
+
+		}
+		else if (page_name == "realpageemployee" || page_name == "resmanemployee"){
+			$('.field-user').addClass("multi-user");
+			load_select_icon("id_user", "multi-user", false)
+			load_data("multi-user", $('#button_data').val());
+			$('.field-user .related-widget-wrapper').removeClass('related-widget-wrapper');
+		}
+	});
+
+</script>
+{% endblock %}

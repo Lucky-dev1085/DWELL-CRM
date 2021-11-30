@@ -1,0 +1,50 @@
+.property-search {
+  height: 45px;
+}
+
+.aside-menu {
+  border: 1px solid #E5E5E5;
+
+  .dropdown-item {
+    padding: 0;
+  }
+}
+
+.message {
+  .site {
+    padding-left: 10px;
+    max-width: 155px;
+  }
+
+  .avatar {
+    width: 55px;
+    height: 36px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 5px 2px;
+
+    .img-avatar {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.property-item {
+  padding: 10px;
+  display: flex;
+}
+
+.property-item .scored {
+  opacity: 0.5;
+}
+
+.property-item .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #0096FF;
+  background-color: #0096FF;
+}
+
+.property-item .custom-checkbox .custom-control-input:disabled ~ .custom-control-label::before {
+  background-color: white;
+}

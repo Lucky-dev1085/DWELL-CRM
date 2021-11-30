@@ -1,0 +1,35 @@
+#!/bin/bash
+cd /home/ubuntu/crm
+chown ubuntu:ubuntu /home/ubuntu/crm
+chown ubuntu:ubuntu /home/ubuntu/crm/backend/hobbes/static/template
+chown ubuntu:ubuntu /home/ubuntu/crm/backend/hobbes/static/template/*.*
+if [ "$DEPLOYMENT_GROUP_NAME" == "CRM-Dev-deployment-group" ] || [ "$DEPLOYMENT_GROUP_NAME" == "CRM-UP-QA-deployment-group" ]
+then
+  docker volume rm crm_postgres_data
+  docker volume rm crm_redis_data
+  docker-compose build
+  docker-compose run frontend npm install
+  docker-compose run frontend npm run build
+else
+  declare -a arr=("CRM_HOST" "MAIN_PAGE_HOST")
+
+  for i in "${arr[@]}"
+  do
+     ARG=$i
+     echo $ARG
+     NAME="$(echo ${CRM_ENV}_${ARG})"
+     VALUE=`echo $(aws2 ssm get-parameter --name $NAME --with-decryption  --query Parameter.Value) | sed -e 's/^"//' -e 's/"$//'`
+     printf -v $ARG $VALUE
+  done
+
+  python3.9 -m venv /home/ubuntu/crm/venv
+  chown ubuntu:ubuntu /home/ubuntu/crm/venv
+  chown ubuntu:ubuntu /home/ubuntu/crm/venv/*
+  source /home/ubuntu/crm/venv/bin/activate
+  pip install -r /home/ubuntu/crm/requirements.txt
+  cd /home/ubuntu/crm/frontend
+  npm run preinstall
+  npm install
+  npm run build
+  MAIN_PAGE_HOST=$MAIN_PAGE_HOST CRM_HOST=$CRM_HOST npm run main-page-production
+fi

@@ -1,0 +1,377 @@
+.modal-content {
+  border-width: 0;
+  box-shadow: none;
+  border-radius: 8px;
+
+  .modal-header {
+    border-bottom-width: 0;
+    padding: 25px 30px;
+    position: relative;
+
+    .modal-title {
+      margin-bottom: 0;
+      font-weight: 500;
+      font-size: 20px;
+      color: #344563;
+    }
+
+    .close {
+      // padding: 10px 5px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1;
+      color: #657697;
+      outline: none;
+    }
+  }
+
+  .modal-body {
+    padding: 0 30px 30px;
+
+    .row:not(:first-child) {
+      margin-top: 1rem;
+    }
+
+    .select__option--is-focused {
+      background-color: #0168fa;
+      color: white;
+    }
+
+    .select__option:active {
+      background-color: #0168fa;
+    }
+
+    .select__control {
+      border-color: #d5dcf4;
+
+      .select__indicator-separator {
+        background-color: #d5dcf4;
+      }
+    }
+
+    .select__value-container {
+      padding: 0 8px;
+
+      .select__placeholder {
+        color: #929eb9;
+      }
+    }
+
+    .form-group {
+      margin-bottom: 0;
+    }
+
+    .selected-flag {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .SingleDatePickerInput {
+      border: none;
+
+      .DateInput_input {
+        border: 1px solid #d5dcf4;
+        height: 42px !important;
+        border-radius: 0.25rem;
+        color: #0b2151 !important;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+
+        &:focus {
+          border-color: #3085fe;
+          box-shadow: none;
+        }
+
+        &::placeholder, &::-webkit-input-placeholder, #placeholder {
+          color: #929eb9;
+        }
+      }
+    }
+
+    label {
+      //font-size: 13px;
+      color: #4a5e8a;
+      //margin-bottom: 5px;
+      font-weight: 400;
+    }
+
+    .dropdown-toggle {
+      color: #929eb9;
+
+      &:hover, &:focus {
+        background-color: white !important;
+      }
+    }
+
+    .dropdown-menu {
+      padding: 4px;
+    }
+
+    .dropdown-item {
+      background-color: #fff;
+      padding: 6px 10px;
+      border: none;
+
+      &:hover, &:focus {
+        color: #fff !important;
+        background-color: #0168fa !important;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &.selected {
+        background-color: #0168fa;
+      }
+    }
+
+    .phone-number-input {
+      border-color: #d5dcf4 !important;
+    }
+
+    input {
+      &:focus {
+        border-color: #3085fe;
+        box-shadow: none;
+      }
+
+      &::placeholder, &::-webkit-input-placeholder, #placeholder {
+        color: #929eb9;
+      }
+    }
+
+    input[type="text"]:not(.h-41):not(.subject__input):not(.edit-text), input[type="tel"], select, .dropdown-toggle:not(.h-38) {
+      height: 42px !important;
+      border-color: #d5dcf4;
+      border-width: 1px;
+    }
+
+    .css-b8ldur-Input input[type="text"]:not(.h-41):not(.subject__input):not(.edit-text),
+    .css-1g6gooi input[type="text"]:not(.h-41):not(.subject__input):not(.edit-text) {
+      height: 23px !important;
+    }
+
+    .textarea {
+      border-color: #d5dcf4 !important;
+      border-width: 1px;
+
+      &:focus {
+        border-color: #3085fe;
+        box-shadow: none;
+      }
+
+      &::placeholder, &::-webkit-input-placeholder, #placeholder {
+        color: #929eb9 !important;
+      }
+    }
+
+    .h-41, .subject__input {
+      height: 41px !important;
+    }
+
+    .h-38 {
+      height: 38px !important;
+    }
+
+    .survey-table .react-bootstrap-table-editing-cell input {
+      height: 35px !important;
+    }
+
+    select {
+      &:focus {
+        color: #233457;
+      }
+
+      option {
+        font-size: 13px;
+        color: #233457;
+      }
+    }
+  }
+
+  .modal-footer {
+    padding: 15px 30px 30px;
+    border-top-width: 0;
+
+    .btn {
+      height: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 0;
+    }
+
+    .btn + .btn {
+      margin-left: 10px;
+    }
+
+    .btn-primary {
+      background-color: #0168fa;
+    }
+
+    .btn-white {
+      background-color: #fff;
+      border-color: #d5dcf4;
+      color: #4a5e8a;
+    }
+  }
+}
+
+.modal-dialog {
+  max-width: 600px;
+}
+
+.confirmation-modal.modal-dialog {
+  max-width: 500px;
+}
+
+.lead-share-modal.modal-dialog {
+  max-width: 640px;
+
+  .modal-body {
+    padding: 0 30px 15px;
+  }
+}
+
+.bulk-send-modal.modal-dialog {
+  max-width: 500px;
+}
+
+.reports.modal-dialog {
+  max-width: 70vw;
+
+  .modal-header {
+    padding: 15px 20px;
+    align-items: center;
+    background-color: #fff;
+    border-bottom-width: 0;
+
+    .modal-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #0b2151;
+      letter-spacing: -.2px;
+    }
+  }
+
+  .modal-body {
+    padding: 0 5px;
+  }
+}
+
+.leads-filter-modal.modal-dialog {
+  max-width: 740px;
+
+  .modal-footer .btn {
+    height: 38px;
+  }
+
+  .modal-content .modal-body {
+    .row:not(:first-child) {
+      margin-top: 10px;
+    }
+
+    select, input {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.columns-settings-modal.modal-dialog {
+  max-width: 400px;
+}
+
+.composer-modal.modal-dialog {
+  max-width: 1000px;
+
+  .modal-header {
+    cursor: default;
+    background-color: #f7f8fc;
+    border-bottom-width: 0;
+    padding: 15px 15px;
+
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+    .modal-title {
+      align-items: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: #0b2151;
+    }
+
+    .close {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1;
+      color: #657697;
+    }
+  }
+
+  .modal-body {
+    .card {
+      border: none;
+      margin-bottom: 0;
+      padding: 0;
+
+      .card-body {
+        padding: 0;
+
+        .dropdown-toggle {
+          color: #233457;
+        }
+
+        .actions {
+          padding: 1rem;
+
+          button {
+            height: 38px !important;
+          }
+        }
+
+        .input-group input, .input-group-text, .cc-btn, .subject__input, .cross-btn {
+          border-bottom: none;
+          border-left: none;
+          border-right: none;
+          border-top: 1px solid rgba(36, 55, 130, 0.1);
+          margin-bottom: 0;
+          border-radius: 0;
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+
+        .input-group input {
+          color: #0b2151;
+        }
+
+        .input-group-text {
+          padding: 0.375rem 1rem;
+          color: #0b2151;
+        }
+
+        .input-group {
+          margin-bottom: 0;
+        }
+
+        .cc-btn {
+          color: #0168fa;
+        }
+
+        .cke_top {
+          background: #fff;
+          border-bottom: 0;
+        }
+
+        .cke {
+          border-bottom: 1px solid rgba(36, 55, 130, 0.1);
+          border-top: 1px solid rgba(36, 55, 130, 0.1);
+        }
+      }
+    }
+  }
+}

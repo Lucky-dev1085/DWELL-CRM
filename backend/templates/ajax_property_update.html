@@ -1,0 +1,40 @@
+<form method="POST" action="" id='form'>
+    {% csrf_token %}
+    <label><b>{{ form.name.label }}:</b></label>
+    <input type="text" name="name" id="id_name" style="border-top-style: hidden; border-right-style: hidden; border-left-style: hidden; border-bottom-style: hidden;" value="{{form.name.value}}"></input>
+    <br>
+    <br>
+    <label><b>{{ form.phone_number.label }}:</b></label>
+    {{ form.phone_number }}
+    <p>{{ form.phone_number.errors }}</p>
+    <br/>
+
+    <button type="button" value="{{ property.pk }}" class="btn btn-primary main_btn" id="property-update">Save changes
+    </button>
+</form>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.readonly').find('input, textarea, select').attr('readonly', 'readonly');
+    });
+    $("#property-update").click(function (e) {
+        event.preventDefault();
+        var data = $('#form').serialize();
+        var id = $('#property-update').attr("value")
+        url = "{% url 'update-property' 0 %}".replace(0, id);
+        $.ajax({
+            type: "POST",
+            url: url,
+            dataType: 'json',
+            headers: {"X-CSRFToken": $("[name=csrfmiddlewaretoken]").val()},
+            data: data,
+            success: function (response) {
+                get_tracking_number(id);
+                $('#update_modal').modal('hide');
+            },
+            error: function (response) {
+                alert(response.responseText)
+            }
+        });
+    })
+</script>

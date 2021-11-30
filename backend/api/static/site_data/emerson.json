@@ -1,0 +1,1787 @@
+{
+  "__v": 0,
+  "data": [
+    {
+      "section": "SEO",
+      "values": {
+        "aditionalScript": "",
+        "analyticsDashboard": "https://datastudio.google.com/embed/reporting/1E5eiAEVarLLw6kO5mah_qdqdXpbLBtMP/page/07Pf",
+        "customColors": [
+          {
+            "name": "$primary",
+            "value": "#e8871f"
+          },
+          {
+            "name": "$red",
+            "value": "#ff3e3e"
+          },
+          {
+            "name": "$cyan",
+            "value": "#96c0ce"
+          },
+          {
+            "name": "$cyan-2",
+            "value": "#8CC3D1"
+          },
+          {
+            "name": "$cyan-3",
+            "value": "#75a3b3"
+          },
+          {
+            "name": "$light-brown",
+            "value": "#fef6eb"
+          },
+          {
+            "name": "$gray",
+            "value": "#F6F6F6"
+          },
+          {
+            "name": "$dark-gray-3",
+            "value": "#525564"
+          },
+          {
+            "name": "$light-gray-2",
+            "value": "#fcfcfc"
+          },
+          {
+            "name": "$neighborhood-marker-active-color",
+            "value": "orange"
+          },
+          {
+            "name": "$neighborhood-marker-inactive-color",
+            "value": "gray"
+          }
+        ],
+        "facebookOpenGraphData": {
+          "appId": "",
+          "author": "",
+          "description": "",
+          "image": "",
+          "locale": "",
+          "siteName": "",
+          "title": "",
+          "type": "",
+          "url": ""
+        },
+        "generalData": {
+          "appleTouchIcon": "",
+          "description": "",
+          "favicon": "https://liftlytics.imgix.net/localhost%3A3000/1547102012148.emerson1.png",
+          "icon": "",
+          "mask": {
+            "color": "",
+            "icon": ""
+          },
+          "subject": "",
+          "themeColor": "",
+          "title": "Emerson Mill Avenue | Tempe, Arizona"
+        },
+        "googlePlusData": {
+          "author": "",
+          "description": "",
+          "image": "",
+          "name": "",
+          "publisher": ""
+        },
+        "google_ownership": "google-site-verification: google3741f05ef14ca720.html",
+        "gtmId": "GTM-NW2WW2Q",
+        "payPerClickDashboard": "https://datastudio.google.com/embed/reporting/1E5eiAEVarLLw6kO5mah_qdqdXpbLBtMP/page/EBQf",
+        "twitterCardData": {
+          "card": "",
+          "creator": "",
+          "description": "",
+          "image": "",
+          "site": "",
+          "title": "",
+          "url": ""
+        },
+        "updated_at": "2020-06-19"
+      }
+    },
+    {
+      "section": "HOME",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "9 ft ceilings"
+                },
+                {
+                  "category": 1,
+                  "description": "Ceiling Fans"
+                },
+                {
+                  "category": 1,
+                  "description": "Fireplace"
+                },
+                {
+                  "category": 1,
+                  "description": "Private Patio/Balcony"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Spacious Closets"
+                },
+                {
+                  "category": 1,
+                  "description": "Dishwasher"
+                },
+                {
+                  "category": 1,
+                  "description": "Frost Free Refrigerator"
+                },
+                {
+                  "category": 1,
+                  "description": "Microwave"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fully-equipped Kitchen"
+                },
+                {
+                  "category": 1,
+                  "description": "Washer/Dryer in Unit"
+                },
+                {
+                  "category": 1,
+                  "description": "Individual Heat/AC Controls"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-12_2-Bedroom_Kitchen.jpg",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Patio/Balcony with Storage"
+                },
+                {
+                  "category": 1,
+                  "description": "Covered Parking"
+                },
+                {
+                  "category": 1,
+                  "description": "Close to schools"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Fitness Center"
+                },
+                {
+                  "category": 1,
+                  "description": "Gated Entrance/Gated"
+                },
+                {
+                  "category": 1,
+                  "description": "Community"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Heated Outdoor Swimming Pool"
+                },
+                {
+                  "category": 1,
+                  "description": "Package Service On-site management"
+                }
+              ]
+            ],
+            "image": "https://webliftlytics.imgix.net/18-032-08_Pool_Dusk.jpg",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "applicationForm": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1536621417097.clubhouse_lounge_-_emerson_mill_avenue.jpg",
+          "title": "Apply Now"
+        },
+        "applicationFormTitle": "Reserve your new home at Bellagio Scottsdale",
+        "carousel": {
+          "buttonText": "Schedule a tour",
+          "mainTitle": "Emerson Mill Avenue Luxury Apartments",
+          "subTitle": "Downtown Tempe style and space with luxury apartment convenience."
+        },
+        "community": {
+          "image": "https://webliftlytics.imgix.net/18-032-08_Pool_Dusk.jpg",
+          "leftColumn": [
+            "Patio/Balcony with Storage",
+            "Covered Parking",
+            "Close to schools"
+          ],
+          "middleColumn": [
+            "Fitness Center",
+            "Gated Entrance/Gated",
+            "Community"
+          ],
+          "rightColumn": [
+            "Heated Outdoor Swimming Pool",
+            "Package Service On-site management"
+          ]
+        },
+        "firstRibbon": {
+          "text": "Charged, Connected, Inspired\u2014It All Comes to Life at Emerson Mill Avenue!",
+          "title": "Emerson Mill Avenue Apartment homes in Tempe, AZ"
+        },
+        "images": [
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541096617276.18-063-02_front_ext_dusk.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1581530945084.wine.png",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541096646773.18-063-04_pool.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541096636459.18-063-10_two-bedroom_kitchen.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1581531092548.18-063-05_clubhouse.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1581531210696.poolcropped.jpeg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541096676425.18-063-07_one-bedroom_living_room.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620936307.bedroom_-_emerson_mill_avenue.jpg",
+            "useGradient": false
+          },
+          {
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541096628294.18-063-03_front_entry.jpg",
+            "useGradient": false
+          }
+        ],
+        "logo": {
+          "src": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1581380988213.emerson_white-final_cqgikc.png"
+        },
+        "map": {
+          "marker": {
+            "icon": "https://liftlytics.imgix.net/localhost%3A3000/1562884765271.blob",
+            "lat": 33.425356,
+            "lng": -111.9414658
+          },
+          "styles": "[{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#a0d6d1\"},{\"lightness\":17}]},{\"featureType\":\"landscape\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#ffffff\"},{\"lightness\":20}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":17}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":29},{\"weight\":0.2}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#dedede\"},{\"lightness\":18}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#ffffff\"},{\"lightness\":16}]},{\"featureType\":\"poi\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#f1f1f1\"},{\"lightness\":21}]},{\"elementType\":\"labels.text.stroke\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#ffffff\"},{\"lightness\":16}]},{\"elementType\":\"labels.text.fill\",\"stylers\":[{\"saturation\":36},{\"color\":\"#333333\"},{\"lightness\":40}]},{\"elementType\":\"labels.icon\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"transit\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#f2f2f2\"},{\"lightness\":19}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#fefefe\"},{\"lightness\":20}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#fefefe\"},{\"lightness\":17},{\"weight\":1.2}]}]",
+          "zoom": "13"
+        },
+        "neighborhood": {
+          "disclaimer": "*Available/Restrictions Apply",
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "Washers &amp; Dryers Included",
+            "Stainless Steel GE Appliances",
+            "Kitchens Built for Entertaining",
+            "Granite  Fashion Center Shopping &amp; Dining",
+            "Controlled-Access Gates",
+            "Controlled-Access Gates",
+            "24-Hour Lavishly Equipped Gym"
+          ]
+        },
+        "propertyName": "Emerson Mill Avenue",
+        "quote": {
+          "author": "Gulli B - Yelp.com",
+          "details": "Current Emerson Mill Avenue Resident",
+          "secondAuthor": "",
+          "secondDetails": "",
+          "secondText": "",
+          "text": "I love the gym, bbq and the pool area, and it's a great location so many restaurants and bars in the area couldn't be happier.",
+          "thirdAuthor": "",
+          "thirdDetails": "",
+          "thirdText": ""
+        },
+        "secondRibbon": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1536621345540.fitness_center_-_emerson_mill_avenue.jpg",
+          "subtitle": "in Tempe, AZ",
+          "title": "Find Your Home"
+        },
+        "secondaryLogo": {
+          "src": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1581379829117.emerson_grayscale.png"
+        },
+        "seo": {
+          "description": "Welcome to Emerson Mill Avenue apartments, located in Tempe, AZ where you will live the lifestyle you want in the area you want. ",
+          "title": "Emerson Mill Avenue Apartments in Tempe, AZ | Home"
+        },
+        "thirdRibbon": {
+          "text": "The Emerson Mill Avenue apartment homes are perfectly located in Downtown Tempe with easy access to Loop 101/Loop 202 and near a wide variety of amenity-rich areas, businesses, and recreational activities. Tempe Marketplace and Mill Avenue are mere minutes away! A pet friendly community just moments from your favorite shopping, fine dining and Arizona State University. Discover the special reasons for making the Emerson Mill Avenue your home.",
+          "title": "Ideally located in Tempe, Arizona"
+        },
+        "updated_at": "2020-06-01"
+      }
+    },
+    {
+      "section": "GALLERY",
+      "values": {
+        "firstRibbon": {
+          "text": "Your luxury apartment home awaits. Take a photo tour and then schedule a live tour with us today! Come home to optimal living at the Emerson Mill Avenue in Downtown Tempe.",
+          "title": " Apartment Images and Features in Tempe, AZ"
+        },
+        "imageCategories": [
+          "community",
+          "apartment"
+        ],
+        "images": [
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099013408.18-063-01_front_ext_day.jpg",
+            "title": "Luxury Apartment Homes - Emerson - Tempe"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099069946.18-063-04_pool.jpg",
+            "title": "Heated Pool - Emerson Mill Avenue Apartments - Arizona Apartments"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1535733970610.firepit_-_emerson.jpg",
+            "title": "Fireside Lounge - Emerson Mill Avenue - Tempe, Arizona"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1535734285205.fitness_center_-_emerson_mill_avenue.jpg",
+            "title": "Fitness Center - Emerson - Tempe"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1535734140555.clubhouse_-_emerson_mill_avenue.jpg",
+            "title": "Clubhouse - Emerson Mill Ave - Tempe"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1535734173077.theater_-_emerson_mill_avenue.jpg",
+            "title": "Theater - Emerson Mill Avenue - Tempe, AZ"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1535734437249.conference_room.jpg",
+            "title": "Conference Room - Emerson Mill Avenue - Tempe"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1535734243963.business_center_-_emerson_mill_avenue.jpg",
+            "title": "Business Center - Emerson Mill Avenue - Tempe"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541100003959.18-063-05_clubhouse.jpg",
+            "title": "Clubhouse - Emerson Mill Ave - Tempe"
+          },
+          {
+            "category": "apartment",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099097974.18-063-07_one-bedroom_living_room.jpg",
+            "title": "One Bedroom Living Room - Emerson Mill Avenue -Tempe, AZ"
+          },
+          {
+            "category": "apartment",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099102493.18-063-08_one-bedroom_kitchen.jpg",
+            "title": "One Bedroom Kitchen - Emerson Mill Ave - Tempe"
+          },
+          {
+            "category": "apartment",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099107175.18-063-09_two-bedroom_living_room.jpg",
+            "title": "2 Bedroom Dining Room - Emerson - Tempe, Arizona"
+          },
+          {
+            "category": "apartment",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099112457.18-063-10_two-bedroom_kitchen.jpg",
+            "title": "2 Bedroom Kitchen - Emerson - Tempe, Arizona"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541099862199.18-063-03_front_entry.jpg",
+            "title": "Front Entrance - Emerson Mill Ave - Tempe"
+          },
+          {
+            "category": "community",
+            "src": "https://liftlytics.imgix.net/localhost%3A3000/1541100047404.18-063-06_clubhouse.jpg",
+            "title": "Business Center - Emerson Mill Ave - Tempe"
+          }
+        ],
+        "pageTitle": "Gallery",
+        "panoId": "5d8b137434062c7421789b90",
+        "seo": {
+          "description": "View high resolution photos and video tours of Emerson Mill Avenue. Check out photos of model units and community features.",
+          "title": "Apartments Tempe, AZ | Emerson Mill Avenue Photo Gallery"
+        },
+        "updated_at": "2020-04-24"
+      }
+    },
+    {
+      "section": "AMENITIES",
+      "values": {
+        "amenitiesList": [
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "Large kitchen islands"
+                },
+                {
+                  "category": 1,
+                  "description": "Plush carpeting in bedrooms"
+                },
+                {
+                  "category": 1,
+                  "description": "Custom cabinetry"
+                },
+                {
+                  "category": 1,
+                  "description": "Private terraces (select homes)"
+                },
+                {
+                  "category": 1,
+                  "description": "Custom color accent walls"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Granite countertops with backsplash"
+                },
+                {
+                  "category": 1,
+                  "description": "Dual sinks (select homes)"
+                },
+                {
+                  "category": 1,
+                  "description": "Computer desks (select homes)"
+                },
+                {
+                  "category": 1,
+                  "description": "Oversized oval soaking tubs"
+                },
+                {
+                  "category": 1,
+                  "description": "Washer/Dryer in Unit"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Individual Heat/AC Controls"
+                },
+                {
+                  "category": 1,
+                  "description": "Wood style flooring"
+                },
+                {
+                  "category": 1,
+                  "description": "Spacious walk-in closets"
+                }
+              ]
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1563804085403.blob",
+            "isVisible": true,
+            "name": "Amenities"
+          },
+          {
+            "amenitiesDetails": [
+              [
+                {
+                  "category": 1,
+                  "description": "24 hour fitness club with Technogym equipment"
+                },
+                {
+                  "category": 1,
+                  "description": "Covered Parking"
+                },
+                {
+                  "category": 1,
+                  "description": "Dining room"
+                },
+                {
+                  "category": 1,
+                  "description": "Freight elevator"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Clubhouse with HDTV living room"
+                },
+                {
+                  "category": 1,
+                  "description": "Conference rooms"
+                },
+                {
+                  "category": 1,
+                  "description": "Package Service On-site management"
+                },
+                {
+                  "category": 1,
+                  "description": "Smoke-free community"
+                }
+              ],
+              [
+                {
+                  "category": 1,
+                  "description": "Screening room with 128\" projector"
+                },
+                {
+                  "category": 1,
+                  "description": "Pet-friendly community"
+                },
+                {
+                  "category": 1,
+                  "description": "Resident courtyard with private resort-style pool"
+                }
+              ]
+            ],
+            "image": "https://liftlytics.imgix.net/localhost%3A3000/1563804099701.blob",
+            "isVisible": true,
+            "name": "Community"
+          }
+        ],
+        "apartmentFeatures": {
+          "image": "https://picsum.photos/450/300/?random",
+          "rightList": [
+            "9 ft. ceilings",
+            "Ceiling Fans",
+            "Fireplace",
+            "Private Patio/Balcony",
+            "Spacious closets",
+            "Dishwasher",
+            "Frost Free Refrigerator",
+            "Microwave",
+            "Fully-equipped kitchen",
+            "Washer/Dryer in Unit",
+            "Individual heat/AC controls"
+          ]
+        },
+        "bellagio": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "5635 E Bell Road, Scottsdale, AZ 85254",
+            "Tel: (480) 887-4894",
+            "Property Manager: Peggy Snyder",
+            "Hours: M-F 9am-6:00pm; Sat 10am-6pm; Sun 11am-5pm"
+          ],
+          "link": {
+            "href": "http://www.mark-taylor.com/arizona/bellagio/",
+            "text": "http://www.mark-taylor.com/arizona/bellagio/"
+          }
+        },
+        "breadcrumbsBar": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1541100308799.18-063-10_two-bedroom_kitchen.jpg"
+        },
+        "concierge": {
+          "image": "https://picsum.photos/450/300/?random",
+          "leftList": [
+            "Access to onsite wellness services",
+            "Airline Private Air Reservations",
+            "Ground Transportation",
+            "Restaurant Reservations"
+          ],
+          "paragraphs": [
+            "Residents have direct access to the Soori Concierge service. The trained staff is well equipped to provide a host of additional customized offerings. Below is a representative offering.",
+            "H\u200bigh\u200b \u200bLine houses an exclusive collection of 31 one to five bedroom apartments, marrying crafted luxury with the pleasures inspired by a\u200b destination\u200b resort. A true urban oasis in one of the most dynamic neighborhoods in NYC, High Line will offer residents:"
+          ],
+          "rightList": [
+            "Floral Arrangements",
+            "Spa and Salon Appointments",
+            "Newspaper / Magazine delivery"
+          ]
+        },
+        "firstRibbon": {
+          "text": "The Emerson Mill Avenue offers world-class features inside and surrounding your apartment home. With stainless appliance, extra storage and in-unit laundry, your apartment is a pet-friendly dream. The community comes with a resort-style heated pool, fitness center, covered parking, grill area, and package service. Come schedule a tour today.",
+          "title": "Apartment features in Tempe, AZ"
+        },
+        "map": {
+          "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1570511543651.emerson_-_community_map.png",
+          "isShown": true,
+          "list": [],
+          "title": "Welcome to Bellagio"
+        },
+        "pageTitle": "Amenities",
+        "seo": {
+          "description": "Browse our amenities and learn about our Class-A features at Emerson Mill Avenue in Tempe, AZ",
+          "title": "Our Apartment Amenities Tempe, AZ | Emerson Mill Avenue"
+        },
+        "showCategories": false,
+        "subCategories": [
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Keycard access, code, etc",
+                "Security detail?",
+                "etc"
+              ],
+              "title": "Our Gated Entry Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Gated Access",
+            "path": "gated-access",
+            "seo": {
+              "description": "[Name of property] is proud to offer our future residents the security and peace of mind that comes with our gated access apartments. Our [City/Neighborhood], [State] gated apartment complex is designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Gated Access Apartment Complex In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Here at [Name of property], we want our [City] residents to feel a grand sense of security, peace, and exclusivity that comes from having a protected and safe space to call home. Our apartment complex prides itself on maximizing the comfort and convenience of each and every community member. We understand how important it is to live in a place that provides complete and total peace of mind. Our gated entry is just one of the many luxury amenities we offer at [Name of property].",
+            "title": "Gated Access"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Hook up requirements?",
+                "Done for you?",
+                "Energy efficient?",
+                "etc"
+              ],
+              "text": "The washer and dryer units are conveniently located [location and brief description within the apartment].",
+              "title": "In Unit Laundry Details"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Washer & Dryer",
+            "path": "washer-dryer",
+            "seo": {
+              "description": "[Name of property] is proud to offer both washer and dryer units in the comfort of your own  [City/Neighborhood], [State] apartment. Your comfort means everything to us, come take a tour today.",
+              "title": "In Unit Washer & Dryer Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers energy efficient washer and dryer units in our [City/Neighborhood], [State] apartments. Our apartment complex values the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access dryer and washer for your laundry. These units also guarantee the safety of your belongings, unlike in a public laundromat. Just one of the many amenities we offer at the [Name of property] community.",
+            "title": "In Unit Washer and Dryer"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Cabana?",
+                "Lounge chairs?",
+                "etc"
+              ],
+              "text": "Every aspect of our apartment community swimming pool was designed for total relaxation. Our pool has the following luxury features:",
+              "title": "Pool Features For You To Enjoy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Swimming Pool",
+            "path": "pool",
+            "seo": {
+              "description": "[Name of property] has included a private and resort style swimming pool for your convenience. Our  [City/Neighborhood], [State] apartments are designed with luxury in mind. Come take a tour today.",
+              "title": "Apartments With Swimming Pool In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] offers our residents the chance to soak up some sun and enjoy a refreshing dip in our resort style swimming pool. The pool is open for the entire community to use and provides the perfect place to unwind after a long day. We understand how important it is to have the convenience and easy to access a pool with the [city] heat. Our swimming pool is just one of the many community amenities we offer at [Name of property].",
+            "title": "Private Resort-Style Swimming Pool"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "What Pets Are allowed?",
+                "Are there any breed restrictions?",
+                "How many pets am I allowed to have?",
+                "Is there a fee / deposit?"
+              ],
+              "title": "Pet Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Pet Friendly",
+            "path": "pet-friendly",
+            "seo": {
+              "description": " [Name of property] is proud to offer pet friendly apartments In [City/Neighborhood], [State]. We want your",
+              "title": "Pet Friendly Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "[Name of property] is happy to have your pet with us. As a pet friendly apartment complex in [City/Neighborhood], [State] we understand how important your little fur baby is to you. Couple that with a pet enthusiastic staff, and your pet is sure to love living here just as much as you do.",
+            "title": "Yes, We Are Pet Friendly"
+          },
+          {
+            "firstRibbon": {
+              "image": "/static/images/18-032-07_Pool_Day.jpg?auto=format&fit=crop&fm=webp",
+              "tags": [
+                "Monthly Fee",
+                "First come first serve, etc"
+              ],
+              "title": "Parking Policy"
+            },
+            "image": "/static/images/18-032-04_Sales_Lobby.jpg?auto=format&fit=crop&fm=webp",
+            "pageTitle": "Parking Policy",
+            "path": "parking-garage",
+            "seo": {
+              "description": " [Name of property] is proud to offer our tenants the ability to park in our covered parking garage right on the premises. Our  [City/Neighborhood], [State] apartments are designed with your convenience and comfort in mind. Come take a tour of the today.",
+              "title": "Covered Parking Garage Apartments In [City/Neighborhood], [State] | [Name of property]"
+            },
+            "text": "Nobody enjoys driving around aimlessly looking for parking after work and then having to walk back to their apartment. That\u2019s why [Name of property] offers residents the option of parking their vehicles inside of our on site parking garage. Our [City/Neighborhood], [State] apartment complex prides itself on maximizing the comfort of each and every community member. We understand how important it is to have the convenience of an easy to access and covered parking area. On site parking is just one of the many amenities we offer at the [Name of property].",
+            "title": "On Site Covered Parking"
+          }
+        ],
+        "updated_at": "2020-01-22"
+      }
+    },
+    {
+      "section": "CONTACT",
+      "values": {
+        "address": {
+          "city": "101 W 5th St ",
+          "email": "emerson@mark-taylor.com",
+          "name": "Emerson Mill Avenue",
+          "phone": "(602) 609-6814",
+          "town": "Tempe, Arizona 85281"
+        },
+        "applicationFormTitle": "Reserve your new home at Bellagio Scottsdale",
+        "firstRibbon": {
+          "text": "",
+          "title": "Have a question? Reach out to our helpful staff 24/7"
+        },
+        "googleBusinessMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.940607365006!2d-111.94409768546298!3d33.42479275798192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08d7e47f781d%3A0x852949757b0502a3!2sEmerson%20Mill%20Avenue!5e0!3m2!1sen!2sin!4v1579605995709!5m2!1sen!2sin\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=",
+        "googleDirectionUrl": "https://www.google.com/maps/dir//Emerson+Mill+Avenue,+101+W+5th+St,+Tempe,+AZ+85281,+United+States/@33.4247928,-111.9440977,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872b08d7e47f781d:0x852949757b0502a3!2m2!1d-111.941909!2d33.4247883",
+        "hours": {
+          "mondayToFriday": "M-F: 9am - 6pm",
+          "saturday": "Sat: 9am - 5pm",
+          "sunday": "Sun: 10am - 4pm"
+        },
+        "pageTitle": "Contact Us",
+        "seo": {
+          "description": "Visit us at Emerson Mill Avenue in Tempe, AZ. View map and get directions.",
+          "title": "Contact our Pet-Friendly Community in Tempe, AZ"
+        },
+        "updated_at": "2020-02-12"
+      }
+    },
+    {
+      "section": "FOOTER",
+      "values": {
+        "links": {
+          "facebook": "https://www.facebook.com/MarkTaylorResidential/",
+          "instagram": "https://www.instagram.com/MarkTaylorResidential/",
+          "propertyUrl": "www.emersonapartmentstempe.com",
+          "residentPortal": "www.emerson.activebuilding.com/",
+          "twitter": "https://twitter.com/MarkTaylorRez",
+          "youtube": "https://www.youtube.com/marktaylorresidentialapts"
+        },
+        "updated_at": "2019-08-04"
+      }
+    },
+    {
+      "section": "FLOOR_PLANS",
+      "values": {
+        "allPlans": [
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1J",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620695233.1j.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1498,
+            "propertyId": 225990,
+            "squareFootage": 800,
+            "unitId": 484851
+          },
+          {
+            "available": 2,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1L",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620732265.1l.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1335,
+            "propertyId": 225990,
+            "squareFootage": 850,
+            "unitId": 484852
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1H",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620736165.1h.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1193,
+            "propertyId": 225990,
+            "squareFootage": 738,
+            "unitId": 484853
+          },
+          {
+            "available": 5,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1F",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620739154.1f.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1350,
+            "propertyId": 225990,
+            "squareFootage": 737,
+            "unitId": 484854
+          },
+          {
+            "available": 1,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1A",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620741434.1a.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1142,
+            "propertyId": 225990,
+            "squareFootage": 519,
+            "unitId": 484855
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1K",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620745216.1k.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1351,
+            "propertyId": 225990,
+            "squareFootage": 844,
+            "unitId": 484856
+          },
+          {
+            "available": 2,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2D",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620751968.2d.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 2027,
+            "propertyId": 225990,
+            "squareFootage": 1120,
+            "unitId": 484857
+          },
+          {
+            "available": 1,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1I",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620757198.1i.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1459,
+            "propertyId": 225990,
+            "squareFootage": 791,
+            "unitId": 484858
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1B",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620760349.1b.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1163,
+            "propertyId": 225990,
+            "squareFootage": 636,
+            "unitId": 484859
+          },
+          {
+            "available": 2,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1M",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620763654.1m.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1320,
+            "propertyId": 225990,
+            "squareFootage": 866,
+            "unitId": 484860
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1N",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620766201.1n.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1334,
+            "propertyId": 225990,
+            "squareFootage": 888,
+            "unitId": 484861
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2E",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620770631.2e.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1572,
+            "propertyId": 225990,
+            "squareFootage": 1330,
+            "unitId": 484862
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2A",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620774504.2a.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 500,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1337,
+            "propertyId": 225990,
+            "squareFootage": 975,
+            "unitId": 484863
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1C",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620779185.1c.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1220,
+            "propertyId": 225990,
+            "squareFootage": 686,
+            "unitId": 484864
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1D",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620782873.1d.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1558,
+            "propertyId": 225990,
+            "squareFootage": 692,
+            "unitId": 484865
+          },
+          {
+            "available": 1,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2F",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620788093.2f.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 2225,
+            "propertyId": 225990,
+            "squareFootage": 1375,
+            "unitId": 484866
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2C",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620791480.2c.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1564,
+            "propertyId": 225990,
+            "squareFootage": 1117,
+            "unitId": 484867
+          },
+          {
+            "available": 0,
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "description": "2B",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620794370.2b.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1589,
+            "propertyId": 225990,
+            "squareFootage": 1027,
+            "unitId": 484885
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1G",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620797962.1g.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1177,
+            "propertyId": 225990,
+            "squareFootage": 731,
+            "unitId": 484886
+          },
+          {
+            "available": 1,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1O",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620801187.1o.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1470,
+            "propertyId": 225990,
+            "squareFootage": 936,
+            "unitId": 484887
+          },
+          {
+            "available": 0,
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "1E",
+            "images": [
+              {
+                "src": "https://liftlytics.imgix.net/localhost%3A3000/1536620803630.1e.png"
+              }
+            ],
+            "isVisible": true,
+            "maxDeposit": 0,
+            "maxRent": 0,
+            "minDeposit": 0,
+            "minRent": 1232,
+            "propertyId": 225990,
+            "squareFootage": 718,
+            "unitId": 484888
+          }
+        ],
+        "breadcrumbsBar": {
+          "image": "https://liftlytics.imgix.net/localhost%3A3000/1541100646730.18-063-01_front_ext_day.jpg"
+        },
+        "feedSourceType": "ON_SITE",
+        "firstRibbon": {
+          "text": "Every day, you can wake up feeling refreshed and energized after a morning dip in our pool or a cardio workout in our 24-hour fitness center. Leaning more toward kicking back and entertaining your friends and family? We can do that too. Gather your family and friends around the barbecue areas to grill your favorite meal or enjoy the clubhouse for an inside affair. ",
+          "title": "The Emerson Mill Avenue Floor Plans in Tempe, AZ"
+        },
+        "pageTitle": "Floor Plans",
+        "propertyIds": [
+          "225990"
+        ],
+        "seo": {
+          "description": "Emerson Mill Avenue showcases a collection of unique apartments. Our pet-friendly floor plans offer something special. Call us today to schedule your tour!",
+          "title": "Floor Plans of Emerson Mill Avenue in Tempe, AZ"
+        },
+        "updated_at": "2020-04-08"
+      }
+    },
+    {
+      "section": "NEIGHBORHOOD",
+      "values": {
+        "breadcrumbsBar": {
+          "image": "/static/images/breadcrumbs-bg.png"
+        },
+        "categories": [
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bank",
+            "id": 1,
+            "name": "bank"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-bar",
+            "id": 2,
+            "name": "bar"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-cafe",
+            "id": 3,
+            "name": "cafe"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-entertainment",
+            "id": 4,
+            "name": "entertainment"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-grocery-store",
+            "id": 5,
+            "name": "grocery store"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gas-station",
+            "id": 6,
+            "name": "gas stations"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-gym",
+            "id": 7,
+            "name": "gym"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hospital",
+            "id": 8,
+            "name": "hospitals"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-hotel",
+            "id": 9,
+            "name": "hotels"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-museum",
+            "id": 10,
+            "name": "museums"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-outdoor-activity",
+            "id": 11,
+            "name": "outdoor activities"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-parking",
+            "id": 12,
+            "name": "parking"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-park",
+            "id": 13,
+            "name": "parks"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-post-office",
+            "id": 14,
+            "name": "post office"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-restaurant",
+            "id": 15,
+            "name": "restaurant"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-school",
+            "id": 16,
+            "name": "schools"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-shopping",
+            "id": 17,
+            "name": "shopping"
+          },
+          {
+            "createdDate": "N/A",
+            "iconName": "icon-theater",
+            "id": 18,
+            "name": "theaters"
+          }
+        ],
+        "displayNeighborhoodPage": true,
+        "firstRibbon": {
+          "text": "Just steps from everything Arizona State University has to offer and minutes from Sky Harbor airport, Emerson is conveniently located in the heart of endless shopping and dining options and attractions like Tempe Town Lake, ASU stadium and Marquee Theatre.",
+          "title": "Emerson Mill Avenue Neighborhood in Tempe Arizona"
+        },
+        "locations": [
+          {
+            "address": "509 S Mill Ave, Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4251003,
+              "lng": -111.9396415
+            },
+            "category": [
+              18
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568565189444.nf_545x390_northfield.jpg",
+            "isPropertyLocation": false,
+            "name": "Harkins Theatres Valley Art",
+            "phone": "(480) 446-7272",
+            "website": "https://www.harkins.com/locations/valley-art-reg"
+          },
+          {
+            "address": "1201 N Galvin Pkwy, Phoenix, AZ 85008",
+            "addressGeoPosition": {
+              "lat": 33.4620773,
+              "lng": -111.9450978
+            },
+            "category": [
+              13
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568565403813.desert-botanical-garden_hr-image_resized-3ac9fbfd5056b3a_3ac9ff86-5056-b3a8-49b16f3229c7a6f3.jpg",
+            "isPropertyLocation": false,
+            "name": "Desert Botanical Garden",
+            "phone": "(480) 941-1225",
+            "website": "https://www.dbg.org/"
+          },
+          {
+            "address": "80 W Rio Salado Pkwy, Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4308204,
+              "lng": -111.9416896
+            },
+            "category": [
+              13
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568565490438.mill-bridges_tony-blei.jpg",
+            "isPropertyLocation": false,
+            "name": "Tempe Beach park",
+            "phone": "(480) 350-5200",
+            "website": "https://www.tempe.gov/Home/Components/FacilityDirectory/FacilityDirectory/176/3542?npage=3"
+          },
+          {
+            "address": "455 N Galvin Pkwy, Phoenix, AZ 85008",
+            "addressGeoPosition": {
+              "lat": 33.4510569,
+              "lng": -111.9479873
+            },
+            "category": [
+              4,
+              13
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568565560986.download_%288%29.jpeg",
+            "isPropertyLocation": false,
+            "name": "Phoenix Zoo",
+            "phone": "(602) 286-3800",
+            "website": "https://www.phoenixzoo.org/"
+          },
+          {
+            "address": "5120 S Rural Rd, Tempe, AZ 85282",
+            "addressGeoPosition": {
+              "lat": 33.3796077,
+              "lng": -111.9298784
+            },
+            "category": [
+              5
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568565760034.download_%289%29.jpeg",
+            "isPropertyLocation": false,
+            "name": "Whole Foods Market",
+            "phone": "(480) 456-1400",
+            "website": "https://www.wholefoodsmarket.com/stores/tempe"
+          },
+          {
+            "address": "1811 Apache Blvd, Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4140664,
+              "lng": -111.9084671
+            },
+            "category": [
+              12
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568565889955.google_place_photo_%281%29.jpeg",
+            "isPropertyLocation": false,
+            "name": "Lightrail Park & Ride Garage",
+            "phone": "(602) 253-5000",
+            "website": ""
+          },
+          {
+            "address": "500 S. Mill Ave. Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4252174,
+              "lng": -111.9403329
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1579756299501.41701_4782_mill-ave_tempe_b94f5983-5056-b3a8-495c444a2c546b35.jpg",
+            "isPropertyLocation": false,
+            "name": "Mill Avenue",
+            "phone": " (480) 355-6060",
+            "website": "https://www.visitphoenix.com/listing/mill-avenue-district/4246/"
+          },
+          {
+            "address": "2528 W Southern Ave, Tempe, AZ 85282",
+            "addressGeoPosition": {
+              "lat": 33.3933032,
+              "lng": -111.9753046
+            },
+            "category": [
+              1
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1582276583181.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Chase Bank",
+            "phone": "(480) 890-6256",
+            "website": "https://locator.chase.com/az/tempe/2528-w-southern-ave?jp_cmp=rb/LocalListings/aff/branch/na"
+          },
+          {
+            "address": "Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4366655,
+              "lng": -111.9403254
+            },
+            "category": [
+              16
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1582276749499.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Arizona State University, Tempe Campus",
+            "phone": "(855) 278-5080",
+            "website": "https://campus.asu.edu/tempe"
+          },
+          {
+            "address": "545 S Mill Ave, Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4246041,
+              "lng": -111.9397674
+            },
+            "category": [
+              17
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1582276859095.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "Urban Outfitters",
+            "phone": "(480) 966-7250",
+            "website": "https://www.urbanoutfitters.com/stores/tempe"
+          },
+          {
+            "address": "640 S Mill Ave #110, Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.4241289,
+              "lng": -111.9407446
+            },
+            "category": [
+              2
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1582276976114.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "El Hefe Tempe",
+            "phone": "(480) 257-2797",
+            "website": "https://elhefe.com/tempe-az/"
+          },
+          {
+            "address": "730 S Mill Ave, Tempe, AZ 85281",
+            "addressGeoPosition": {
+              "lat": 33.422948,
+              "lng": -111.941693
+            },
+            "category": [
+              18
+            ],
+            "image": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1582277110052.screenshot_1.png",
+            "isPropertyLocation": false,
+            "name": "AMC Centerpoint 11",
+            "phone": "(480) 207-2534",
+            "website": "https://www.amctheatres.com/movie-theatres/phoenix/amc-centerpoint-11"
+          }
+        ],
+        "pageTitle": "Neighborhood",
+        "propertyIcon": "https://liftlytics.imgix.net/emersonapartmentstempe.com/1568142920971.pin-home-5045b6.png",
+        "seo": {
+          "description": "Map and Directions to Emerson Mill Avenue in Tempe, AZ",
+          "title": "Luxury Apartments Near Tempe, AZ"
+        },
+        "updated_at": "2020-02-21"
+      }
+    },
+    {
+      "section": "DESIGN",
+      "values": {
+        "customColors": {
+          "V1": [
+            {
+              "name": "$primary",
+              "value": "#4B3288"
+            },
+            {
+              "name": "$secondary",
+              "value": "#2C1A57"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#28263A"
+            },
+            {
+              "name": "$home-community-section-bg",
+              "value": "#EEEEEE"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#1C1A2C"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#1C1A2C"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V2": [
+            {
+              "name": "$primary",
+              "value": "#A19067"
+            },
+            {
+              "name": "$secondary",
+              "value": "#D5C8A9"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#7D7D7D"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#383131"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V3": [
+            {
+              "name": "$primary",
+              "value": "white"
+            },
+            {
+              "name": "$footer-logo-banner-color",
+              "value": "#242426"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "white"
+            },
+            {
+              "name": "$footer-color",
+              "value": "#2E2E32"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V4": [
+            {
+              "name": "$primary",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$deep-gray",
+              "value": "#3B3B3B"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "$charcoal",
+              "value": "#1F1E1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            },
+            {
+              "name": "$header-color",
+              "value": "#2B2B2B"
+            },
+            {
+              "name": "$footer-color",
+              "value": "white"
+            },
+            {
+              "name": "$apply-form-input-placeholder-color",
+              "value": "#7E7B80"
+            }
+          ],
+          "V5": [
+            {
+              "name": "$primary",
+              "value": "#1052B4"
+            },
+            {
+              "name": "$secondary",
+              "value": "#f9f3ed"
+            },
+            {
+              "name": "$text-color-base",
+              "value": "#9DA2A6"
+            },
+            {
+              "name": "$border-color",
+              "value": "#DCDDDE"
+            },
+            {
+              "name": "$bg-dark-color",
+              "value": "#30353E"
+            },
+            {
+              "name": "$bg-light-color",
+              "value": "#F5F2E6"
+            },
+            {
+              "name": "$body-color",
+              "value": "#181B1E"
+            },
+            {
+              "name": "$neighborhood-marker-active-color",
+              "value": "#FFA500"
+            }
+          ]
+        },
+        "customCssCodes": {
+          "V1": "",
+          "V2": "",
+          "V3": "",
+          "V4": "",
+          "V5": ""
+        },
+        "labels": [
+          {
+            "label": "Primary color",
+            "name": "$primary"
+          },
+          {
+            "label": "Secondary color",
+            "name": "$secondary"
+          },
+          {
+            "label": "Text base color color",
+            "name": "$text-color-base"
+          },
+          {
+            "label": "Border color",
+            "name": "$border-color"
+          },
+          {
+            "label": "Background dark color",
+            "name": "$bg-dark-color"
+          },
+          {
+            "label": "Background light color",
+            "name": "$bg-light-color"
+          },
+          {
+            "label": "Body color",
+            "name": "$body-color"
+          },
+          {
+            "label": "Footer logo banner color",
+            "name": "$footer-logo-banner-color"
+          },
+          {
+            "label": "Community section background color",
+            "name": "$home-community-section-bg"
+          },
+          {
+            "label": "Neighborhood marker active color",
+            "name": "$neighborhood-marker-active-color"
+          },
+          {
+            "label": "Header color",
+            "name": "$header-color"
+          },
+          {
+            "label": "Footer color",
+            "name": "$footer-color"
+          },
+          {
+            "label": "Deep gray color",
+            "name": "$deep-gray"
+          },
+          {
+            "label": "Charcoal color",
+            "name": "$charcoal"
+          },
+          {
+            "label": "Apply form input placeholder color",
+            "name": "$apply-form-input-placeholder-color"
+          }
+        ],
+        "siteTemplate": "V2",
+        "updated_at": "2020-02-11"
+      }
+    },
+    {
+      "section": "VIRTUAL_TOUR",
+      "values": {
+        "firstRibbon": {
+          "text": "Come home to luxury living with unrivaled apartment features and community amenities. ",
+          "title": "Emerson Mill Avenue | Virtual Tour "
+        },
+        "is_visible": true,
+        "pageTitle": "Virtual Tour",
+        "panoId": "5d8b137434062c7421789b90",
+        "seo": {
+          "description": "Take a virtual tour and make Emerson Mill Avenue in Tempe your home.",
+          "title": "Emerson Mill Avenue | Virtual Tour "
+        },
+        "tours": [],
+        "updated_at": "2020-06-17"
+      }
+    }
+  ],
+  "domain": "emersonapartmentstempe.com"
+}

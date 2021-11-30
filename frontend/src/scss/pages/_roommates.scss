@@ -1,0 +1,100 @@
+.roommates-empty {
+  margin-bottom: 0;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background-color: #FAFBFC;
+  }
+
+  .title {
+    font-weight: 600;
+    opacity: 0.5;
+  }
+
+  .message {
+    opacity: 0.5;
+  }
+
+  .btn {
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
+
+.roommates-list {
+  .roommates-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .btn-link {
+    color: #0096FF;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .roommate {
+    margin: 0;
+    padding: 0.5rem
+  }
+
+  .roommate:hover {
+    background: rgba(0, 150, 255, 0.2);
+    border-radius: 4px;
+
+    .btn-link {
+      display: block;
+    }
+  }
+
+  .roommate-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn-link {
+      padding: 0;
+      display: none;
+    }
+  }
+
+  .roommate-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .roommate-info {
+    opacity: 0.5;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+    .dot {
+      height: 4px;
+      width: 4px;
+      background-color: darkgray;
+      border-radius: 50%;
+      margin: 5px;
+    }
+  }
+}
+
+.modal-footer.all-actions {
+  justify-content: space-between;
+}
+
+.roommates-delete-btn, .roommates-delete-btn:hover {
+  font-weight: 600;
+  color: #FF5E56;
+  text-decoration: none;
+}

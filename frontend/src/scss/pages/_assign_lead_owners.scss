@@ -1,0 +1,80 @@
+.status-switch {
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #747779;
+
+  .switch-primary .switch-input:checked + .switch-slider {
+    background-color: #0096FF;
+    border-color: #0096FF;
+  }
+
+  .switch-primary .switch-input:checked + .switch-slider::before {
+    border-color: #0096FF;
+  }
+}
+
+.title {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.weekdays-leads li {
+  border: none;
+  padding-left: 0;
+
+  label {
+    font-weight: 400;
+
+    .day-name {
+      font-weight: 600;
+    }
+  }
+}
+
+.description {
+  margin-bottom: 0;
+  color: #747779;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.assign-lead-owners .card-header {
+  background-color: #E9EFF4;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.user-select-col {
+  display: inline-block;
+
+  .selected {
+    background-color: #0096FF;
+    color: white;
+  }
+
+  .user-select {
+    width: 100%;
+
+    .dropdown-menu {
+      width: 100%;
+    }
+
+    button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.settings-actions {
+  display: flex;
+  justify-content: flex-end;
+
+  .btn-primary {
+    margin-right: 1.25rem;
+  }
+}

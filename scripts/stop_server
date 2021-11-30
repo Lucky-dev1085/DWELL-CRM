@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /home/ubuntu/crm/
+
+echo $DEPLOYMENT_GROUP_NAME
+
+if [ "$DEPLOYMENT_GROUP_NAME" == "CRM-Dev-deployment-group" ] || [ "$DEPLOYMENT_GROUP_NAME" == "CRM-UP-QA-deployment-group" ]
+then
+  docker-compose down
+else
+  source /home/ubuntu/crm/venv/bin/activate
+  if pgrep supervisor*; then sudo pkill supervisor*; fi
+  pm2 stop -s main_page_server || :
+fi

@@ -1,0 +1,26 @@
+<p>Hello {{ property.name }} team</p>
+
+<p>The {{ email_type }} auto sequence email for lead <a href="{{ lead.page_url }}" target="_blank">{{ lead.name }}</a> was not sent as some value of variables were missing.</p>
+
+<p>Missing variables :</p>
+<ul>
+    {% for variable in variables %}
+        <li>{{ variable }}</li>
+    {% endfor %}
+</ul>
+
+
+<p>Email preview :</p>
+
+<p>-------------------------------------------------------------------</p>
+<p>Subject: {{ subject }}</p>
+
+<div>{{ body | safe }}</div>
+
+<p>-------------------------------------------------------------------</p>
+
+
+<p>Please check out why these variables were missed.</p>
+
+<p>Best regards,</p>
+<p>Dwell support team.</p>

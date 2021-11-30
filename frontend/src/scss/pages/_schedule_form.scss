@@ -1,0 +1,330 @@
+.schedule-form.reschedule {
+    width: fit-content;
+}
+
+.schedule-form.reschedule .field-input {
+    margin-right: 0;
+}
+
+.schedule-form.reschedule .action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule-form .action-buttons p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-form .field-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-form .field-count {
+    opacity: 0.5;
+}
+
+.schedule-form .field-input {
+    margin-right: 0.5rem;
+    border: 1px solid #c3cfd9;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+}
+
+.schedule-form .field-input.disabled {
+    pointer-events: none;
+}
+
+.schedule-form .field-input.left,
+.schedule-form .field-input.right {
+    width: 95%;
+}
+
+.schedule-form .inner-addon {
+    width: 100%
+}
+
+.schedule-form .field-input:not(.custom-select-wrapper) {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 0.75rem;
+}
+
+.schedule-form .field-input:focus {
+    outline: none;
+}
+
+.schedule-form .field {
+    display: flex;
+    align-items: center;
+    //height: 40px;
+}
+
+.schedule-form__field {
+    margin-bottom: 1rem;
+}
+
+.schedule-form #date-time-edit {
+    padding: 0.5rem 0.75rem;
+}
+
+.schedule-form .custom-select-wrapper {
+    position: relative;
+    user-select: none;
+    width: 100%;
+}
+
+.schedule-form .custom-select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+}
+
+.schedule-form .custom-select__trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #23282c;
+    line-height: 1.5;
+    background: #ffffff;
+    cursor: default;
+    border-radius: 0.25rem;
+    border-bottom: 1px solid #c3cfd9;
+    height: 38px;
+}
+
+.schedule-form .inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.schedule-form .checkmark-icon {
+    display: none;
+}
+
+.schedule-form .inner-addon .glyphicon {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    margin: 0 0.5rem 0 0;
+}
+
+.schedule-form .inner-addon .glyphicon.show {
+    display: block;
+}
+
+.schedule-form .right-addon .glyphicon {
+    right: 0;
+}
+
+.schedule-form .right-addon input {
+    padding-right: 30px;
+}
+
+.schedule-form .custom-select-wrapper.units-select {
+    padding: 0;
+}
+
+.confirm-tour-cancel p {
+    margin-bottom: 0;
+}
+
+.schedule-form .custom-options {
+    display: none;
+}
+
+.schedule-form .tour-details {
+    display: none;
+}
+
+
+.schedule-form .field-input#comment {
+    padding: 0.75rem 0.75rem;
+    height: 65px;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.calendar-links {
+    width: 180px;
+    //background-color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column
+}
+
+.unit-form .unit-image {
+    width: 267px;
+}
+
+.unit-form .unit-info {
+    padding: 1rem;
+}
+
+.unit-form .unit-info .unit-type-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.unit-form .unit-info .unit-type-price .type {
+    font-weight: 600;
+}
+
+.unit-form .unit-info .unit-bedrooms {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+.unit-form .unit-info .unit-available {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unit-form .unit-info .unit-available .available {
+    opacity: 0.5;
+}
+
+.unit-form .unit-info .unit-available .apply-now {
+    color: #0096FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.unit-form .splide__list {
+    padding-left: 0;
+}
+
+.amenities-form {
+    width: 250px;
+}
+
+.amenities-form .actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.amenities-form .actions .cancel {
+    margin-right: 0.5rem;
+    border: none;
+}
+
+.amenities-form .actions .styled-btn {
+    padding: 0.3rem 1.5rem;
+}
+
+.styled-btn {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.styled-btn.filled {
+    background-color: #0096FF;
+    color: white;
+    border: 2px solid #0096FF;
+    padding: 0.3rem 0.6rem;
+}
+
+.styled-btn.blank {
+    background-color: white;
+    color: #0096FF;
+    border: 2px solid #0096FF;
+    padding: 0.3rem 0.6rem;
+}
+.calendar-links .styled-btn:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.calendar-links .styled-btn {
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+//.greeting-inner {
+//    width: calc(100% - 35px) !important;
+//}
+
+.greeting-inner h5 {
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.greeting-inner h3 {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.greeting-inner p {
+    margin-bottom: 0 !important;
+    margin-top: 0;
+    font-size: 13px !important;
+    padding: 0 !important;
+}
+
+.gallery-form {
+    margin-top: 20px;
+    width: 100%;
+    flex: 1;
+    margin-left: 10px;
+    padding: 18px 20px 20px;
+    border-width: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(225, 230, 247, 0.25), 0 2px 2px rgba(225, 230, 247, 0.2), 0 4px 4px rgba(225, 230, 247, 0.15), 0 8px 8px rgba(225, 230, 247, 0.1), 0 16px 16px rgba(225, 230, 247, 0.05);
+    background-color: #fff;
+    color: #4a5e8a;
+}
+
+.gallery-form .gallery-title {
+    color: #0b2151;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: .875rem;
+    margin-top: 0;
+}
+
+.gallery-form .gallery-text {
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.gallery-form .gallery-img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.gallery-form .gallery-btn {
+    width: 100%;
+}

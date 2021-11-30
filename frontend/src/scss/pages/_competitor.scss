@@ -1,0 +1,94 @@
+.create-competitor {
+  margin-bottom: 0;
+
+  .card-header {
+    background-color: white;
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .card-footer {
+    border-top: none;
+  }
+
+  .card-body {
+    min-height: 400px;
+  }
+}
+
+.competitor-tabs {
+  .tab-content {
+    border: none;
+  }
+
+  .nav-tabs .nav-link {
+    border-color: transparent transparent transparent;
+  }
+
+  .active.nav-link {
+    color: #23282c;
+
+    &:hover {
+      color: #23282c;
+    }
+  }
+
+  .add-survey {
+    cursor: pointer;
+    color: #0096FF;
+  }
+
+  .delete-survey {
+    cursor: pointer;
+    color: #f86c6b;
+  }
+}
+
+.competitor-tabs a:not([href]):not([tabindex]):hover.active {
+  color: #23282c;
+}
+
+.react-bootstrap-table.survey-table {
+  .table-bordered {
+    border: none;
+  }
+
+  .react-bootstrap-table-editing-cell {
+    .form-control {
+      margin-bottom: 0;
+    }
+
+    .alert-danger {
+      padding: 0;
+      background-color: white;
+      border: none;
+      color: #f86c6b;
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+
+  .table > tbody > tr > td:nth-of-type(1) {
+    white-space: nowrap;
+  }
+
+  .table th:last-child {
+    display: none;
+  }
+
+  .table > tbody > tr > td:last-child {
+    border-color: transparent;
+    cursor: default;
+  }
+
+  th, tr, td {
+    border-color: #E5E5E5;
+  }
+
+  tbody {
+    tr:hover {
+      background-color: transparent;
+    }
+  }
+}

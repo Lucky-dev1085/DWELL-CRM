@@ -1,0 +1,22 @@
+coverage:
+  precision: 2
+  round: down
+  range: 70...100
+
+  status:
+    project: false
+    patch: true
+    changes: true
+
+comment:
+  layout: "header, diff"
+  behavior: default  # update if exists else create new
+
+ignore:
+  - "/backend/api/tests"
+  - "*/migrations"
+  - "/migrations"
+  - "*/management"
+  - "/backend/settings/common/read_environment.py"
+  - "/manage.py"
+  - "backend/api/admin.py"

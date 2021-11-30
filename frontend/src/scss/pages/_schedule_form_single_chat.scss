@@ -1,0 +1,47 @@
+@import "schedule_form";
+
+#single-chat {
+  .schedule-form .field-info {
+    font-size: 10px;
+  }
+
+  .schedule-form .field-input {
+    width: 174px;
+    font-size: 10px;
+  }
+
+  .schedule-form .field-input.left,
+  .schedule-form .field-input.right {
+    width: 83px;
+  }
+
+  .schedule-form .custom-select__trigger {
+    font-size: 12px;
+  }
+
+  .unit-form .unit-info .unit-type-price {
+    font-size: 12px;
+  }
+
+  .unit-form .unit-info .unit-bedrooms {
+    font-size: 12px;
+  }
+
+  .unit-form .unit-info .unit-available {
+    font-size: 12px;
+  }
+
+  .styled-btn {
+    font-size: 13px;
+  }
+
+  .schedule-form .field-input:not(.custom-select-wrapper) {
+    height: 30px;
+  }
+
+  .schedule-form .inner-addon .glyphicon {
+    padding: 5px;
+  }
+
+
+}

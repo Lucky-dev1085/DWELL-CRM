@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+
+    <style type="text/css">
+        table {
+            border-collapse: separate;
+            border-spacing: 0 2px;
+            -webkit-letter-spacing: -0.2px;
+            -moz-letter-spacing: -0.2px;
+            -ms-letter-spacing: -0.2px;
+            letter-spacing: -0.2px;
+            color: #344563;
+            border-color: grey;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        thead {
+            display: table-header-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+
+        thead th {
+            border-top-width: 0;
+            border-bottom-width: 0;
+            padding: 6px 10px;
+            color: #0b2151;
+            font-weight: 500;
+            font-size: 12px;
+            -webkit-letter-spacing: .2px;
+            -moz-letter-spacing: .2px;
+            -ms-letter-spacing: .2px;
+            letter-spacing: .2px;
+            background-color: #f0f2f9;
+            line-height: 1.3;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+        td {
+            border-top: 1px solid #d5dcf4;
+            padding: 9px 10px;
+            color: #4a5e8a;
+            border-top-width: 1px;
+            border-top-color: transparent;
+            border-bottom: 1px solid transparent;
+            vertical-align: bottom;
+            font-size: 13px;
+            line-height: 1.7;
+            background-color: #f7f8fc;
+        }
+
+        a {
+            color: #0168fa;
+            -webkit-text-decoration: none !important;
+            text-decoration: none !important;
+            background-color: transparent;
+            white-space: nowrap !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .container {
+            width: 100%;
+            display: grid;
+            place-items: center;
+        }
+
+        .mail-header {
+            width: 100%;
+            border-bottom: solid 2px #EFF2F8;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 5px;
+        }
+
+        .info {
+            margin-top: 8px;
+        }
+
+        h6 {
+            color: #0b2151;
+            font-weight: 600;
+            margin: 15px 0 4px;
+            border-top-width: 0;
+            border-bottom-width: 0;
+            padding: 6px 10px;
+            font-size: 12px;
+            -webkit-letter-spacing: .2px;
+            -moz-letter-spacing: .2px;
+            -ms-letter-spacing: .2px;
+            letter-spacing: .2px;
+            line-height: 1.3;
+            vertical-align: middle;
+            text-align: left
+        }
+
+        .more {
+            color: #24ba7b;
+        }
+
+        .less {
+            color: #f3505c;
+        }
+
+        strong {
+            text-decoration: underline;
+        }
+
+        @media screen  and (max-width: 900px) {
+            table {
+                table-layout: auto;
+            }
+        }
+
+
+    </style>
+</head>
+<body style="width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif; padding:0;Margin:0">
+<div class="sc-gsFCsV cUoWOI">
+    <div class="container">
+        <div class='table-card'>
+            <div class='mail-header'>
+                <div class='compete-link'><a target='_blank' href='{{ redirect_url }}'>View alert in compete</a></div>
+            </div>
+            <div class='info'>
+                Compete detected a rent price change of <strong>{{ value }}%</strong> or more for the following
+                properties in your
+                <strong>{{ name }}</strong> alert.
+            </div>
+            {% for table in tables %}
+                <h6>{{ table.name }}</h6>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Asset</th>
+                        <th>Rent baseline</th>
+                        <th>New rent</th>
+                        <th>Rent change</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for data_item in table.data %}
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <a
+                                            href="{{ data_item.url }}">{{ data_item.property_name }}</a>
+                                </div>
+                            </td>
+                            <td>${{ data_item.previous_value }}</td>
+                            <td>${{ data_item.new_value }}</td>
+                            <td>
+                                <span class="{{ data_item.movement_class }}">{{ data_item.movement }}&nbsp;({{ data_item.movement_pcnt }}%)</span>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

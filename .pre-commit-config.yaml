@@ -1,0 +1,36 @@
+repos:
+-   repo: https://github.com/pre-commit/mirrors-yapf
+    rev: v0.27.0
+    hooks:
+    -   id: yapf
+        entry: yapf
+        language: python
+        args: ['"--style=""{based_on_style: pep8}"']
+
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    rev: v1.4.0
+    hooks:
+    -   id: trailing-whitespace
+        exclude_types:
+        - pofile
+        - rst
+#    -   id: check-added-large-files
+#        exclude: 'frontend/fusioncharts-xt-ol'
+#        exclude: 'frontend/src/site/DesignPage/googleFonts.js'
+    -   id: check-docstring-first
+    -   id: check-json
+    -   id: check-xml
+    -   id: check-yaml
+    -   id: check-case-conflict
+    -   id: check-merge-conflict
+    -   id: pretty-format-json
+        args:
+        - --autofix
+    -   id: debug-statements
+    -   id: double-quote-string-fixer
+    -   id: flake8
+        args:
+        - --exclude=backend/api/migrations/*,.pythonrc.py,
+        - --select=F401,F402,F403,F404,F406,F407,F601,F602,F621,F622,F631,F701,F702,F703,F704,F705,F706,F707,F811,F812,F821,F822,F823,F831,F841
+    -   id: requirements-txt-fixer
+        files: ^(?:requirements\.txt)$

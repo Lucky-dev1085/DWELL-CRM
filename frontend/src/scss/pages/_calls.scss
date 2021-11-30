@@ -1,0 +1,363 @@
+.chats {
+  .chatLoader {
+    margin: 5px auto;
+  }
+}
+
+.calls {
+
+  .react-bootstrap-table tbody tr:hover {
+    background-color: transparent;
+  }
+
+  .react-bootstrap-table tbody tr:hover td:not(.react-bs-table-no-data) {
+    background-color: transparent;
+    cursor: default;
+  }
+
+  .react-bootstrap-table tbody td,
+  .react-bootstrap-table tbody th {
+    overflow: inherit ! important;
+  }
+
+  .call-icon {
+    width: 24px;
+    opacity: 0.5;
+  }
+
+  .table {
+    .call-icon {
+      width: 24px;
+      opacity: 0.5;
+    }
+
+    svg.icon-sound-available {
+      opacity: 1;
+    }
+
+    .reset-expansion-style {
+      border: 0px;
+    }
+
+    tr.selected {
+      .avatar {
+        background-color: #c8dfff !important;
+        i {
+          color: rgba(36,55,130,0.75) !important;
+        }
+      }
+    }
+  }
+
+  svg.check-circle {
+    color: #30BF87;
+    cursor: pointer;
+  }
+
+  .call-scoring {
+    margin: 0;
+    width: 640px;
+
+    .card-header {
+      background-color: white;
+      border-bottom-color: #E5E5E5;
+    }
+
+    .card-body {
+      white-space: pre-wrap;
+      height: 700px;
+      overflow-y: auto;
+    }
+  }
+
+  .call-transcription {
+    margin: 0;
+    width: 640px;
+
+    .card-header {
+      background-color: white;
+      border-bottom-color: #E5E5E5;
+    }
+
+    .card-body.no-transcription {
+      height: 100px;
+
+      p {
+        margin: 1rem;
+      }
+    }
+
+    .card-body {
+      white-space: pre-wrap;
+      height: auto;
+      //overflow-y: auto;
+      padding: 0;
+
+      .dialog-segment-header {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+      }
+
+      .dialog-segment-body {
+        margin-left: 1.7rem;
+      }
+    }
+  }
+
+  .empty-calls-card {
+    text-align: center;
+    margin-bottom: 0;
+
+    .card-body {
+      background-color: #FAFBFC;
+
+      .empty-calls {
+        max-width: 380px;
+        margin: 150px 0;
+        color: gray;
+        display: inline-block;
+        text-align: center;
+
+        h4 {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.lead-linking_modal {
+  .lead-dropdown {
+    width: 100%;
+
+    .dropdown-menu {
+      width: 100%;
+    }
+
+    .lead-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .link-button {
+    width: 100%;
+  }
+}
+
+
+.bar {
+  user-select: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .bar__time {
+    color: #23282c;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .bar__progress {
+    flex: 1;
+    border-radius: 5px;
+    margin: 0 15px;
+    height: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .bar__progress__knob {
+      position: relative;
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background-color: #0096FF;
+    }
+  }
+}
+
+.calls-empty {
+  margin-bottom: 0;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background-color: #FAFBFC;
+    opacity: 0.5;
+    text-align: center;
+
+    .title {
+      font-weight: 600;
+    }
+  }
+}
+
+.calls-tab {
+
+  .bar {
+    width: 40%;
+  }
+
+  .call-status, .call-recording {
+    font-weight: 400;
+  }
+
+  svg {
+    opacity: 0.5;
+  }
+
+  svg.icon-sound-available {
+    opacity: 1;
+  }
+
+  svg.cross-circle {
+    color: #f86c6b;
+  }
+
+  .lead-call:not(:last-child) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+  }
+
+  .lead-call:not(:first-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .call-details {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  }
+
+  .lead-call {
+    margin-bottom: 0;
+
+    .card-header {
+      padding: 1rem;
+    }
+
+    .card-header {
+      font-size: 14px;
+      background-color: white;
+      display: block;
+      border-bottom: 1px solid #E5E5E5;
+
+      .source-details {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+      }
+
+      .collapse-btn {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        justify-content: flex-end;
+
+        .call-date {
+          font-size: 12px;
+          color: #000000;
+          opacity: 0.5;
+          margin-right: 1rem;
+          text-align: right;
+          margin-left: 1rem;
+        }
+
+        .chevron {
+          color: #000000;
+          opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.playback-btn {
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playback-rate {
+  border-color: #f86c6b;
+  max-width: 122px;
+
+  input.form-control[readonly] {
+    border-color: rgba(248, 108, 107, 0.65);
+    color: #f86c6b;
+    min-width: 60px;
+    max-width: 60px;
+    text-align: center;
+    background-color: white;
+  }
+}
+
+.call-transcription .DraftEditor-editorContainer {
+  .public-DraftEditor-content {
+    max-height: 700px;
+  }
+
+  span[title="Speaker 1"], span[title="Speaker 0"], span[title="Person A"], span[title="Person B"] {
+    cursor: default;
+    text-transform: none;
+    display: flex;
+  }
+}
+
+.score-submit-btn {
+  width: 70px;
+}
+
+th.selection-cell-header, td.selection-cell {
+  width: 2%;
+}
+
+.chat-card {
+  display: flex;
+  span{
+    margin: 10px 0;
+  }
+  .message{
+    max-width: 500px;
+    text-align: justify;
+  }
+  .type-name, .message-date{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-width: 150px;
+    max-width: 150px;
+  }
+  .fa{
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    &.agent{
+      color: green;
+    }
+    &.prospect{
+      color: cadetblue;
+    }
+    &.bot{
+      display: inline-flex;
+      justify-content: center;
+      align-items: flex-end;
+      border: 1px solid;
+      width: 22px;
+      height: 22px;
+      border-radius: 100px;
+      color: brown;
+    }
+  }
+}

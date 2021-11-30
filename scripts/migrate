@@ -1,0 +1,29 @@
+#!/bin/bash
+cd /home/ubuntu/crm
+source /home/ubuntu/crm/venv/bin/activate
+/home/ubuntu/aws/install
+
+if [ "$DEPLOYMENT_GROUP_NAME" == "CRM-Dev-deployment-group" ] || [ "$DEPLOYMENT_GROUP_NAME" == "CRM-UP-QA-deployment-group" ]
+then
+  docker-compose run web bash -c "cat <(echo 'yes') - | python manage.py collectstatic && python manage.py makemigrations && python manage.py migrate && python manage.py createinitialdata"
+else
+  declare -a arr=("POSTGRES_PASSWORD" "POSTGRES_USER" "POSTGRES_HOST" "POSTGRES_DB" "DJANGO_SETTINGS_MODULE" "REDIS_URL")
+
+  for i in "${arr[@]}"
+  do
+     ARG=$i
+     echo $ARG
+     NAME="$(echo ${CRM_ENV}_${ARG})"
+     VALUE=`echo $(aws2 ssm get-parameter --name $NAME --with-decryption  --query Parameter.Value) | sed -e 's/^"//' -e 's/"$//'`
+     printf -v $ARG $VALUE
+  done
+
+  POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
+    POSTGRES_USER=$POSTGRES_USER \
+    POSTGRES_HOST=$POSTGRES_HOST \
+    POSTGRES_DB=$POSTGRES_DB \
+    DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE \
+    REDIS_URL=$REDIS_URL \
+    python3.9 manage.py migrate
+
+fi

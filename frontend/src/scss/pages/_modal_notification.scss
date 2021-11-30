@@ -1,0 +1,47 @@
+@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
+  overflow: hidden;
+  position: relative;
+  line-height: $lineHeight;
+  max-height: 3em;
+  text-align: justify;
+  padding-right: 1em;
+
+  &:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: $bgColor;
+  }
+}
+
+
+.prospect-message.toast {
+  height: 175px;
+
+  .toast-body {
+    height: 135px;
+  }
+}
+
+.agent-request.toast {
+  height: 130px;
+
+  .toast-body {
+    height: 90px;
+  }
+}
+
+.prospect-message.toast, .toast.agent-request {
+  width: 300px;
+  margin-left: 0.75rem;
+  direction: ltr;
+}

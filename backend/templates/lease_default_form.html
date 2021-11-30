@@ -1,0 +1,100 @@
+{% extends "admin/change_form.html" %}
+{% load tz %}
+{% block extrahead %}
+{{ block.super }}
+<script src="/static/backend/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/backend/bootstrap/css/bootstrap.min.css"/>
+<script src="/static/backend/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/backend/js/bootstrap-multiselect.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/backend/css/bootstrap-multiselect.css"/>
+{% endblock %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+	.form-row.multi-units, .multi-floor-plan, .multi-properties, .multi-clients, .multi-labels, .multi-mentions, .multi-nylas_selected_labels, .multi-questions, .multi-user {
+		overflow: visible;
+	}
+
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+		background-color: #ddd !important;
+	}
+
+	ul.multiselect-container.dropdown-menu li input[type="checkbox"] {
+		margin-top: 6px !important;
+	}
+
+	a.deletelink {
+		height: auto !important;
+	}
+
+	h1 {
+		margin: 0 0 20px !important;
+		font-weight: 300 !important;
+		font-size: 20px !important;
+		color: #666 !important;
+	}
+
+	h1#site-name {
+		margin-bottom: 0 !important;
+		font-weight: 300 !important;
+		font-size: 24px !important;
+	}
+
+	body{
+		font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif !important;
+	}
+
+	b.caret {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right:19px;
+	}
+	select ~ .btn-group {
+		max-width: calc(100% - 200px);
+	}
+</style>
+{% endblock %}
+{% block content %}
+<input type="hidden" name="{{ opts.model_name }}" value="{{ opts.model_name }}" id="model_page">
+<input type="hidden" name="data" value="" id="button_data">
+{% timezone "America/Phoenix" %}
+{{ block.super }}
+{% endtimezone %}
+
+<script type="text/javascript">
+	$(document).ready(function () {
+	  function populateDefaultSetting (id) {
+	    $.ajax({
+          type: 'GET',
+          url: "{% url 'lease_defaults-get-lease-default-setting' %}",
+          dataType: 'json',
+          data: {
+            'property': id,
+          },
+          headers: {"X-CSRFToken": $("[name=csrfmiddlewaretoken]").val()},
+          async: true,
+          success: function (data) {
+            Object.keys(data).forEach(field => {
+              if (!['id', 'property', 'lease_document', 'is_default_setting'].includes(field)) {
+                $(`#id_${field}`).val(data[field]);
+              }
+            });
+          },
+          error: function (data) {
+          }
+        });
+      }
+	  if (window.location.pathname.includes('leasedefault/add/')) {
+	    $('#id_property').change(function() {
+	      const id = $('#id_property').val();
+	      console.log(id);
+	      if (id) {
+	        populateDefaultSetting(id);
+          }
+        });
+      }
+	});
+</script>
+{% endblock %}

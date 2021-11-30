@@ -1,0 +1,43 @@
+{% load render_bundle from webpack_loader %}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="Dwell - the world's most powerful and easy to use software for multi family real estate">
+    <meta name="keyword" content="Multi Family, Residential, CRM, Call Scoring, Chat, Leads, Prospects, Conversion, Leasing, Software">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ gtm_id }}');</script>
+    <!-- End Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{ ga_id }}');
+    </script>
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
+    <title>CRM</title>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="root"></div>
+<script>
+    window.crmApp = {
+        config: {
+            "timeout": "{{ timeout }}",
+            "sentryDsn": "{{ sentry_dsn }}",
+            "pusherKey": "{{ pusher_key }}",
+            "pusherCluster": "{{ pusher_cluster }}",
+            "crmHost": "{{ crm_host }}"
+        }
+    }
+</script>
+{% render_bundle 'app' %}
+</body>
+</html>

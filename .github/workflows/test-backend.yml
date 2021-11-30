@@ -1,0 +1,35 @@
+name: Test Backend
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Create test_results directory
+        run: |
+          mkdir -p test_results
+      - name: Build and Docker compose up
+        run: |
+          docker-compose up -d
+      - name: Test missing migrations
+        run: |
+          sh -c '! python manage.py makemigrations --exit --dry-run -v 3 --no-color || (printf "\033[31m\n    ++++++++++++++++++++++++++\n    + Migration file missing +\n    ++++++++++++++++++++++++++\n\n    You probably forgot to run \`./manage.py makemigrations\` and commit the generated migration.\n\n\033[0m"; exit 1)'
+      - name: Run unittests with code coverage
+        run: |
+          docker-compose run web python manage.py test
+      - name: Run unittests with code coverage
+        run: |
+          docker-compose run `bash <(curl -s https://codecov.io/env)` web coverage run manage.py test
+      - name: Upload coverage report
+        run: |
+          docker-compose run -e CODECOV_TOKEN=$CODECOV_TOKEN web bash -c "bash <(curl -s https://codecov.io/bash) -cF python"
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

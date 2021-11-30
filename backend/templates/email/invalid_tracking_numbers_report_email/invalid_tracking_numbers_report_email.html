@@ -1,0 +1,10 @@
+<p>Following phone numbers don't have valid twilio sid</p>
+<br />
+<ul>
+    {% for number in invalid_numbers %}
+        <li>
+            <p>Phone Number: {{ number.phone_number }}</p>
+            <p>Twilio Sid: {{ number.twilio_sid }}</p>
+        </li>
+    {% endfor %}
+</ul>

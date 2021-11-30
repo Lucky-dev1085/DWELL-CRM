@@ -1,0 +1,238 @@
+{% extends "admin/base_site.html" %}
+
+{% block extrahead %}
+    <script src="/static/backend/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/backend/bootstrap/css/bootstrap.min.css"/>
+    <script src="/static/backend/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/backend/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/backend/css/bootstrap-multiselect.css"/>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            function load_data(class_name, selected_data) {
+                if (selected_data) {
+                    console.log(selected_data)
+                    $('.multiselect-selected-text').html(selected_data);
+                } else {
+                    $('body .' + class_name + ' .multiselect-selected-text').text("None Selected");
+                }
+            };
+
+            function load_select_icon(id_, class_name, is_second) {
+                $('#' + id_).multiselect({
+                    includeSelectAllOption: true,
+                    enableFiltering: true,
+                    enableCaseInsensitiveFiltering: true,
+                    allSelectedText: "Selected all",
+                    buttonText: function (options) {
+                        var selected = '';
+                        options.each(function () {
+                            data = "<span class='multiple_selected_values'>" + $(this).text() + "</span>"
+                            selected += data;
+                        });
+                        if (selected) {
+                            $('#button_data').val(selected)
+                            console.log(class_name);
+                            return load_data(class_name, selected)
+
+                        } else {
+                            if (is_second) {
+                                $('#button_data').val("")
+                            }
+                            return "None selected"
+                        }
+                    }
+                });
+            }
+
+            function change_property(is_second) {
+                $('.field-properties').addClass("multi-properties");
+                load_select_icon("id_properties", "multi-properties", is_second)
+                load_data("multi-properties", $('#button_data').val())
+            };
+
+            var page_name = $("#model_page").val();
+            if (page_name == "duplicate") {
+                $('.field-nylas_selected_labels').addClass("multi-nylas_selected_labels");
+                load_select_icon("id_nylas_selected_labels", "multi-nylas_selected_labels", false)
+                load_data("multi-nylas_selected_labels", $('#button_data').val());
+                change_property(true)
+            }
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+    <style>
+        .form-row.multi-units, .multi-floor-plan, .multi-properties, .multi-clients, .multi-labels, .multi-mentions, .multi-nylas_selected_labels, .multi-questions {
+            overflow: visible;
+        }
+
+        .multiselect {
+            background-color: #dddddd !important;
+            border-color: #ddd !important;
+        }
+
+        ul.multiselect-container.dropdown-menu {
+            margin-left: 0;
+            max-height: 200px;
+            overflow-y: auto;
+            top: calc(100% + 5px);
+            min-width: 200px;
+        }
+
+        .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+            background-color: #ddd !important;
+        }
+
+        .multiselect-container > li > a > label.checkbox {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        ul.multiselect-container.dropdown-menu li input[type="checkbox"] {
+            margin-top: 6px !important;
+        }
+
+        a.deletelink {
+            height: auto !important;
+        }
+
+        label.checkbox {
+            display: block;
+        {#padding-left: 15px;#} text-indent: -15px;
+            color: #666;
+        }
+
+        label.checkbox input {
+            width: 13px;
+            height: 13px;
+            vertical-align: bottom;
+            position: relative;
+            top: -1px;
+            *overflow: hidden;
+        }
+
+
+        h1 {
+            margin: 0 0 20px !important;
+            font-weight: 300 !important;
+            font-size: 20px !important;
+            color: #666;
+        }
+
+        body {
+            font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif !important;
+        }
+
+        span.multiple_selected_values {
+            background: #fff;
+            margin-right: 6px;
+            padding: 2px 4px;
+            border-radius: 2px;
+            display: inline-block;
+            line-height: 1;
+            word-break: break-all;
+        }
+
+        .multiselect {
+            max-width: 290px;
+            white-space: normal !important;
+            text-align: left !important;
+            max-height: 100px;
+            overflow-y: auto;
+            position: static !important;
+            width: 290px;
+            padding-right: 35px !important;
+        }
+
+        span.multiselect-selected-text {
+            display: inline-block;
+        }
+
+        .multiselect-container {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        b.caret {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 19px;
+        }
+
+        select ~ .btn-group ul.multiselect-container {
+            max-height: 400px;
+        }
+
+        select ~ .btn-group {
+            max-width: calc(100% - 200px);
+        }
+
+        select ~ .btn-group .multiselect {
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .multiselect-item .glyphicon-remove-circle {
+            top: 3px;
+        }
+
+        @media (max-width: 1024px) {
+            .multiselect-item .multiselect-search {
+                max-height: 33px;
+            }
+
+            .multiselect-item .multiselect-clear-filter {
+                padding-bottom: 8px;
+            }
+        }
+
+        .templates-list {
+            margin: 10px;
+            padding-bottom: 5px;
+        }
+
+        .templates-list p {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .property-list {
+            margin: 10px;
+            display: flex;
+            justify-content: left;
+            padding-bottom: 2rem;
+            align-items: center
+        }
+
+        .property-list label {
+            margin-right: 3rem;
+            color: #666;
+            font-size: 13px;
+        }
+
+    </style>
+    <form action="" method="post">{% csrf_token %}
+        <input type="hidden" name="duplicate" value="duplicate" id="model_page">
+        <input type="hidden" name="data" value="" id="button_data">
+        <div class="field-nylas_selected_labels"></div>
+        <div class="field-properties"></div>
+        <div class="templates-list">
+            <p>Properties will duplicate for templates:</p>
+            <ul>{{ items|unordered_list }}</ul>
+        </div>
+
+        <div class="property-list">
+            <label>Properties:</label>
+            {{ form }}
+
+        </div>
+
+        <input type="hidden" name="action" value="duplicate_templates"/>
+        <input type="submit" name="apply" value="Duplicate"/>
+
+    </form>
+
+
+{% endblock %}

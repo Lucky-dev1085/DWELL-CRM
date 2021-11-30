@@ -1,0 +1,49 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "compete/*": [
+        "src/compete/*"
+      ],
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "dwell/*": [
+        "src/dwell/*"
+      ],
+      "fusioncharts/*": [
+        "fusioncharts-xt-ol/js/*"
+      ],
+      "images/*": [
+        "static/images/*"
+      ],
+      "main_page/*": [
+        "src/main_page/*"
+      ],
+      "site/*": [
+        "src/site/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ],
+      "styles/*": [
+        "src/styles/*"
+      ]
+    },
+    "strict": false,
+    "strictNullChecks": false,
+    "target": "es6",
+    "watch": true
+  },
+  "exclude": [
+    "./node_modules/",
+    "./static/bundles/"
+  ]
+}

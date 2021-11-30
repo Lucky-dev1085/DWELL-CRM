@@ -1,0 +1,34 @@
+#!/bin/bash
+
+#Install jq as it is a dependency
+sudo apt-get install -y jq
+
+# Fetch current Instance ID
+INSTANCE_ID=`curl http://169.254.169.254/latest/meta-data/instance-id 2>/dev/null`
+
+#Fetch Region for Instance
+REGION=`curl -s http://169.254.169.254/latest/dynamic/instance-identity/document 2>/dev/null | jq -r .region`
+
+#Fetch AutoScaling Group Name from Tag - aws:autoscaling:groupName
+ASG=`aws2 ec2 describe-tags --filters "Name=resource-id,Values=[$INSTANCE_ID]" --region $REGION --output json | jq -r '.[][] | select(.Key=="aws:autoscaling:groupName") | .Value'`
+
+#Fetch Leader EC2 instance ID (By sorting Instance IDs of ASG and fetching first one)
+LEADER=`aws2 autoscaling describe-auto-scaling-groups --auto-scaling-group-names $ASG --region $REGION --output json | jq -r '.AutoScalingGroups[].Instances[] | select(.LifecycleState=="InService") | .InstanceId' | sort | head -1`
+
+#Fetch instances of AutoScaling Group
+declare -a INSTANCES
+INSTANCES=(`aws2 autoscaling describe-auto-scaling-groups --auto-scaling-group-name $ASG --region $REGION | jq -r '.AutoScalingGroups[].Instances[] | select(.LifecycleState=="InService") | .InstanceId'`)
+
+#Declare EIP Associations
+EIP_ASSOCIATIONS=(`aws2 ec2 describe-addresses --filters "Name=tag:Name,Values=[CRM]" --region $REGION | jq -r .Addresses[].AllocationId`)
+
+#Check if Instance ID matches Leader Instance ID
+if [ "$LEADER" == "$INSTANCE_ID" ]
+then
+  echo "Running command on Leader..."
+  # Perform the AssociateAddress API call
+  for ((i=0; i<${#INSTANCES[@]}; i++)); do
+    aws2 ec2 associate-address --instance-id ${INSTANCES[$i]} --allocation-id ${EIP_ASSOCIATIONS[$i]} --allow-reassociation --region $REGION
+    aws2 elbv2 register-targets --target-group-arn arn:aws:elasticloadbalancing:us-west-1:186092620714:targetgroup/dwell-landing-target-group/af80d2dd3bf5802a --targets Id=${INSTANCES[$i]}
+  done
+fi

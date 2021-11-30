@@ -1,0 +1,37 @@
+version: '3'
+services:
+  db:
+    image: postgres:10.1-alpine
+    volumes:
+    - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=crm
+    ports:
+      - "5432:5432"
+
+  redis:
+    container_name: 'redis'
+    image: 'redis'
+    ports:
+    - '0.0.0.0:6379:6379'
+    volumes:
+    - 'redis_data:/data'
+
+  rabbit:
+    container_name: 'rabbit'
+    image: rabbitmq:management
+    hostname: rabbit
+    environment:
+      - DEFAULT_USER=admin
+      - DEFAULT_PASS=mypass
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+    - 'rabbit_data:/data'
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbit_data:
+  node_modules:

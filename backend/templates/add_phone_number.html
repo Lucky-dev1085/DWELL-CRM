@@ -1,0 +1,540 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls %}
+{% block branding %}
+    <h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+{% endblock %}
+{% block extrahead %}{{ block.super }}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+{% endblock %}
+{% block extrastyle %}
+    <style>
+        select {
+            background-color: white;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            padding: 4px 10px 0 0;
+            float: left;
+            width: 160px;
+            word-wrap: break-word;
+            line-height: 1;
+        }
+
+        .valContainer {
+            margin-left: 20px;
+        }
+
+        .valContainer .row {
+            margin-bottom: 20px;
+        }
+
+        .d-none {
+            display: none;
+        }
+
+        .d-block {
+            display: block;
+        }
+
+        .submit-div {
+            padding: 12px 14px;
+            margin: 0 0 20px;
+            background: #f8f8f8;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            text-align: right;
+            overflow: hidden;
+        }
+        a.changelink:hover {
+            opacity: 0.8;
+        }
+       .valContainer .row {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        input#submit {
+            background: #417690;
+        }
+
+        input#submit:hover {
+            background: #205067;
+        }
+        .valContainer .row label b {
+            font-weight: normal;
+            font-size: 13px;
+            color: #666;
+        }
+        .submit-div.row {
+            margin-top: 30px;
+        }
+    </style>
+
+{% endblock %}
+
+{% block content_title %}{% if title %}
+    <h1 style=" margin: 0 0 20px; font-weight: 300; font-size: 20px; color: #666;">{{ title }}</h1>
+{% endif %}{% endblock %}
+{% block content %}
+    <form id="post-form" method="POST" action=".">
+        <div class="row">
+            <div class="col-md-12">
+                {% csrf_token %}
+                {% block field_sets %}
+                    {% if change %}
+                        <h4 style="color: #dcc367; font-size: 14px">Change area code in order to change phone number</h4>
+                    {% else %}
+                        <h4 style="color: #dcc367; font-size: 14px">Change area code in order to add phone number</h4>
+                    {% endif %}
+                    {% if adminform.form.errors %}
+                        <input type="hidden" name="form_errors" value="true" id="form_errors">
+                    {% endif %}
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 valContainer">
+                            <div class="row">
+                                <div id="area_code">
+                                    <label><b>{{ adminform.form.area_code.label }}:</b></label>
+                                    {{ adminform.form.area_code }}
+                                    {% if adminform.form.area_code.errors %}
+                                        <p>{{ adminform.form.area_code.errors }}</p>
+                                    {% endif %}
+                                </div>
+                                <div class="error-messages" style="display:none; color: #e08383;"></div>
+                            </div>
+                            <div class="row d-none">
+                                <div class="hidden" id="phone_number_div">
+                                    <label><b>{{ adminform.form.phone_number.label }}:</b></label>
+                                    <select name="phone_number" id="phone_number">
+                                        <option value="" selected="selected">Select Phone number</option>
+                                    </select>
+                                    {% if adminform.form.phone_number.errors %}
+                                        <p>{{ adminform.form.phone_number.errors }}</p>
+                                    {% endif %}
+                                </div>
+                                {% if change %}
+                                    <input type="hidden" name="{{ adminform.form.instance.pk }}" value="true"
+                                           id="change">
+                                    <input type="hidden" name="property_type_update"
+                                           value="{{ adminform.form.instance.type }}"
+                                           id="property_type_update">
+                                    <div id="phone_number_existing" class="readonly">
+                                        <label><b>{{ adminform.form.phone_number.label }}:</b></label>
+                                        <b>{{ adminform.form.phone_number }}</b>
+                                        {% if adminform.form.phone_number.errors %}
+                                            <p>{{ adminform.form.phone_number.errors }}</p>
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="row d-none">
+                                <div class="hidden" id="type">
+                                    <label><b>{{ adminform.form.type.label }}:</b></label>
+                                    {{ adminform.form.type }}
+                                    {% if adminform.form.type.errors %}
+                                        <p>{{ adminform.form.type.errors }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="row d-none" id="property_div_">
+                                <div class="hidden" id="property_div">
+                                    <label><b>{{ adminform.form.property.label }}:</b></label>
+                                    <select name="property" id="property">
+                                        <option value="" selected="selected">Select Property</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row d-none" id="property_update_div_">
+                                {% if change %}
+                                    <div class="hidden" id="property_update_div">
+                                        <label><b>{{ adminform.form.property.label }}:</b></label>
+                                        <b>{{ adminform.form.property }}</b>
+                                        {% if adminform.form.property.errors %}
+                                            <p>{{ adminform.form.property.errors }}</p>
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="row d-none" id='source_div'>
+                                <div class="hidden" id="source">
+                                    <label><b>{{ adminform.form.source.label }}:</b></label>
+                                    <select name="source" id="id_source" required="">
+                                        <option value="" selected="selected">Select Source</option>
+                                        {% for source_data in adminform.form.source.field.queryset.all %}
+                                            {% if source_data.id == adminform.form.source.value %}
+                                                <option value="{{ source_data.id }}" selected>{{ source_data }}</option>
+                                            {% else %}
+                                                <option value="{{ source_data.id }}">{{ source_data }}</option>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </select>
+                                    {% if adminform.form.source.errors %}
+                                        <p>{{ adminform.form.source.errors }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                            <div class="row d-none" id="target_phone_number_div">
+                                <div class="hidden" id="target_phone_number" class="readonly">
+                                    <label><b>{{ adminform.form.target_phone_number.label }}:</b></label>
+                                    <span id="target"><b> </b></span>
+                                    <a onclick="showpopup()" class="changelink" style="margin:15px;"></a>
+                                    {% if adminform.form.target_phone_number.errors %}
+                                        <p>{{ adminform.form.target_phone_number.errors }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                            <div class="row d-none">
+                                <div class="hidden" id="is_active">
+                                    <label><b>{{ adminform.form.is_active.label }}:</b></label>
+                                    {{ adminform.form.is_active }}
+                                    {% if adminform.form.is_active.errors %}
+                                        <p>{{ adminform.form.is_active.errors }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% if change %}
+                                <div class="row d-none">
+                                    <div class="readonly">
+                                        {% if change %}
+                                            <label><b>{{ adminform.form.twilio_sid.label }}:</b></label>
+                                            {{ adminform.form.twilio_sid }}
+                                            {% if adminform.form.twilio_sid.errors %}
+                                                <p>{{ adminform.form.twilio_sid.errors }}</p>
+                                            {% endif %}
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                            <div class="modal fade" tabindex="-1" role="dialog" id="update_modal">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Update property target phone number</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -29px;">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% block submit_buttons_bottom %}
+                            {% endblock %}
+                            <div class="error-messages-save" style="display:none; color: #e08383;"></div>
+                            <div class="submit-div row">
+                                {% if change %}
+                                    <button onclick="delete_phone_number()"
+                                            style="background: #b72b2b; padding: 10px 15px; border: none; border-radius: 4px; color: #fff; display: block; float: left;">
+                                        Delete
+                                    </button>
+                                    <input type="submit" name="update" value="Save" id="submit">
+                                {% else %}
+                                    <input type="submit" name="submit" value="Save" disabled="disabled" id="submit">
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </form>
+                {% endblock %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.readonly').find('input, textarea, select').attr('readonly', 'readonly');
+            if ($("#form_errors").val() == "true" || $("#change").val() == "true") {
+                $("#type").removeClass("hidden");
+                $("#is_active").removeClass("hidden");
+                if ($("#property_type_update").val() == "SMS") {
+                    $("#target_phone_number").addClass("hidden");
+                    $("#source").addClass("hidden");
+                    $('#id_source').removeAttr('required');
+                    $('.d-none').removeClass('d-none').addClass('d-block');
+                    $('#property_div_').removeClass('d-block').addClass('d-none');
+                    $('#source_div').removeClass('d-block').addClass('d-none');
+                    $('#target_phone_number_div').removeClass('d-block').addClass('d-none');
+                } else {
+                    get_tracking_number($("#id_property").val());
+                    $('.d-none').removeClass('d-none').addClass('d-block');
+                }
+                $("#property_update_div").removeClass("hidden");
+                if ($("#id_type").val() == "TRACKING") {
+                    $("#target_phone_number").removeClass("hidden");
+                    $("#source").removeClass("hidden");
+                    get_tracking_number($("#id_property").val());
+                    $('.d-none').removeClass('d-none').addClass('d-block');
+                    $('#property_div_').removeClass('d-block').addClass('d-none');
+                }
+                if ($("#phone_number_existing").attr('class') == "readonly") {
+                    $("#phone_number_div").addClass("hidden");
+                }
+            }
+        });
+
+        function on_area_code_change() {
+            $("#id_area_code").attr('name', 'old_area_code');
+            $("#area_code").attr('name', 'old_area_code');
+            $("#id_phone_number").attr('name', 'old_phone_number');
+            $("#target_phone_number").addClass("hidden");
+            $("#target_phone_number_div").removeClass('d-block').addClass('d-none');
+            $('#target_phone_number').removeAttr('required');
+            $("#id_target_phone_number").removeAttr('required');
+            $("#source").addClass("hidden");
+            $("#source_div").removeClass('d-block').addClass('d-none');
+            $('#property_update_div_').removeClass('d-block').addClass('d-none');
+        }
+
+        $("#area_code").change(function () {
+            selected_value = $(this).find(":selected").val();
+            if (selected_value) {
+                $.ajax({
+                    type: 'GET',
+                    url: "{% url 'phone_number-twilio-phone-number' %}",
+                    dataType: 'json',
+                    data: {
+                        'area_code': selected_value,
+                    },
+                    async: true,
+                    success: function (data) {
+                        var options;
+                        for (var i = 0; i < data.length; i++) {
+                            options += '<option value="' + data[i] + '">' + data[i] + '</option>';
+                        }
+                        if (data.length == 0) {
+                            $(".error-messages").text("Twilio numbers not available for this area code").show();
+                            on_area_code_change()
+                            $("#phone_number_div").addClass("hidden");
+                            $("#type").addClass("hidden");
+                            $("#property").addClass("hidden");
+                            $("#property_update_div").addClass("hidden");
+                            $("#property_div").addClass("hidden");
+                            $("#is_active").addClass("hidden");
+                            $("#submit").attr("disabled", true);
+                        } else {
+                            $('.d-none').removeClass('d-none').addClass('d-block');
+                            $(".error-messages").hide();
+                            $("#phone_number").append(options);
+                            $(".hidden").removeClass("hidden");
+                            on_area_code_change()
+                            $("#phone_number_existing").addClass("hidden");
+                            $("#phone_number").attr('required', 1);
+                            $("#submit").removeAttr('disabled');
+                        }
+                    },
+                    error: function (data) {
+                        $(".error-messages").text(data.responseText).show();
+                        $(".hidden").removeClass("hidden");
+                        $("#target_phone_number").addClass("hidden");
+                        $("#phone_number_div").addClass("hidden");
+                        $("#source").addClass("hidden");
+                        $("#type").addClass("hidden");
+                        $("#property").addClass("hidden");
+                        $("#is_active").addClass("hidden");
+                        $("#submit").attr("disabled", true);
+                    }
+                })
+            } else {
+                if ($("#change").val() == "true") {
+                    $("#phone_number_div").addClass("hidden");
+                    $("#phone_number_existing").addClass("hidden");
+                    $("#id_phone_number").attr('name', 'phone_number')
+                } else {
+                    $("#phone_number_div").addClass("hidden");
+                    $("#property_div").addClass("hidden");
+                    $("#source").addClass("hidden");
+                    $("#is_active").addClass("hidden");
+                    $("#type").addClass("hidden");
+                }
+            }
+        });
+
+        function get_tracking_number(id) {
+            $.ajax({
+                type: 'GET',
+                url: "{% url 'retrieve-property' 0 %}".replace(0, id),
+                dataType: 'json',
+                async: true,
+                success: function (data) {
+                    $('#target_phone_number_div').removeClass('d-none').addClass('d-block');
+                    $("#target_phone_number").removeClass("hidden");
+                    $("#id_target_phone_number").val(data['phone_number']);
+                    $("#id_target_phone_number").attr('readonly', 'readonly');
+                    $("#target").text(data['phone_number']);
+                },
+                error: function (data) {
+                    alert(data)
+                }
+            })
+        }
+
+        function filter_source(val) {
+            $.ajax({
+                type: 'GET',
+                url: "{% url 'prospect_sources-available-sources-for-tracking' %}",
+                dataType: 'json',
+                data: {
+                    'property': val,
+                },
+                async: true,
+                success: function (data) {
+                    var options = '<option value="">Select Source</option>';
+                    for (var i = 0; i < data.length; i++) {
+                        options += '<option value="' + data[i].id + '">' + data[i]['name'] + '</option>';
+                    }
+                    $("#id_source").empty();
+                    $("#id_source").append(options);
+                },
+                error: function (data) {
+                    alert(data)
+                }
+            })
+        }
+
+        $("#property_div, #property_update_div").change(function () {
+            if ($("#id_type").val() == "TRACKING") {
+                selected_value = $(this).find(":selected").val();
+                if (selected_value) {
+                    filter_source(selected_value)
+                    get_tracking_number(selected_value)
+                }
+            }
+        });
+        $('#post-form').on('submit', function (event) {
+            event.preventDefault();
+            var requestType = 'POST'
+            var form_data = $(this).serialize()
+            var action_url = "{% url 'phone_number-list' %}"
+            if ($("#change").val() == "true") {
+                requestType = 'PUT'
+                var id = $("#change").attr('name')
+                action_url = "{% url 'phone_number-detail' 0 %}".replace(0, id);
+            }
+            $.ajax({
+                type: requestType,
+                url: action_url,
+                dataType: 'json',
+                headers: {"X-CSRFToken": $("[name=csrfmiddlewaretoken]").val()},
+                data: form_data,
+                success: function (response) {
+                    window.location = "{% url 'admin:api_phonenumber_changelist' %}"
+                },
+                error: function (response) {
+                    $(".error-messages-save").text("Sorry, but we are unable to create phone number, please try again.").show();
+                }
+            })
+        });
+
+        function delete_phone_number() {
+            event.preventDefault();
+            var id = $("#change").attr('name');
+            $.ajax({
+                type: 'DELETE',
+                url: "{% url 'phone_number-detail' 0 %}".replace(0, id),
+                dataType: 'json',
+                headers: {"X-CSRFToken": $("[name=csrfmiddlewaretoken]").val()},
+                success: function (data) {
+                    window.location = "{% url 'admin:api_phonenumber_changelist' %}"
+                },
+                error: function (data) {
+                    alert(data.responseText)
+                }
+            })
+        }
+
+        function showpopup() {
+            if ($("#change").val() == "true") {
+                var id = $("#id_property").val();
+            } else {
+                var id = $("#property").val();
+            }
+            var url = "{% url 'update-property' 0 %}".replace(0, id);
+            $.ajax({
+                type: 'GET',
+                url: url,
+                success: function (data) {
+                    $('.modal-body').html(data)
+                    $('#update_modal').modal('show');
+                },
+                error: function (data) {
+                    alert("Error: " + errorThrown);
+                }
+            });
+        }
+
+        $("#type").change(function () {
+            selected_value = $(this).find(":selected").val();
+            if (selected_value == "SMS") {
+                $("#target_phone_number").addClass("hidden");
+                $("#property_div").removeClass("hidden");
+                $('#id_source').val('');
+                $('#id_source').removeAttr('required');
+                $('#source').addClass("hidden");
+                $('#property_update_div').addClass("hidden");
+                $('#property_update_div_').removeClass('d-block').addClass('d-none');
+                $('#source_div').removeClass('d-block').addClass('d-none');
+                $('#target_phone_number_div').removeClass('d-block').addClass('d-none');
+            } else if (selected_value == 'TRACKING') {
+                $('.d-none').removeClass('d-none').addClass('d-block');
+                $("#property_div").removeClass("hidden");
+                $("#source").removeClass("hidden");
+                $("#id_source").attr('required', 1);
+                $('#property_update_div').addClass("hidden");
+                $('#property_update_div_').removeClass('d-block').addClass('d-none');
+                if (typeof($("#id_property").val()) === 'undefined'){
+                   $('#target_phone_number_div').removeClass('d-block').addClass('d-none');
+                }
+            } else {
+                $("#target_phone_number").addClass("hidden");
+                $('#property_update_div').removeClass("hidden");
+                $("#property_div").addClass("hidden");
+                $("#source").addClass("hidden");
+                $('#property_update_div_').removeClass('d-block').addClass('d-none');
+                $('#source_div').removeClass('d-block').addClass('d-none');
+            }
+            if (selected_value) {
+                var id = $("#id_property").val();
+                $.ajax({
+                    type: 'GET',
+                    url: "{% url 'property-filtered-sms-property' %}",
+                    dataType: 'json',
+                    data: {
+                        'type': selected_value,
+                        'id': id
+                    },
+                    async: true,
+                    success: function (data) {
+                        var options = '<option value="">Select Property</option>';
+                        for (var i = 0; i < data.length; i++) {
+                            if ((typeof (id) != "undefined") && (i == 0)) {
+                                options += '<option value="' + data[i].id + '" selected>' + data[i]['name'] + '</option>';
+                            } else {
+                                options += '<option value="' + data[i].id + '">' + data[i]['name'] + '</option>';
+                            }
+                        }
+                        $("#property").empty();
+                        $("#property").append(options);
+                        $("#id_property").attr('name', 'old_property');
+                        if (($("#id_type").val() == "TRACKING") && $("#property").val()) {
+                            filter_source($("#property").val())
+                            get_tracking_number($("#property").val())
+                        }
+                    },
+                    error: function (data) {
+                        alert(data)
+                    }
+                })
+            }
+        });
+    </script>
+{% endblock %}

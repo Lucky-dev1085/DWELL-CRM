@@ -1,0 +1,58 @@
+.lead-share-modal {
+  .card {
+    margin-bottom: 0;
+
+    .card-header {
+      border-color: rgb(229, 229, 229);
+      padding: 0;
+
+      .property-search {
+        margin-bottom: 0;
+        border: none;
+        box-shadow: none;
+      }
+
+      .search-group {
+        margin: 0;
+
+        .clear-btn {
+          background-color: white;
+          border: none;
+          font-size: 20px;
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      padding: 0;
+
+      .card-title {
+        margin-bottom: 0;
+        border-bottom: 1px solid rgb(229, 229, 229);
+        padding: 0.7rem;
+
+        .btn-clear {
+          color: #0096FF;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      }
+
+      label {
+        font-weight: 400;
+        color: #5c6873;
+      }
+
+      .properties-list {
+        padding: 0.7rem;
+        height: 300px;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+

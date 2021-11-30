@@ -1,0 +1,111 @@
+.email-templates .email-sync {
+  margin-bottom: 0;
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .sync-title {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .card-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .spinner-border {
+      color: #0096FF;
+      border-width: 0.17em;
+    }
+
+    .fa-envelope, .fa-calendar-alt {
+      font-size: 40px;
+      color: #B9A7F3;
+    }
+
+    .connect-action {
+      //margin-left: auto;
+      height: 2.1rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .btn-link {
+      color: red;
+      opacity: 0.7;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .account-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+
+      .description {
+        font-size: 12px;
+
+        svg {
+          font-size: 14px;
+          margin-right: 5px;
+        }
+      }
+
+      .description.connected, .description.syncing {
+        color: #30BF87;
+      }
+
+      .description.disconnected {
+        color: #FDA600;
+      }
+
+      .email {
+        font-size: 14px;
+      }
+    }
+
+    .logo {
+      height: 40px;
+      width: 40px;
+      background-color: #B9A7F3;
+      border-radius: 50%;
+      display: inline-block;
+
+      svg {
+        color: white;
+        margin-left: 20%;
+        margin-top: 18%;
+      }
+    }
+  }
+
+  .card-body {
+    padding: 1rem;
+
+    .title {
+      font-size: 14px;
+    }
+
+    .custom-radio {
+      label {
+        font-weight: 400;
+      }
+    }
+
+    .labels {
+      max-height: 150px;
+      overflow-y: auto;
+
+      .card-body {
+        padding: 0.5rem;
+
+        label {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

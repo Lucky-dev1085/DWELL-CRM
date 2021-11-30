@@ -1,0 +1,58 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static %}
+
+{% block extrahead %}{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'admin/css/widgets.css' %}"/>
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="{% static 'admin/js/core.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+{{ form.media }}
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:api_phonenumber_changelist' %}">{% trans "Phone Numbers" %}</a>
+&rsaquo; <span>Property based action</span>
+</div>
+{% endblock %}
+
+{% block content %}
+<p>{% blocktrans %}<h3>Send SMS message</h3>{% endblocktrans %}</p>
+<div>
+    {% csrf_token %}
+    <p>From:</p>
+    {{ phone_number }}
+    <p>To:</p>
+    <input id="to" />
+    <p>Message:</p>
+    <textarea type="text" cols="80" rows="3" id="sms_message"></textarea>
+    <input type="button" id="send" style="margin-left: 10px;" value="{% trans 'Send' %}" />
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    function sendMessage() {
+      $.ajax({
+        type: 'POST',
+        url: "{% url 'phone_number-send-sms-message' phone_number_pk %}",
+        dataType: 'json',
+        data: {
+          'message': $('#sms_message').val(),
+          'to': $('#to').val()
+        },
+        headers: {"X-CSRFToken": $("[name=csrfmiddlewaretoken]").val()},
+        async: true,
+        success: function () {
+          $('#sms_message').val('');
+          alert('Success!');
+        },
+        error: function (data) {}
+      })
+    }
+
+    $('#send').click(() => {
+      sendMessage();
+    });
+  });
+</script>
+{% endblock %}

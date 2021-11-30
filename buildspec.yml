@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+  build:
+    commands:
+      - echo paused
+      - export DJANGO_SETTINGS_MODULE=backend.settings.production
+      - docker-compose up -d
+      - docker-compose run web python manage.py test
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'

@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "100x100",
+      "src": "./assets/favicon.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "CoreUI-React sample",
+  "short_name": "CoreUI-React",
+  "start_url": "./index.html",
+  "theme_color": "#000000"
+}

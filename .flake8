@@ -1,0 +1,9 @@
+[flake8]
+ignore = D203
+max-line-length = 160
+exclude =
+    .git,
+    .venv,
+    backend/api/migrations,
+    frontend
+    __pycache__

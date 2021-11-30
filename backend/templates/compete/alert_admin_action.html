@@ -1,0 +1,63 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static %}
+
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} delete-confirmation{% endblock %}
+
+{% block extrahead %}{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'admin/css/widgets.css' %}"/>
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="{% static 'admin/js/core.js' %}"></script>
+{{ form.media }}
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label='compete' %}">{% trans "Compete" %}</a>
+&rsaquo; <a href="{% url 'admin:compete_alert_changelist' %}">{% trans "Alerts" %}</a>
+&rsaquo; <span>Alert action</span>
+</div>
+{% endblock %}
+
+{% block content %}
+<p>{% blocktrans %}<h3>Action description</h3>{% endblocktrans %}</p>
+<form method="POST" action="{% url 'compete-alert-manual-action-trigger' %}" onsubmit="return confirm('Are you sure you want to run task?');">{% csrf_token %}
+    <div>
+        <div>
+            <p>{{ form.alerts.errors }}</p>
+            <b><p>{{ form.alerts.label_tag }}</p></b>
+            {% for alert in form.alerts.initial %}
+                <p>
+                    {{ alert.name }}{% if not forloop.last %} {% endif %}
+                </p>
+            {% endfor %}
+            <select name="alerts" multiple style="display: none">
+                {% for alert in form.alerts.initial %}
+                    <option value="{{ alert.id }}" selected>{{ alert }}</option>
+                {% endfor %}
+            </select>
+            <br />
+        </div>
+        <div>
+            <b><p>{{ form.date.label }}: </p></b>
+            <p>{{ form.date }}</p>
+            <p>{{ form.date.errors }}</p>
+        </div>
+        <br />
+        <input type="submit" value="{% trans 'Run task' %}" />
+        <a href="{% url 'admin:compete_alert_changelist' %}" class="button cancel-link">{% trans "Back to list" %}</a>
+    </div>
+</form>
+<script type="text/javascript">
+function endDate(){
+    var checkBox = document.getElementById("myCheck");
+    if (checkBox.checked == true){
+        document.getElementById("end_date").removeAttribute("hidden");
+    }
+    else{
+        document.getElementById("end_date").setAttribute("hidden", true);
+    }
+}
+</script>
+{% endblock %}

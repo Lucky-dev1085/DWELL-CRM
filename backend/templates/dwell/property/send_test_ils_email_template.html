@@ -1,0 +1,107 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static %}
+
+{% block extrahead %}{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'admin/css/widgets.css' %}"/>
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="{% static 'admin/js/core.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+{{ form.media }}
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:api_property_changelist' %}">{% trans "Properties" %}</a>
+&rsaquo; <span>Property based action</span>
+</div>
+{% endblock %}
+
+{% block content %}
+<p>{% blocktrans %}<h3>Send SMS message</h3>{% endblocktrans %}</p>
+<form method="POST" action="{% url 'dwell-send-test-ils-email' %}">{% csrf_token %}
+    {% csrf_token %}
+    <div>
+        <b><p>{{ form.first_name.label }}: </p></b>
+        <p>{{ form.first_name }}</p>
+        <p>{{ form.first_name.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.last_name.label }}: </p></b>
+        <p>{{ form.last_name }}</p>
+        <p>{{ form.last_name.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.email.label }}: </p></b>
+        <p>{{ form.email }}</p>
+        <p>{{ form.email.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.phone_number.label }}: </p></b>
+        <p>{{ form.phone_number }}</p>
+        <p>{{ form.phone_number.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.source.label }}: </p></b>
+        <p>{{ form.source }}</p>
+        <p>{{ form.source.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.beds.label }}: </p></b>
+        <p>{{ form.beds }}</p>
+        <p>{{ form.beds.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.baths.label }}: </p></b>
+        <p>{{ form.baths }}</p>
+        <p>{{ form.baths.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.pets.label }}: </p></b>
+        <p>{{ form.pets }}</p>
+        <p>{{ form.pets.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.desired_rent.label }}: </p></b>
+        <p>{{ form.desired_rent }}</p>
+        <p>{{ form.desired_rent.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.desired_lease_term.label }}: </p></b>
+        <p>{{ form.desired_lease_term }}</p>
+        <p>{{ form.desired_lease_term.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.move_in_date.label }}: </p></b>
+        <p>{{ form.move_in_date }}</p>
+        <p>{{ form.move_in_date.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.comments.label }}: </p></b>
+        <p>{{ form.comments }}</p>
+        <p>{{ form.comments.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <b><p>{{ form.property.label }}: </p></b>
+        <p>{{ form.property }}</p>
+        <p>{{ form.property.errors }}</p>
+        <br />
+    </div>
+    <div>
+        <input type="submit" value="{% trans 'Send Test Email' %}" />
+        <br />
+    </div>
+</form>
+{% endblock %}

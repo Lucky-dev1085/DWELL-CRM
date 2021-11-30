@@ -1,0 +1,46 @@
+.columns-settings-modal {
+  .col-12 {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .count-ratio {
+    font-size: 12px;
+    padding: 2px 8px;
+    background-color: rgb(233, 239, 243);
+    font-weight: 600;
+    margin-bottom: 0;
+    border-radius: 0.2rem;
+  }
+
+  .empty-list {
+    padding: 0.25rem 1rem 0.25rem 1rem;
+  }
+
+  .draggable-column:hover, .is-dragging {
+    background: #E5E5E5;
+
+    svg {
+      display: block;
+    }
+  }
+
+  .draggable-column {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static !important;
+
+    svg {
+      display: none;
+      opacity: 0.5;
+    }
+  }
+}

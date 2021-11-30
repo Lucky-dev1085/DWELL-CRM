@@ -1,0 +1,21 @@
+.image-upload__container {
+  margin: auto;
+  background: url('/static/images/icon-plus.png');
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+
+.image-upload {
+  margin-top: 1rem;
+}
+
+.profile_page {
+  width: 70%;
+}
+
+@media (max-width: 767.98px) {
+  .profile_page {
+    width: 100%;
+  }
+}

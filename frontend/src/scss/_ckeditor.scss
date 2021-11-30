@@ -1,0 +1,300 @@
+.cke_chrome {
+    border: none !important;
+
+    .cke_top {
+        border: none;
+        background: white;
+    }
+
+    .cke_toolbar_separator {
+        display: none;
+    }
+
+    .cke_button_icon {
+        width: 18px;
+        height: 18px;
+        margin: 0;
+    }
+
+    .cke_button__bold_icon {
+        background: url(/static/images/bold-icon.svg) !important;
+    }
+
+    .cke_button__italic_icon {
+        background: url(/static/images/italic-icon.svg) !important;
+    }
+
+    .cke_button__numberedlist_icon {
+        background: url(/static/images/list-ordered-icon.svg) !important;
+    }
+
+    .cke_button__bulletedlist_icon {
+        background: url(/static/images/list-icon.svg) !important;
+    }
+
+    .cke_button__outdent_icon {
+        background: url(/static/images/indent-decrease.svg) !important;
+    }
+
+    .cke_button__indent_icon {
+        background: url(/static/images/indent-increase.svg) !important;
+    }
+
+    .cke_button__link_icon {
+        background: url(/static/images/link-icon.svg) !important;
+    }
+
+    .cke_button__unlink_icon {
+        background: url(/static/images/unlink-icon.svg) !important;
+    }
+
+    .cke_button__scayt_icon {
+        background: url(/static/images/char-check-icon.svg) !important;
+    }
+}
+
+.editor-note {
+    .cke_button_expandable, .cke_button__bold, .cke_button__italic, .cke_button__numberedlist,
+    .cke_button__bulletedlist, .cke_button__outdent, .cke_button__indent, .cke_button__link,
+    .cke_button__unlink {
+        background-color: #fff;
+        border: 1px solid rgba(193,200,222,0.6);
+        padding: 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            box-shadow: 0 1px 1px rgba(146,158,185,0.25),
+                        0 2px 2px rgba(146,158,185,0.2),
+                        0 4px 4px rgba(146,158,185,0.15),
+                        0 8px 8px rgba(146,158,185,0.1),
+                        0 16px 16px rgba(146,158,185,0.05);
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+
+    .cke_button_expandable {
+        padding-left: 5px !important;
+    }
+
+    .cke_button_arrow {
+        background: url(/static/images/select-arrow-icon.svg) !important;
+        width: 18px;
+        height: 18px;
+        border: none;
+        margin: 0;
+        margin-top: 2px;
+    }
+
+    .cke_button__italic, .cke_button__bulletedlist, .cke_button__indent, .cke_button__unlink {
+        margin-left: 5px;
+    }
+
+    .cke_button__numberedlist, .cke_button__outdent, .cke_button__link{
+        margin-left: 15px;
+    }
+}
+
+.editor-wrapper {
+    .cke_top {
+        padding: 6px 0 14px;
+    }
+
+    .cke_contents {
+        background-color: #fff;
+        border: 1px solid #e1e6f7;
+        border-radius: 6px;
+        font-size: .875rem;
+        color: #0b2151;
+        height: calc(100% - 120px);
+        box-shadow: 0 1px 2px rgba(225,230,247,0.07),
+                    0 2px 4px rgba(225,230,247,0.07),
+                    0 4px 8px rgba(225,230,247,0.07),
+                    0 8px 16px rgba(225,230,247,0.07),
+                    0 16px 32px rgba(225,230,247,0.07),
+                    0 32px 64px rgba(225,230,247,0.07);
+    }
+}
+
+.compose {
+    .cke_chrome {
+        border: 1px solid #e4e7ea !important;
+        border-radius: 4px;
+        margin-top: 12px !important;
+
+        .cke_top {
+            border-bottom: 1px solid #e4e7ea !important;
+            padding: 6px 15px 2px;
+            @include border-top-radius(4px);
+        }
+    }
+
+    .cke_inner {
+        border-radius: 4px;
+    }
+
+    .cke_contents {
+        @include border-bottom-radius(4px);
+    }
+}
+
+.compose-editor, .templates-editor {
+    .cke_button_expandable, .cke_button__bold, .cke_button__italic, .cke_button__numberedlist,
+    .cke_button__bulletedlist, .cke_button__outdent, .cke_button__indent, .cke_button__link,
+    .cke_button__unlink, .cke_combo_button {
+        background-color: #f0f2f9;
+        padding: 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 3px;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+            border: none;
+            padding: 0;
+            background-color: #f0f2f9;
+
+            .cke_button__bold_icon {
+                background: url(/static/images/bold-icon-hover.svg) !important;
+            }
+
+            .cke_button__italic_icon {
+                background: url(/static/images/italic-icon-hover.svg) !important;
+            }
+
+            .cke_button__numberedlist_icon {
+                background: url(/static/images/list-ordered-icon-hover.svg) !important;
+            }
+
+            .cke_button__bulletedlist_icon {
+                background: url(/static/images/list-icon-hover.svg) !important;
+            }
+
+            .cke_button__outdent_icon {
+                background: url(/static/images/indent-decrease-hover.svg) !important;
+            }
+
+            .cke_button__indent_icon {
+                background: url(/static/images/indent-increase-hover.svg) !important;
+            }
+
+            .cke_button__link_icon {
+                background: url(/static/images/link-icon-hover.svg) !important;
+            }
+
+            .cke_button__unlink_icon {
+                background: url(/static/images/unlink-icon-hover.svg) !important;
+            }
+
+            .cke_button__scayt_icon {
+                background: url(/static/images/char-check-icon-hover.svg) !important;
+            }
+
+            .cke_button_arrow, .cke_combo_arrow {
+                background: url(/static/images/select-arrow-icon-hover.svg) !important;
+            }
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+
+    .cke_button_expandable {
+        padding-left: 5px !important;
+        margin-right: -3px;
+    }
+
+    .cke_button_arrow, .cke_combo_arrow {
+        background: url(/static/images/select-arrow-icon.svg) !important;
+        width: 18px;
+        height: 18px;
+        border: none;
+        margin: 0;
+    }
+
+    .cke_button_arrow {
+        margin-top: 2px;
+    }
+
+    .cke_button__italic, .cke_button__bulletedlist, .cke_button__indent, .cke_button__unlink {
+        margin-left: 2px;
+    }
+
+    .cke_button__numberedlist, .cke_button__outdent, .cke_button__link {
+        margin-left: 15px;
+    }
+
+    .cke_combo_button {
+        width: 100%;
+        margin-left: 15px !important;
+        margin-left: 15px !important;
+        border: none !important;
+        padding: 0 !important;
+        background-color: #f0f2f9 !important;
+
+        .cke_combo_text {
+            font-family: "IBM Plex Sans",sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            padding-left: 0;
+            color: #4a5e8a;
+            cursor: pointer;
+        }
+
+        .cke_combo_open {
+            margin: 1px 6px 1px;
+        }
+    }
+}
+
+.templates-editor {
+    .cke_top {
+        padding: 11px 15px 0 15px;
+    }
+}
+
+.compose-editor, .templates-editor, .editor-note {
+    .cke_button_on:not(.cke_button_expandable) {
+        background-color: #0168fa;
+        border-color: transparent;
+
+        .cke_button__bold_icon {
+            background: url(/static/images/bold-icon-white.svg) !important;
+        }
+
+        .cke_button__italic_icon {
+            background: url(/static/images/italic-icon-white.svg) !important;
+        }
+
+        .cke_button__numberedlist_icon {
+            background: url(/static/images/list-ordered-icon-white.svg) !important;
+        }
+
+        .cke_button__bulletedlist_icon {
+            background: url(/static/images/list-icon-white.svg) !important;
+        }
+    }
+}
+
+.amenities-editor {
+    .cke_combo__placeholder_select, .cke_button__scayt, .cke_button__numberedlist, .cke_button__bulletedlist,
+    .cke_button__outdent, .cke_button__indent {
+        display: none;
+    }
+}

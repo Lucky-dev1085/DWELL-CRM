@@ -1,0 +1,75 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: web
+    command: bash -c "DJANGO_SETTINGS_MODULE=backend.settings.local POSTGRES_HOST=db REDIS_URL=redis://redis:6379 python manage.py runserver 0.0.0.0:8000"
+    environment:
+    - DJANGO_SETTINGS_MODULE=backend.settings.local
+    - POSTGRES_HOST=db
+    - REDIS_URL=redis://redis:6379
+    - RABBIT_URL=amqp://admin:mypass@rabbit:5672/
+    volumes:
+      - ./:/src
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+      - rabbit
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app/frontend
+      - node_modules:/app/frontend/node_modules
+
+  db:
+    image: postgres:10.1-alpine
+    volumes:
+    - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=crm
+    ports:
+      - "5432:5432"
+
+  redis:
+    container_name: 'redis'
+    image: 'redis'
+    ports:
+    - '0.0.0.0:6379:6379'
+    volumes:
+    - 'redis_data:/data'
+
+  rabbit:
+    container_name: 'rabbit'
+    image: rabbitmq:3.6.0
+    hostname: rabbit
+    environment:
+    - RABBITMQ_DEFAULT_USER=admin
+    - RABBITMQ_DEFAULT_PASS=mypass
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+    - 'rabbit_data:/data'
+
+  celery_worker:
+    build: .
+    container_name: worker
+    command: bash -c 'python -m celery --app=backend worker -l debug --pool=solo'
+    environment:
+    - C_FORCE_ROOT=true
+    - DJANGO_SETTINGS_MODULE=backend.settings.local
+    - POSTGRES_HOST=db
+    - RABBIT_URL=amqp://admin:mypass@rabbit:5672/
+    depends_on:
+    - rabbit
+    volumes:
+    - ./:/src
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbit_data:
+  node_modules:

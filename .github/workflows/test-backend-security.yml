@@ -1,0 +1,21 @@
+name: Test Backend Security
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          pip3 install "safety"
+      - name: Test with safety
+        run: |
+          safety check -r requirements.txt

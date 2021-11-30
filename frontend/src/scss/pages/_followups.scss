@@ -1,0 +1,95 @@
+.alert {
+  color: black;
+  background-color: #FFEEED;
+  border-color: #FFAEAA;
+
+  a {
+    font-weight: 600;
+    color: #0096FF;
+    text-decoration: none;
+  }
+}
+
+.followups, .calls {
+  .followups-header, .calls-header {
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .archive {
+      display: flex;
+      align-items: center;
+
+      .spinner-border {
+        color: #0096FF;
+        border-width: 0.17em;
+      }
+    }
+  }
+
+  table thead th:focus {
+    outline: none;
+  }
+
+  .sender, .subject {
+    font-weight: 600;
+  }
+
+  .date {
+    text-align: right;
+  }
+
+  .subject-snippet {
+    display: inline-flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 700px;
+  }
+
+  .snippet {
+    color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .table {
+    .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before,
+    .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+      border-color: #0096FF;
+      background-color: #0096FF;
+      opacity: 0.5;
+    }
+
+    svg {
+      opacity: 0.1
+    }
+
+    svg.linked {
+      opacity: 0.5
+    }
+
+    .read {
+      background-color: #FAFBFC;
+
+      .sender, .subject {
+        font-weight: 400;
+      }
+    }
+
+    .read:hover {
+      background-color: #E5F4FF;
+    }
+  }
+
+  .table th, .table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

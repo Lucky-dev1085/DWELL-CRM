@@ -1,0 +1,29 @@
+{% if tour_type == 'In-Person tour' %}
+    <div><strong>Details</strong></div>
+    <div>Your {{ tour_type }} at {{ property_name }} is confirmed for {{ tour_time }} (MST)! Just come to the main office and ring us at the Ring Doorbell located on the front office door. Although your tour will be self-guided, you'll get the same great experience visiting our community! We will give you a map of the community so you can easily locate the model(s). We're here for you, so don't hesitate to ask any questions that may come up before or after you see the community. We can't wait to help you find your new home!</div>
+    <br />
+    <div><strong>Need to reschedule or cancel tour?</strong></div>
+    <div>Go here: {{ tour_link }}</div>
+{% elif tour_type == 'Guided Virtual tour' %}
+    <div><strong>Details</strong></div>
+    <div>Your {{ tour_type }} at {{ property_name }} is confirmed for {{ tour_time }} (MST)! One of our leasing consultants will call you at the scheduled time and walk through all of our wonderful community features, amenities, and floor plan details. All you need to do is click the link below to access the virtual tour at the scheduled time. We're here for you, so don’t hesitate to ask any questions that may come up before or after you see the virtual tour of our community. We can’t wait to help you find your new home!</div>
+    <div>Click link to access virtual tour:</div>
+    <div>{{ guided_virtual_tour_link }}</div>
+    <br />
+    <div><strong>Need to reschedule or cancel tour?</strong> Click the link below and open the Chat.</div>
+    <div>{{ tour_link }}</div>
+{% elif tour_type == 'Virtual tour' %}
+    <div>Dear {{ lead_name }}</div>
+    <br />
+    <div>Thank you very much for expressing interest in our beautiful community, {{ property_name }}. We are thankful that we can continue to uphold our well-known Mark Taylor customer service by offering self-guided virtual tours.</div>
+    <br />
+    <div>Please click the link below to view the virtual tour of our community. I'm here for you, so don’t hesitate to ask any questions that may come up after you see the virtual tour. To secure your future home, please contact our leasing office to get started at {{ property_phone_number }} or {{ property_email }}.</div>
+    <br />
+    <div>Click here to access virtual tour: {{ guided_virtual_tour_link }}</div>
+    <br />
+    <div>Cheers,</div>
+    <div>{{ tour_link }}</div>
+{% elif tour_type == 'Self-Guided tour' %}
+    <div><strong>Details</strong></div>
+    <div>Your {{ tour_type }} at {{ property_name }} is confirmed for {{ tour_time }}! Just come to the main office and ring us at the Ring Doorbell located on the front office door. Although your tour will be self-guided, you’ll get the same great experience visiting our community! We will give you a map of the community so you can easily locate the model(s). We're here for you, so don’t hesitate to ask any questions that may come up before or after you see the community. We can’t wait to help you find your new home!</div>
+{% endif %}

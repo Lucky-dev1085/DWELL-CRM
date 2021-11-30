@@ -1,0 +1,8 @@
+<p>Source: Standalone Website</p>
+<p>First name: {{ conversion.first_name }}</p>
+<p>Last name: {{ conversion.last_name }}</p>
+<p>Phone number: {{ conversion.phone_number }}</p>
+<p>Email address: {{ conversion.email }}</p>
+{% if conversion.unit_id %}
+    <p>Desired unit: {{ conversion.unit_id }}</p>
+{% endif %}

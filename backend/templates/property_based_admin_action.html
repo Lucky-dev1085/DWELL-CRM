@@ -1,0 +1,75 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static %}
+
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} delete-confirmation{% endblock %}
+
+{% block extrahead %}{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'admin/css/widgets.css' %}"/>
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="{% static 'admin/js/core.js' %}"></script>
+{{ form.media }}
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label='api' %}">{% trans "properties" %}</a>
+&rsaquo; <a href="{% url 'admin:api_property_changelist' %}">{% trans "properties" %}</a>
+&rsaquo; <span>Property based action</span>
+</div>
+{% endblock %}
+
+{% block content %}
+<p>{% blocktrans %}<h3>Action description</h3>{% endblocktrans %}</p>
+<form method="POST" action="{% url 'manual-action-trigger' %}" onsubmit="return confirm('Are you sure you want to run task?');">{% csrf_token %}
+    <div>
+        <div>
+            <p>{{ form.properties.errors }}</p>
+            <b><p>{{ form.properties.label_tag }}</p></b>
+            {% for property in form.properties.initial %}
+                <p>
+                    {{ property.name }}{% if not forloop.last %} {% endif %}
+                </p>
+            {% endfor %}
+            <select name="properties" multiple style="display: none">
+                {% for property in form.properties.initial %}
+                    <option value="{{ property.id }}" selected>{{ property }}</option>
+                {% endfor %}
+            </select>
+            <br />
+        </div>
+        <div>
+            <b><p>{{ form.type.label }}: </p></b>
+            <p>{{ form.type }}</p>
+            <p>{{ form.type.errors }}</p>
+            <br />
+        </div>
+        <div>
+            <b><p>{{ form.start_date.label }}: </p></b>
+            <p>{{ form.start_date }}</p>
+            <p>{{ form.start_date.errors }}</p>
+        </div>
+        <br />
+        <p><label for="check"><b>Add End Date</b></label><input style="margin-left: 10px;" type="checkbox" id="myCheck" onclick="endDate()"></p>
+        <div hidden='true' id='end_date'>
+            <b><p>{{ form.end_date.label }}: </p></b>
+            <p>{{ form.end_date }}</p>
+            <p>{{ form.end_date.errors }}</p>
+        </div>
+        <input type="submit" value="{% trans 'Run task' %}" />
+        <a href="{% url 'admin:api_property_changelist' %}" class="button cancel-link">{% trans "Back to list" %}</a>
+    </div>
+</form>
+<script type="text/javascript">
+function endDate(){
+    var checkBox = document.getElementById("myCheck");
+    if (checkBox.checked == true){
+        document.getElementById("end_date").removeAttribute("hidden");
+    }
+    else{
+        document.getElementById("end_date").setAttribute("hidden", true);
+    }
+}
+</script>
+{% endblock %}
