@@ -1,6 +1,7 @@
 venv/
 node_modules
 .idea/
+.github/
 *.pyo
 *.pyc
 frontend/static/bundles
